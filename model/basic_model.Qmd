@@ -30,10 +30,10 @@ Consider two agents A and B who need to perform actions over time.
 
 An actor (joint planner) can choose one of two action policies: alternate or follow a precedent. The actor knows about how hierarchical the relationship $R$ is, on a scale of 0 to 1. 
 
-It decides the policy $\pi \in \{\text{alternate}, \text{precedent}\}$ based on its total utility: 
+It decides the policy $\pi \in \{\mathrm{alternate}, \mathrm{precedent}\}$ based on its total utility: 
 
 $$
-U_\text{total}(\pi | R) = w_\text{IA} \cdot U_\text{IA} + w_\text{habit} \cdot U_\text{habit} + w_\text{comm} \cdot U_\text{comm}
+U_\mathrm{total}(\pi | R) = w_\mathrm{IA} \cdot U_\mathrm{IA} + w_\mathrm{habit} \cdot U_\mathrm{habit} + w_\mathrm{comm} \cdot U_\mathrm{comm}
 $$
 
 ### Components of utility
@@ -42,7 +42,7 @@ $$
 
 The inequity aversion term penalizes unequal cumulative costs $c_A$ and $c_B$, weighted by the relationship $R$ (where the more hierarchical, the lower the weight on inequity aversion). This depends on the policy: alternating is assumed to balance costs, while following precedent leads to unequal costs.
 $$
-U_\text{IA}(\pi) = -(1 - R) \cdot \begin{cases} 0 & \text{if } \pi = \text{alternate} \\ (c_A - c_B)^2 & \text{if } \pi = \text{precedent} \end{cases}
+U_\mathrm{IA}(\pi) = -(1 - R) \cdot \begin{cases} 0 & \mathrm{if } \pi = \mathrm{alternate} \\ (c_A - c_B)^2 & \mathrm{if } \pi = \mathrm{precedent} \end{cases}
 $$
 
 #### Habit utility
@@ -50,7 +50,7 @@ $$
 The habit utility captures the tendency to repeat previous actions. It is 1 if the actor follows a precedent, and 0 otherwise.
 
 $$
-U_\text{habit} = \mathbb{I}(\text{precedent})
+U_\mathrm{habit} = \mathbb{I}(\mathrm{precedent})
 $$
 
 #### Communication utility
@@ -60,7 +60,7 @@ The idea is that alternating the same action type communicates desire for equali
 Also, the more hierarchical the relationship, the lower the weight on communication. (In future models, we can specifically say that it's based on a *desire* for equality, not the state of the relationship itself)
 
 $$
-U_\text{comm} = (1 - R) \cdot \mathbb{I}(\text{alternate})
+U_\mathrm{comm} = (1 - R) \cdot \mathbb{I}(\mathrm{alternate})
 $$
 
 ## Implementation
