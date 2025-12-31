@@ -1,0 +1,223 @@
+---
+title: Basic model for inferences made from divisions of labor
+author: Alicia Chen
+date: 2025-12-31
+format:
+  html:
+    code-fold: false
+jupyter: python3
+---
+
+```{python}
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+from memo import memo
+import jax
+import jax.numpy as jnp
+from enum import IntEnum
+
+sns.set_context("talk", font_scale=1.2)
+sns.set_style("white")
+plt.rc("axes.spines", top=False, right=False)
+```
+
+## Model description
+
+Consider two agents A and B who need to perform actions over time. 
+
+An actor (joint planner) can choose one of two action policies: alternate or follow a precedent. The actor knows about how hierarchical the relationship $R$ is, on a scale of 0 to 1. 
+
+It decides the policy $\pi \in \{\text{alternate}, \text{precedent}\}$ based on its total utility: 
+
+$$
+U_\text{total}(\pi | R) = w_\text{IA} \cdot U_\text{IA} + w_\text{habit} \cdot U_\text{habit} + w_\text{comm} \cdot U_\text{comm}
+$$
+
+### Components of utility
+
+#### IA utility
+
+The inequity aversion term penalizes unequal cumulative costs $c_A$ and $c_B$, weighted by the relationship $R$ (where the more hierarchical, the lower the weight on inequity aversion). This depends on the policy: alternating is assumed to balance costs, while following precedent leads to unequal costs.
+$$
+U_\text{IA}(\pi) = -(1 - R) \cdot \begin{cases} 0 & \text{if } \pi = \text{alternate} \\ (c_A - c_B)^2 & \text{if } \pi = \text{precedent} \end{cases}
+$$
+
+#### Habit utility
+
+The habit utility captures the tendency to repeat previous actions. It is 1 if the actor follows a precedent, and 0 otherwise.
+
+$$
+U_\text{habit} = \mathbb{I}(\text{precedent})
+$$
+
+#### Communication utility
+
+The idea is that alternating the same action type communicates desire for equality. We stipulate that only alternating the same action type communicates equality (see Levinson). Alternating who does the dishes communicates equality. Having A always do dishes while B always does trash does not, even if overall costs balance out.
+
+Also, the more hierarchical the relationship, the lower the weight on communication. (In future models, we can specifically say that it's based on a *desire* for equality, not the state of the relationship itself)
+
+$$
+U_\text{comm} = (1 - R) \cdot \mathbb{I}(\text{alternate})
+$$
+
+## Implementation
+
+Constants
+
+```{python}
+RELATIONSHIP_VALUES = jnp.arange(0, 1.01, 0.01)
+
+class Policies(IntEnum):
+    Alternate = 0
+    Precedent = 1
+```
+
+Utility functions
+
+```{python}
+@jax.jit
+def U_IA(policy: Policies, c_A: float, c_B: float, R: float) -> float:
+    projected_diff = jnp.where(
+        policy == Policies.Alternate,
+        0,  # alternating → costs balance out
+        (c_A - c_B) ** 2  # precedent → gap persists
+    )
+    return -(1 - R) * projected_diff
+
+
+@jax.jit
+def U_habit(policy: Policies) -> float:
+    return jnp.where(policy == Policies.Precedent, 1, 0)
+
+
+@jax.jit
+def U_comm(policy: Policies, R: float) -> float:
+    return (1 - R) * jnp.where(policy == Policies.Alternate, 1, 0)
+
+
+@jax.jit
+def U_total(
+    pi: Policies, R: float, alpha, w_IA, w_habit, w_comm, c_A: float, c_B: float
+) -> float:
+    return alpha * (
+        w_IA * U_IA(pi, c_A, c_B, R) + w_habit * U_habit(pi) + w_comm * U_comm(pi, R)
+    )
+```
+
+Actor model
+
+```{python}
+@memo
+def basic_actor[pi: Policies, R: RELATIONSHIP_VALUES](
+    alpha, w_IA, w_habit, w_comm, c_A, c_B
+):
+    cast: [actor]
+    actor: knows(R)
+    actor: chooses(
+        pi in Policies, wpp=exp(U_total(pi, R, alpha, w_IA, w_habit, w_comm, c_A, c_B))
+    )
+    return Pr[actor.pi == pi]
+```
+
+### Test the results
+
+```{python}
+def get_actor_predictions(alpha, w_IA, w_habit, w_comm, c_A, c_B):
+    result = basic_actor(
+        alpha=alpha,
+        w_IA=w_IA,
+        w_habit=w_habit,
+        w_comm=w_comm,
+        c_A=c_A,
+        c_B=c_B,
+        return_pandas=True,
+    )[1].pandas
+    result.rename(
+        columns={"pi": "Policy", result.columns[-1]: "Probability"}, inplace=True
+    )
+    return (
+        result,
+        {
+            "alpha": alpha,
+            "w_IA": w_IA,
+            "w_habit": w_habit,
+            "w_comm": w_comm,
+            "c_A": c_A,
+            "c_B": c_B,
+        },
+    )
+```
+
+Start with basic parameters (everything equal weights and alpha = 1)
+
+```{python}
+result, params = get_actor_predictions(
+    alpha=1, w_IA=1, w_habit=1, w_comm=1, c_A=1, c_B=1
+)
+```
+
+As the relationship is more hierarchical, what happens to the probability of each strategy? Plot the probability of each strategy as a function of the relationship hierarchy.
+
+```{python}
+print(
+    f"alpha = {params['alpha']}, w_IA = {params['w_IA']}, w_habit = {params['w_habit']}, w_comm = {params['w_comm']}, c_A = {params['c_A']}, c_B = {params['c_B']}"
+)
+plt.figure()
+sns.lineplot(x="R", y="Probability", data=result, hue="Policy")
+plt.xlabel("Relationship hierarchy")
+plt.ylim(0, 1)
+plt.show()
+```
+
+### Varying parameters
+
+Higher weight on habit makes the actor more likely to follow a precedent:
+
+```{python}
+result, params = get_actor_predictions(
+    alpha=1, w_IA=1, w_habit=2, w_comm=1, c_A=1, c_B=1
+)
+print(
+    f"alpha = {params['alpha']}, w_IA = {params['w_IA']}, w_habit = {params['w_habit']}, w_comm = {params['w_comm']}, c_A = {params['c_A']}, c_B = {params['c_B']}"
+)
+plt.figure()
+sns.lineplot(x="R", y="Probability", data=result, hue="Policy")
+plt.xlabel("Relationship hierarchy")
+plt.ylim(0, 1)
+plt.show()
+```
+
+Higher weight on communication makes the actor more likely to alternate, for less-hierarchical relationships:
+
+```{python}
+result, params = get_actor_predictions(
+    alpha=1, w_IA=1, w_habit=1, w_comm=2, c_A=1, c_B=1
+)
+print(
+    f"alpha = {params['alpha']}, w_IA = {params['w_IA']}, w_habit = {params['w_habit']}, w_comm = {params['w_comm']}, c_A = {params['c_A']}, c_B = {params['c_B']}"
+)
+plt.figure()
+sns.lineplot(x="R", y="Probability", data=result, hue="Policy")
+plt.xlabel("Relationship hierarchy")
+plt.ylim(0, 1)
+plt.show()
+```
+
+More unequal cumulative costs makes the actor more likely to alternate:
+
+```{python}
+result, params = get_actor_predictions(
+    alpha=1, w_IA=1, w_habit=1, w_comm=1, c_A=1, c_B=4
+)
+print(
+    f"alpha = {params['alpha']}, w_IA = {params['w_IA']}, w_habit = {params['w_habit']}, w_comm = {params['w_comm']}, c_A = {params['c_A']}, c_B = {params['c_B']}"
+)
+plt.figure()
+sns.lineplot(x="R", y="Probability", data=result, hue="Policy")
+plt.xlabel("Relationship hierarchy")
+plt.ylim(0, 1)
+plt.show()
+```
