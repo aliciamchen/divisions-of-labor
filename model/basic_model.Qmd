@@ -4,7 +4,7 @@ author: Alicia Chen
 date: 2025-12-31
 format:
   html:
-    code-fold: false
+    code-fold: true
 jupyter: python3
 ---
 
@@ -19,7 +19,7 @@ import jax
 import jax.numpy as jnp
 from enum import IntEnum
 
-sns.set_context("talk", font_scale=1.2)
+sns.set_context("talk")
 sns.set_style("white")
 plt.rc("axes.spines", top=False, right=False)
 ```
@@ -258,7 +258,7 @@ param_values = [0.5, 1, 2, 4]
 print(f"The base parameters are: {base_params}")
 ```
 
-#### Varying w_IA and c_A together
+#### Varying $w_{\mathrm{IA}}$ and $c_A$ together
 
 ```{python}
 def plot_faceted_by_c_A(w_IA_values, c_A_values, base_params):
@@ -276,24 +276,25 @@ def plot_faceted_by_c_A(w_IA_values, c_A_values, base_params):
             results.append(result)
     df = pd.concat(results, ignore_index=True)
 
-    n_cols = len(c_A_values)
-    fig, axes = plt.subplots(2, 2, figsize=(10, 8), sharex=True, sharey=True)
-
-    for j, c_A in enumerate(c_A_values):
-        ax = axes[j // 2, j % 2]
-        subset = df[df["c_A"] == c_A]
-        sns.lineplot(x="R", y="Probability", hue="w_IA", data=subset, ax=ax, palette="viridis")
-        ax.axhline(0.5, color='gray', linestyle='--', alpha=0.3)
-        ax.set_title(rf"$c_A = {c_A}$")
-        ax.set_xlabel(r"Relationship hierarchy ($R$)")
+    g = sns.relplot(
+        data=df,
+        x="R",
+        y="Probability",
+        hue="w_IA",
+        col="c_A",
+        kind="line",
+        palette="viridis",
+        col_wrap=2,
+        height=3,
+        aspect=1.2,
+        facet_kws={"sharex": True, "sharey": True},
+    )
+    for ax in g.axes.flat:
+        ax.axhline(0.5, color="gray", linestyle="--", alpha=0.3)
         ax.set_ylim(0, 1)
-        if j == 0:
-            ax.set_ylabel(r"$P(\mathrm{alternate})$")
-        else:
-            ax.set_ylabel("")
-        ax.legend(title=r"$w_{\mathrm{IA}}$")
-
-    plt.tight_layout()
+    g.set_titles(col_template=r"$c_A$ = {col_name}")
+    g.set_axis_labels(r"Relationship hierarchy ($R$)", r"$P(\mathrm{alternate})$")
+    g._legend.set_title(r"$w_{\mathrm{IA}}$")
     plt.show()
 
 
@@ -364,7 +365,6 @@ What does an observer infer about the relationship hierarchy after observing eac
 ```{python}
 # Convert discretized posterior to density (divide by bin width)
 BIN_WIDTH = 0.01  # R ranges from 0 to 1 in 101 points
-COLORS = {"Alternate": "#1f77b4", "Precedent": "#ff7f0e"}
 
 
 def to_density(prob):
@@ -382,13 +382,15 @@ def prep_observer_data(obs_df):
 ```{python}
 # Prep data
 obs_data = prep_observer_data(obs_result)
+palette = sns.color_palette()
+colors = {policy: palette[i] for i, policy in enumerate(["Alternate", "Precedent"])}
 
-fig, axes = plt.subplots(1, 2, figsize=(9, 4), gridspec_kw={'width_ratios': [3, 2]})
+fig, axes = plt.subplots(1, 2, figsize=(9, 4), gridspec_kw={"width_ratios": [3, 2]})
 ax = axes[0]
-sns.lineplot(data=obs_data, x="R", y="Density", hue="Policy", palette=COLORS, ax=ax)
+sns.lineplot(data=obs_data, x="R", y="Density", hue="Policy", ax=ax)
 for policy in ["Alternate", "Precedent"]:
     subset = obs_data[obs_data["Policy"] == policy]
-    ax.fill_between(subset["R"], subset["Density"], alpha=0.3, color=COLORS[policy])
+    ax.fill_between(subset["R"], subset["Density"], alpha=0.3, color=colors[policy])
 ax.axhline(1.0, color="gray", linestyle="--", alpha=0.3)
 ax.legend(title="Observed")
 ax.set_xlabel(r"Inferred $R$")
@@ -401,7 +403,6 @@ sns.pointplot(
     hue="Policy",
     estimator="mean",
     weights="Probability",
-    palette=COLORS,
     ax=ax,
     legend=False,
 )
@@ -440,7 +441,8 @@ def plot_observer_ridges(param_name, param_values, base_params):
     df = get_observer_sweep_data(param_name, param_values, base_params)
     param_label = PARAM_LABELS.get(param_name, param_name)
     row_order = [f"{param_label} = {v}" for v in reversed(param_values)]
-    colors = {"Alternate": "#1f77b4", "Precedent": "#ff7f0e"}
+    palette = sns.color_palette()
+    colors = {policy: palette[i] for i, policy in enumerate(["Alternate", "Precedent"])}
 
     g = sns.relplot(
         data=df,
@@ -449,11 +451,10 @@ def plot_observer_ridges(param_name, param_values, base_params):
         hue="Policy",
         row="param_label",
         kind="line",
-        height=2,
-        aspect=2.5,
+        height=1.8,
+        aspect=2,
         row_order=row_order,
         hue_order=["Alternate", "Precedent"],
-        palette=colors,
         facet_kws={"sharex": True, "sharey": True},
     )
 
@@ -471,21 +472,67 @@ def plot_observer_ridges(param_name, param_values, base_params):
     g.set_axis_labels(r"Inferred $R$", "Density")
     g._legend.set_title("Observed")
     plt.show()
+
+
+def plot_observer_grid(w_IA_values, c_A_values, base_params):
+    """Plot observer posteriors as grid varying w_IA (cols) and c_A (rows)."""
+    results = []
+    for w_IA in w_IA_values:
+        for c_A in c_A_values:
+            params = base_params.copy()
+            params["w_IA"] = w_IA
+            params["c_A"] = c_A
+            result, _ = get_observer_predictions(**params)
+            result["w_IA"] = w_IA
+            result["c_A"] = c_A
+            results.append(result)
+    df = pd.concat(results, ignore_index=True)
+    df["Density"] = to_density(df["Probability"])
+    df = df.sort_values(["c_A", "w_IA", "Policy", "R"]).reset_index(drop=True)
+
+    palette = sns.color_palette()
+    colors = {policy: palette[i] for i, policy in enumerate(["Alternate", "Precedent"])}
+
+    g = sns.relplot(
+        data=df,
+        x="R",
+        y="Density",
+        hue="Policy",
+        row="c_A",
+        col="w_IA",
+        kind="line",
+        height=2.5,
+        aspect=1.2,
+        hue_order=["Alternate", "Precedent"],
+        facet_kws={"sharex": True, "sharey": False},
+    )
+
+    # Add fill under curves
+    for ax in g.axes.flat:
+        c_A_val = ax.get_title().split("c_A = ")[1].split(" |")[0] if "c_A" in ax.get_title() else None
+        w_IA_val = ax.get_title().split("w_IA = ")[1] if "w_IA" in ax.get_title() else None
+        if c_A_val and w_IA_val:
+            subset = df[(df["c_A"] == float(c_A_val)) & (df["w_IA"] == float(w_IA_val))]
+            for policy in ["Alternate", "Precedent"]:
+                policy_data = subset[subset["Policy"] == policy].sort_values("R")
+                ax.fill_between(policy_data["R"], policy_data["Density"], alpha=0.3, color=colors[policy])
+
+    g.set_titles(row_template=r"$c_A$ = {row_name}", col_template=r"$w_{{\mathrm{{IA}}}}$ = {col_name}")
+    g.set_axis_labels(r"Inferred $R$", "Density")
+    g._legend.set_title("Observed")
+    plt.show()
 ```
 
-#### Varying $w_{\mathrm{IA}}$
+#### Varying $w_{\mathrm{IA}}$ and $c_A$ jointly
 
 ```{python}
-print(f"Varying w_IA: {param_values}")
-plot_observer_ridges("w_IA", param_values, base_params)
+#| fig-width: 8
+#| fig-height: 8
+print(f"Varying w_IA: {param_values}, c_A: {param_values}")
+plot_observer_grid(param_values, param_values, base_params)
 ```
 
-#### Varying $c_A$
-
-```{python}
-print(f"Varying c_A: {param_values}")
-plot_observer_ridges("c_A", param_values, base_params)
-```
+The more unequal the costs (and the more inequity averse the actor is), the more likely the observer is to infer a hierarchical relationship from a precedent.
 
 #### Varying $w_{\mathrm{habit}}$
 
@@ -493,6 +540,8 @@ plot_observer_ridges("c_A", param_values, base_params)
 print(f"Varying w_habit: {param_values}")
 plot_observer_ridges("w_habit", param_values, base_params)
 ```
+
+If the actor is assumed to rely more on habit, then any alternation makes the observer more likely to infer an equal relationship
 
 #### Varying $w_{\mathrm{comm}}$
 
