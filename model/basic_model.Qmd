@@ -167,6 +167,7 @@ print(
 )
 plt.figure()
 sns.lineplot(x="R", y="Probability", data=result, hue="Policy")
+plt.axhline(0.5, color='gray', linestyle='--', alpha=0.3)
 plt.xlabel("Relationship hierarchy")
 plt.ylim(0, 1)
 plt.show()
@@ -174,50 +175,98 @@ plt.show()
 
 ### Varying parameters
 
-Higher weight on habit makes the actor more likely to follow a precedent:
-
 ```{python}
-result, params = get_actor_predictions(
-    alpha=1, w_IA=1, w_habit=2, w_comm=1, c_A=1, c_B=1
-)
-print(
-    f"alpha = {params['alpha']}, w_IA = {params['w_IA']}, w_habit = {params['w_habit']}, w_comm = {params['w_comm']}, c_A = {params['c_A']}, c_B = {params['c_B']}"
-)
-plt.figure()
-sns.lineplot(x="R", y="Probability", data=result, hue="Policy")
-plt.xlabel("Relationship hierarchy")
-plt.ylim(0, 1)
-plt.show()
+def sweep_parameter(param_name, param_values, base_params):
+    """Sweep over values of a single parameter and collect results."""
+    results = []
+    for val in param_values:
+        params = base_params.copy()
+        params[param_name] = val
+        result, _ = get_actor_predictions(**params)
+        result[param_name] = val
+        results.append(result)
+    return pd.concat(results, ignore_index=True)
+
+
+def plot_parameter_sweep(param_name, param_values, base_params):
+    """Plot policy probabilities for different values of a parameter."""
+    df = sweep_parameter(param_name, param_values, base_params)
+    df = df[df["Policy"] == "Alternate"]
+
+    plt.figure(figsize=(6, 4))
+    sns.lineplot(
+        x="R",
+        y="Probability",
+        hue=param_name,
+        data=df,
+        palette="viridis",
+    )
+    plt.axhline(0.5, color='gray', linestyle='--', alpha=0.3)
+    plt.xlabel("Relationship hierarchy")
+    plt.ylabel("P(alternate)")
+    plt.ylim(0, 1)
+    plt.legend(title=param_name)
+    plt.show()
+
+
+base_params = {"alpha": 1, "w_IA": 1, "w_habit": 1, "w_comm": 1, "c_A": 1, "c_B": 1}
+param_values = [0.5, 1, 2, 4]
+print(f"The base parameters are: {base_params}")
 ```
 
-Higher weight on communication makes the actor more likely to alternate, for less-hierarchical relationships:
+#### Varying w_IA and c_A together
 
 ```{python}
-result, params = get_actor_predictions(
-    alpha=1, w_IA=1, w_habit=1, w_comm=2, c_A=1, c_B=1
-)
-print(
-    f"alpha = {params['alpha']}, w_IA = {params['w_IA']}, w_habit = {params['w_habit']}, w_comm = {params['w_comm']}, c_A = {params['c_A']}, c_B = {params['c_B']}"
-)
-plt.figure()
-sns.lineplot(x="R", y="Probability", data=result, hue="Policy")
-plt.xlabel("Relationship hierarchy")
-plt.ylim(0, 1)
-plt.show()
+def plot_faceted_by_c_A(w_IA_values, c_A_values, base_params):
+    """Plot w_IA as hue, faceted by c_A."""
+    results = []
+    for w_IA in w_IA_values:
+        for c_A in c_A_values:
+            params = base_params.copy()
+            params["w_IA"] = w_IA
+            params["c_A"] = c_A
+            result, _ = get_actor_predictions(**params)
+            result = result[result["Policy"] == "Alternate"]
+            result["w_IA"] = w_IA
+            result["c_A"] = c_A
+            results.append(result)
+    df = pd.concat(results, ignore_index=True)
+
+    n_cols = len(c_A_values)
+    fig, axes = plt.subplots(2, 2, figsize=(10, 8), sharex=True, sharey=True)
+
+    for j, c_A in enumerate(c_A_values):
+        ax = axes[j // 2, j % 2]
+        subset = df[df["c_A"] == c_A]
+        sns.lineplot(x="R", y="Probability", hue="w_IA", data=subset, ax=ax, palette="viridis")
+        ax.axhline(0.5, color='gray', linestyle='--', alpha=0.3)
+        ax.set_title(f"c_A = {c_A}")
+        ax.set_xlabel("Relationship hierarchy")
+        ax.set_ylim(0, 1)
+        if j == 0:
+            ax.set_ylabel("P(alternate)")
+        else:
+            ax.set_ylabel("")
+        ax.legend(title="w_IA")
+
+    plt.tight_layout()
+    plt.show()
+
+
+print(f"Varying w_IA: {param_values}, faceted by c_A: {param_values}")
+plot_faceted_by_c_A(param_values, param_values, base_params)
 ```
 
-More unequal cumulative costs makes the actor more likely to alternate:
+#### Varying w_habit (habit weight)
 
 ```{python}
-result, params = get_actor_predictions(
-    alpha=1, w_IA=1, w_habit=1, w_comm=1, c_A=1, c_B=4
-)
-print(
-    f"alpha = {params['alpha']}, w_IA = {params['w_IA']}, w_habit = {params['w_habit']}, w_comm = {params['w_comm']}, c_A = {params['c_A']}, c_B = {params['c_B']}"
-)
-plt.figure()
-sns.lineplot(x="R", y="Probability", data=result, hue="Policy")
-plt.xlabel("Relationship hierarchy")
-plt.ylim(0, 1)
-plt.show()
+print(f"Varying w_habit: {param_values}")
+plot_parameter_sweep("w_habit", param_values, base_params)
+```
+
+#### Varying w_comm (communication weight)
+
+```{python}
+print(f"Varying w_comm: {param_values}")
+plot_parameter_sweep("w_comm", param_values, base_params)
 ```
