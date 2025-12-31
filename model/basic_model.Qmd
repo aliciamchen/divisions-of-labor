@@ -24,7 +24,7 @@ sns.set_style("white")
 plt.rc("axes.spines", top=False, right=False)
 ```
 
-## Model description
+# Model description
 
 Consider two agents A and B who need to perform actions over time. 
 
@@ -36,16 +36,16 @@ $$
 U_\mathrm{total}(\pi | R) = w_\mathrm{IA} \cdot U_\mathrm{IA} + w_\mathrm{habit} \cdot U_\mathrm{habit} + w_\mathrm{comm} \cdot U_\mathrm{comm}
 $$
 
-### Components of utility
+## Components of utility
 
-#### IA utility
+### IA utility
 
 The inequity aversion term penalizes unequal cumulative costs $c_A$ and $c_B$, weighted by the relationship $R$ (where the more hierarchical, the lower the weight on inequity aversion). This depends on the policy: alternating is assumed to balance costs, while following precedent leads to unequal costs.
 $$
 U_\mathrm{IA}(\pi) = -(1 - R) \cdot \begin{cases} 0 & \mathrm{if } \pi = \mathrm{alternate} \\ (c_A - c_B)^2 & \mathrm{if } \pi = \mathrm{precedent} \end{cases}
 $$
 
-#### Habit utility
+### Habit utility
 
 The habit utility captures the tendency to repeat previous actions. It is 1 if the actor follows a precedent, and 0 otherwise.
 
@@ -53,7 +53,7 @@ $$
 U_\mathrm{habit} = \mathbb{I}(\mathrm{precedent})
 $$
 
-#### Communication utility
+### Communication utility
 
 The idea is that alternating the same action type communicates desire for equality. We stipulate that only alternating the same action type communicates equality (see Levinson). Alternating who does the dishes communicates equality. Having A always do dishes while B always does trash does not, even if overall costs balance out.
 
@@ -63,7 +63,9 @@ $$
 U_\mathrm{comm} = (1 - R) \cdot \mathbb{I}(\mathrm{alternate})
 $$
 
-## Implementation
+---
+
+# Implementation
 
 Constants
 
@@ -120,6 +122,26 @@ def basic_actor[pi: Policies, R: RELATIONSHIP_VALUES](
         pi in Policies, wpp=exp(U_total(pi, R, alpha, w_IA, w_habit, w_comm, c_A, c_B))
     )
     return Pr[actor.pi == pi]
+```
+
+Observer model
+
+```{python}
+@memo
+def basic_observer[pi: Policies, R: RELATIONSHIP_VALUES](
+    alpha, w_IA, w_habit, w_comm, c_A, c_B
+):
+    cast: [actor, observer]
+    observer: thinks[
+        actor : chooses(R in RELATIONSHIP_VALUES, wpp=1),
+        actor : chooses(
+            pi in Policies,
+            wpp=basic_actor[pi, R](alpha, w_IA, w_habit, w_comm, c_A, c_B),
+        ),
+    ]
+    observer: observes[actor.pi] is pi
+    observer: chooses(R in RELATIONSHIP_VALUES, wpp=E[actor.R == R])
+    return Pr[observer.R == R]
 ```
 
 ### Test the results
@@ -280,3 +302,4 @@ plot_parameter_sweep("w_habit", param_values, base_params)
 print(f"Varying w_comm: {param_values}")
 plot_parameter_sweep("w_comm", param_values, base_params)
 ```
+
