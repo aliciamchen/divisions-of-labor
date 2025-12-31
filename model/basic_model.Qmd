@@ -168,7 +168,7 @@ print(
 plt.figure()
 sns.lineplot(x="R", y="Probability", data=result, hue="Policy")
 plt.axhline(0.5, color='gray', linestyle='--', alpha=0.3)
-plt.xlabel("Relationship hierarchy")
+plt.xlabel(r"Relationship hierarchy ($R$)")
 plt.ylim(0, 1)
 plt.show()
 ```
@@ -188,6 +188,16 @@ def sweep_parameter(param_name, param_values, base_params):
     return pd.concat(results, ignore_index=True)
 
 
+PARAM_LABELS = {
+    "w_IA": r"$w_{\mathrm{IA}}$",
+    "w_habit": r"$w_{\mathrm{habit}}$",
+    "w_comm": r"$w_{\mathrm{comm}}$",
+    "c_A": r"$c_A$",
+    "c_B": r"$c_B$",
+    "alpha": r"$\alpha$",
+}
+
+
 def plot_parameter_sweep(param_name, param_values, base_params):
     """Plot policy probabilities for different values of a parameter."""
     df = sweep_parameter(param_name, param_values, base_params)
@@ -202,10 +212,10 @@ def plot_parameter_sweep(param_name, param_values, base_params):
         palette="viridis",
     )
     plt.axhline(0.5, color='gray', linestyle='--', alpha=0.3)
-    plt.xlabel("Relationship hierarchy")
-    plt.ylabel("P(alternate)")
+    plt.xlabel(r"Relationship hierarchy ($R$)")
+    plt.ylabel(r"$P(\mathrm{alternate})$")
     plt.ylim(0, 1)
-    plt.legend(title=param_name)
+    plt.legend(title=PARAM_LABELS.get(param_name, param_name))
     plt.show()
 
 
@@ -240,14 +250,14 @@ def plot_faceted_by_c_A(w_IA_values, c_A_values, base_params):
         subset = df[df["c_A"] == c_A]
         sns.lineplot(x="R", y="Probability", hue="w_IA", data=subset, ax=ax, palette="viridis")
         ax.axhline(0.5, color='gray', linestyle='--', alpha=0.3)
-        ax.set_title(f"c_A = {c_A}")
-        ax.set_xlabel("Relationship hierarchy")
+        ax.set_title(rf"$c_A = {c_A}$")
+        ax.set_xlabel(r"Relationship hierarchy ($R$)")
         ax.set_ylim(0, 1)
         if j == 0:
-            ax.set_ylabel("P(alternate)")
+            ax.set_ylabel(r"$P(\mathrm{alternate})$")
         else:
             ax.set_ylabel("")
-        ax.legend(title="w_IA")
+        ax.legend(title=r"$w_{\mathrm{IA}}$")
 
     plt.tight_layout()
     plt.show()
