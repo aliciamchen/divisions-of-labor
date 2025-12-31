@@ -36,6 +36,18 @@ $$
 U_\mathrm{total}(\pi | R) = w_\mathrm{IA} \cdot U_\mathrm{IA} + w_\mathrm{habit} \cdot U_\mathrm{habit} + w_\mathrm{comm} \cdot U_\mathrm{comm}
 $$
 
+and chooses the policy according to a softmax rule: 
+
+$$
+P(\pi | R) \propto \exp(U_\mathrm{total}(\pi | R))
+$$
+
+An observer infers the relationship $R$ based on the actor's policy $\pi$: 
+
+$$
+P(R | \pi) \propto P(\pi | R) \cdot P(R)
+$$
+
 ## Components of utility
 
 ### IA utility
@@ -301,5 +313,191 @@ plot_parameter_sweep("w_habit", param_values, base_params)
 ```{python}
 print(f"Varying w_comm: {param_values}")
 plot_parameter_sweep("w_comm", param_values, base_params)
+```
+
+---
+
+## Observer model results
+
+The observer sees a policy choice and infers the relationship hierarchy $R$.
+
+```{python}
+def get_observer_predictions(alpha, w_IA, w_habit, w_comm, c_A, c_B):
+    result = basic_observer(
+        alpha=alpha,
+        w_IA=w_IA,
+        w_habit=w_habit,
+        w_comm=w_comm,
+        c_A=c_A,
+        c_B=c_B,
+        return_pandas=True,
+    )[1].pandas
+    result.rename(
+        columns={"pi": "Policy", result.columns[-1]: "Probability"}, inplace=True
+    )
+    return (
+        result,
+        {
+            "alpha": alpha,
+            "w_IA": w_IA,
+            "w_habit": w_habit,
+            "w_comm": w_comm,
+            "c_A": c_A,
+            "c_B": c_B,
+        },
+    )
+```
+
+### Baseline observer inferences
+
+```{python}
+obs_result, obs_params = get_observer_predictions(
+    alpha=3, w_IA=1, w_habit=1, w_comm=1, c_A=1, c_B=1
+)
+print(
+    f"alpha = {obs_params['alpha']}, w_IA = {obs_params['w_IA']}, w_habit = {obs_params['w_habit']}, w_comm = {obs_params['w_comm']}, c_A = {obs_params['c_A']}, c_B = {obs_params['c_B']}"
+)
+```
+
+What does an observer infer about the relationship hierarchy after observing each policy?
+
+```{python}
+# Convert discretized posterior to density (divide by bin width)
+BIN_WIDTH = 0.01  # R ranges from 0 to 1 in 101 points
+COLORS = {"Alternate": "#1f77b4", "Precedent": "#ff7f0e"}
+
+
+def to_density(prob):
+    """Convert probability mass to density."""
+    return prob / BIN_WIDTH
+
+
+def prep_observer_data(obs_df):
+    """Prepare observer data with density column."""
+    df = obs_df.copy()
+    df["Density"] = to_density(df["Probability"])
+    return df
+```
+
+```{python}
+# Prep data
+obs_data = prep_observer_data(obs_result)
+
+fig, axes = plt.subplots(1, 2, figsize=(9, 4), gridspec_kw={'width_ratios': [3, 2]})
+ax = axes[0]
+sns.lineplot(data=obs_data, x="R", y="Density", hue="Policy", palette=COLORS, ax=ax)
+for policy in ["Alternate", "Precedent"]:
+    subset = obs_data[obs_data["Policy"] == policy]
+    ax.fill_between(subset["R"], subset["Density"], alpha=0.3, color=COLORS[policy])
+ax.axhline(1.0, color="gray", linestyle="--", alpha=0.3)
+ax.legend(title="Observed")
+ax.set_xlabel(r"Inferred $R$")
+
+ax = axes[1]
+sns.pointplot(
+    data=obs_data,
+    x="Policy",
+    y="R",
+    hue="Policy",
+    estimator="mean",
+    weights="Probability",
+    palette=COLORS,
+    ax=ax,
+    legend=False,
+)
+ax.set_xlabel(r"Observed policy ($\pi$)")
+ax.set_ylabel(r"Inferred $R$")
+ax.set_ylim(0, 1)
+ax.set_title("Posterior means")
+
+plt.tight_layout()
+plt.show()
+```
+
+### Varying observer parameters
+
+```{python}
+def get_observer_sweep_data(param_name, param_values, base_params):
+    """Get posterior data for parameter sweep, tidy format."""
+    param_label = PARAM_LABELS.get(param_name, param_name)
+    results = []
+    for val in param_values:
+        params = base_params.copy()
+        params[param_name] = val
+        result, _ = get_observer_predictions(**params)
+        result["param_value"] = val
+        result["param_label"] = f"{param_label} = {val}"
+        results.append(result)
+    df = pd.concat(results, ignore_index=True)
+    df["Density"] = to_density(df["Probability"])
+    # Sort so data is in correct order for plotting
+    df = df.sort_values(["param_value", "Policy", "R"]).reset_index(drop=True)
+    return df
+
+
+def plot_observer_ridges(param_name, param_values, base_params):
+    """Plot observer posteriors as ridge plots."""
+    df = get_observer_sweep_data(param_name, param_values, base_params)
+    param_label = PARAM_LABELS.get(param_name, param_name)
+    row_order = [f"{param_label} = {v}" for v in reversed(param_values)]
+    colors = {"Alternate": "#1f77b4", "Precedent": "#ff7f0e"}
+
+    g = sns.relplot(
+        data=df,
+        x="R",
+        y="Density",
+        hue="Policy",
+        row="param_label",
+        kind="line",
+        height=2,
+        aspect=2.5,
+        row_order=row_order,
+        hue_order=["Alternate", "Precedent"],
+        palette=colors,
+        facet_kws={"sharex": True, "sharey": True},
+    )
+
+    # Add fill under curves
+    for ax, row_val in zip(g.axes.flat, row_order):
+        row_data = df[df["param_label"] == row_val]
+        for policy in ["Alternate", "Precedent"]:
+            policy_data = row_data[row_data["Policy"] == policy]
+            ax.fill_between(
+                policy_data["R"], policy_data["Density"],
+                alpha=0.3, color=colors[policy]
+            )
+
+    g.set_titles(row_template="{row_name}")
+    g.set_axis_labels(r"Inferred $R$", "Density")
+    g._legend.set_title("Observed")
+    plt.show()
+```
+
+#### Varying $w_{\mathrm{IA}}$
+
+```{python}
+print(f"Varying w_IA: {param_values}")
+plot_observer_ridges("w_IA", param_values, base_params)
+```
+
+#### Varying $c_A$
+
+```{python}
+print(f"Varying c_A: {param_values}")
+plot_observer_ridges("c_A", param_values, base_params)
+```
+
+#### Varying $w_{\mathrm{habit}}$
+
+```{python}
+print(f"Varying w_habit: {param_values}")
+plot_observer_ridges("w_habit", param_values, base_params)
+```
+
+#### Varying $w_{\mathrm{comm}}$
+
+```{python}
+print(f"Varying w_comm: {param_values}")
+plot_observer_ridges("w_comm", param_values, base_params)
 ```
 
