@@ -38,7 +38,19 @@ li {
 }
 
 .instructions-container p {
-  width: 50% !important;
+  width: 45% !important;
+}
+
+/* =========================
+   Trial/slider response styling
+   ========================= */
+.trial-text {
+  max-width: 670px !important;
+  width: 670px !important;
+}
+
+.jspsych-html-slider-response-stimulus {
+  margin-bottom: 30px;
 }
 
 .vignette-text p {
@@ -48,13 +60,19 @@ li {
 /* =========================
    Action manipulation highlight
    ========================= */
+.action-highlight-wrapper {
+  width: 670px;
+  margin: 20px auto;
+  text-align: left;
+}
+
 .action-highlight {
   background-color: #fff9e6;
-  border-left: 4px solid #f0c040;
-  padding: 12px 16px;
-  margin: 20px auto;
-  width: 55%;
+  padding: 8px 12px;
+  width: auto !important;
+  display: inline-block;
   border-radius: 4px;
+  margin: 0 !important;
 }
 
 /* =========================

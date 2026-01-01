@@ -54,7 +54,7 @@ export function makeTimeline(
           "50",
           "100<br>Extremely hierarchical",
         ],
-        slider_width: 650,
+        slider_width: 670,
         slider_min: 0,
         slider_max: 100,
         step: 1,
@@ -79,13 +79,13 @@ export function makeTimeline(
     trials.push({
       type: jsPsychHtmlSliderResponse,
       stimulus: `
-        <div>
+        <div class="trial-content">
           <h2>Scenario ${stimulusIndex + 1} of ${stimuli.length}</h2>
-          <p>${stimulus.vignette}</p>
-          <p>How hierarchical do you think ${stimulus.name1} and ${stimulus.name2}'s relationship is?</p>
+          <p class="trial-text">${stimulus.vignette}</p>
+          <p class="trial-text">How hierarchical do you think ${stimulus.name1} and ${stimulus.name2}'s relationship is?</p>
         </div>
       `,
-      slider_width: 650,
+      slider_width: 670,
       slider_min: 0,
       slider_max: 100,
       step: 1,
@@ -109,14 +109,14 @@ export function makeTimeline(
     trials.push({
       type: jsPsychHtmlSliderResponse,
       stimulus: `
-        <div>
+        <div class="trial-content">
           <h2>Scenario ${stimulusIndex + 1} of ${stimuli.length}</h2>
-          <p>${stimulus.vignette}</p>
-          <p class="action-highlight"><em>${stimulus[stimulus.condition]}</em></p>
-          <p>Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+          <p class="trial-text">${stimulus.vignette}</p>
+          <div class="action-highlight-wrapper"><p class="action-highlight"><strong>${stimulus[stimulus.condition]}</strong></p></div>
+          <p class="trial-text">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
         </div>
       `,
-      slider_width: 650,
+      slider_width: 670,
       slider_min: 0,
       slider_max: 100,
       step: 1,
