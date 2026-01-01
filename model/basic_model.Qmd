@@ -6,6 +6,8 @@ format:
   html:
     code-fold: true
     toc: true
+    search: false
+    page-layout: full
 jupyter: python3
 ---
 
@@ -486,6 +488,8 @@ basic_ablation_df = get_ablation_posterior_means(
 )
 plot_ablation_means(basic_ablation_df, basic_policy_names, sns.color_palette())
 ```
+
+For this experiment, the qualitative predictions of the model are the same across all ablations. (i.e. differences between IA, habit, and comm utility don't make distinct predictions)
 
 #### Varying observer parameters
 
@@ -1044,6 +1048,8 @@ bundle_ablation_df = get_ablation_posterior_means(
 )
 plot_ablation_means(bundle_ablation_df, BUNDLE_POLICY_NAMES, BUNDLE_PALETTE)
 ```
+
+This shows that communicative utility and inequity aversion are important for the full pattern of results. 
 
 Now, the case where the costs are unequal ($C_1 = 1, C_2 = 4$):
 
