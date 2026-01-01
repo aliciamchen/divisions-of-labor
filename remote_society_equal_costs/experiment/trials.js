@@ -239,7 +239,7 @@ export function makeTimeline(
   const thankYou = {
     type: jsPsychHtmlKeyboardResponse,
     stimulus: `<p>Thanks for participating in the experiment!</p>
-                  <p><a href="https://app.prolific.com/submissions/complete?cc=C1A889GX">Click here to return to Prolific and complete the study</a>.</p>
+                  <p><a href="https://app.prolific.com/submissions/complete?cc=C18IH6NU">Click here to return to Prolific and complete the study</a>.</p>
                   <p>It is now safe to close the window. Your pay will be delivered within a few days.</p>
                   `,
     choices: "NO_KEYS",

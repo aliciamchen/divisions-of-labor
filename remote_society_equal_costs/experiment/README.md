@@ -37,3 +37,7 @@ conda activate divisions-of-labor
 cd remote_society_equal_costs/experiment
 python python/generate_counterbalancing.py
 ```
+
+## todos
+
+- [ ] maybe add label for 50?
