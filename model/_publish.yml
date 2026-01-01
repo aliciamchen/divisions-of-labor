@@ -1,0 +1,4 @@
+- source: basic_model.Qmd
+  quarto-pub:
+    - id: 49196793-5e11-4d12-a11a-6205442a488f
+      url: https://aliciamchen.quarto.pub/basic-model-for-inferences-made-from-sequences-of-generous-actions

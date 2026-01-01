@@ -1,28 +1,13 @@
 ---
-title: Basic model for inferences made from divisions of labor
+title: Basic model for inferences made from sequences of generous actions
 author: Alicia Chen
 date: 2025-12-31
 format:
   html:
     code-fold: true
+    toc: true
 jupyter: python3
 ---
-
-```{python}
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-from memo import memo
-import jax
-import jax.numpy as jnp
-from enum import IntEnum
-
-sns.set_context("talk")
-sns.set_style("white")
-plt.rc("axes.spines", top=False, right=False)
-```
 
 # Model description
 
@@ -78,6 +63,24 @@ $$
 ---
 
 # Implementation
+
+Setup
+
+```{python}
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+from memo import memo
+import jax
+import jax.numpy as jnp
+from enum import IntEnum
+
+sns.set_context("talk")
+sns.set_style("white")
+plt.rc("axes.spines", top=False, right=False)
+```
 
 Constants
 
@@ -156,7 +159,7 @@ def basic_observer[pi: Policies, R: RELATIONSHIP_VALUES](
     return Pr[observer.R == R]
 ```
 
-### Test the results
+### Actor model results
 
 ```{python}
 def get_actor_predictions(alpha, w_IA, w_habit, w_comm, c_A, c_B):
@@ -185,8 +188,7 @@ def get_actor_predictions(alpha, w_IA, w_habit, w_comm, c_A, c_B):
     )
 ```
 
-Start with basic parameters (everything equal weights and alpha = 1)
-
+Compute predictions with basic parameters (everything equal weights and alpha = 1). 
 ```{python}
 result, params = get_actor_predictions(
     alpha=1, w_IA=1, w_habit=1, w_comm=1, c_A=1, c_B=1
@@ -197,7 +199,7 @@ As the relationship is more hierarchical, what happens to the probability of eac
 
 ```{python}
 print(
-    f"alpha = {params['alpha']}, w_IA = {params['w_IA']}, w_habit = {params['w_habit']}, w_comm = {params['w_comm']}, c_A = {params['c_A']}, c_B = {params['c_B']}"
+    f"Params: alpha = {params['alpha']}, w_IA = {params['w_IA']}, w_habit = {params['w_habit']}, w_comm = {params['w_comm']}, c_A = {params['c_A']}, c_B = {params['c_B']}"
 )
 plt.figure()
 sns.lineplot(x="R", y="Probability", data=result, hue="Policy")
@@ -207,7 +209,11 @@ plt.ylim(0, 1)
 plt.show()
 ```
 
-### Varying parameters
+As expected, the probability of following a precedent increases as the relationship becomes more hierarchical (higher $R$).
+
+#### Varying parameters
+
+To visualize behavior for sanity checks, vary one parameter at a time and plot the probability of each strategy as a function of the relationship hierarchy.
 
 ```{python}
 def sweep_parameter(param_name, param_values, base_params):
@@ -260,6 +266,8 @@ print(f"The base parameters are: {base_params}")
 
 #### Varying $w_{\mathrm{IA}}$ and $c_A$ together
 
+Keeping $c_B$ fixed to 1, varying $c_A$ determines how unequal the two actions are. Higher $w_{\mathrm{IA}}$ values make the actor more sensitive to inequity, but knowing about a hierarchical relationship mitigates the cost of inequity (i.e. more unequal actions are more accepted in hierarchical relationships). 
+
 ```{python}
 def plot_faceted_by_c_A(w_IA_values, c_A_values, base_params):
     """Plot w_IA as hue, faceted by c_A."""
@@ -298,29 +306,36 @@ def plot_faceted_by_c_A(w_IA_values, c_A_values, base_params):
     plt.show()
 
 
-print(f"Varying w_IA: {param_values}, faceted by c_A: {param_values}")
 plot_faceted_by_c_A(param_values, param_values, base_params)
 ```
+
+We see two trends: 
+
+1. Probability of alternation decreases as relationship becomes more hierarchical (higher $R$).
+
+2. Probability of alternation increases as the actions become more unequal and if the joint planner is more averse to inequity.
 
 #### Varying w_habit (habit weight)
 
 ```{python}
-print(f"Varying w_habit: {param_values}")
 plot_parameter_sweep("w_habit", param_values, base_params)
 ```
+
+If the actor relies more on habit, then they are generally more likely to follow a precedent.
 
 #### Varying w_comm (communication weight)
 
 ```{python}
-print(f"Varying w_comm: {param_values}")
 plot_parameter_sweep("w_comm", param_values, base_params)
 ```
 
+If the actor relies more on communicating an equal relationship, then they are generally more likely to alternate.
+
 ---
 
-## Observer model results
+### Observer model results
 
-The observer sees a policy choice and infers the relationship hierarchy $R$.
+The observer sees a policy choice and infers the relationship hierarchy $R$ using Bayes' rule.
 
 ```{python}
 def get_observer_predictions(alpha, w_IA, w_habit, w_comm, c_A, c_B):
@@ -349,38 +364,36 @@ def get_observer_predictions(alpha, w_IA, w_habit, w_comm, c_A, c_B):
     )
 ```
 
-### Baseline observer inferences
+#### Baseline observer inferences
+
+We will increase alpha to 3 here for visualization purposes
 
 ```{python}
 obs_result, obs_params = get_observer_predictions(
     alpha=3, w_IA=1, w_habit=1, w_comm=1, c_A=1, c_B=1
 )
 print(
-    f"alpha = {obs_params['alpha']}, w_IA = {obs_params['w_IA']}, w_habit = {obs_params['w_habit']}, w_comm = {obs_params['w_comm']}, c_A = {obs_params['c_A']}, c_B = {obs_params['c_B']}"
+    f"Params: alpha = {obs_params['alpha']}, w_IA = {obs_params['w_IA']}, w_habit = {obs_params['w_habit']}, w_comm = {obs_params['w_comm']}, c_A = {obs_params['c_A']}, c_B = {obs_params['c_B']}"
 )
 ```
 
-What does an observer infer about the relationship hierarchy after observing each policy?
+What does an observer infer about the relationship hierarchy after observing alternation versus a precedent?
 
 ```{python}
-# Convert discretized posterior to density (divide by bin width)
-BIN_WIDTH = 0.01  # R ranges from 0 to 1 in 101 points
-
+BIN_WIDTH = 0.01 
 
 def to_density(prob):
-    """Convert probability mass to density."""
+    """Convert probability mass to density"""
     return prob / BIN_WIDTH
 
 
 def prep_observer_data(obs_df):
-    """Prepare observer data with density column."""
     df = obs_df.copy()
     df["Density"] = to_density(df["Probability"])
     return df
 ```
 
 ```{python}
-# Prep data
 obs_data = prep_observer_data(obs_result)
 palette = sns.color_palette()
 colors = {policy: palette[i] for i, policy in enumerate(["Alternate", "Precedent"])}
@@ -415,11 +428,14 @@ plt.tight_layout()
 plt.show()
 ```
 
-### Varying observer parameters
+We see that observing alternation makes the observer more likely to infer an equal relationship, while observing a precedent makes the observer more likely to infer a hierarchical relationship 👍
+
+This reproduces the main experimental results
+
+#### Varying observer parameters
 
 ```{python}
 def get_observer_sweep_data(param_name, param_values, base_params):
-    """Get posterior data for parameter sweep, tidy format."""
     param_label = PARAM_LABELS.get(param_name, param_name)
     results = []
     for val in param_values:
@@ -437,7 +453,6 @@ def get_observer_sweep_data(param_name, param_values, base_params):
 
 
 def plot_observer_ridges(param_name, param_values, base_params):
-    """Plot observer posteriors as ridge plots."""
     df = get_observer_sweep_data(param_name, param_values, base_params)
     param_label = PARAM_LABELS.get(param_name, param_name)
     row_order = [f"{param_label} = {v}" for v in reversed(param_values)]
@@ -526,27 +541,25 @@ def plot_observer_grid(w_IA_values, c_A_values, base_params):
 #### Varying $w_{\mathrm{IA}}$ and $c_A$ jointly
 
 ```{python}
-#| fig-width: 8
-#| fig-height: 8
-print(f"Varying w_IA: {param_values}, c_A: {param_values}")
 plot_observer_grid(param_values, param_values, base_params)
 ```
 
-The more unequal the costs (and the more inequity averse the actor is), the more likely the observer is to infer a hierarchical relationship from a precedent.
+The more unequal the costs (and the more inequity averse the actor is assumed to be), the more informative following a precedent is for the presence of a hierarchical relationship. And the less informative alternation is, for the presence of an equal relationship
+
+The idea here is that, when actors are more inequity averse, then inequity aversion can 'explain away' why people might be alternating in the first place — people might just be trying to balance costs, rather than because of anything related to the actual relationship hierarchy.
 
 #### Varying $w_{\mathrm{habit}}$
 
 ```{python}
-print(f"Varying w_habit: {param_values}")
 plot_observer_ridges("w_habit", param_values, base_params)
 ```
 
-If the actor is assumed to rely more on habit, then any alternation makes the observer more likely to infer an equal relationship
+If the actor is assumed to rely more on habit, then any alternation makes the observer more likely to infer an equal relationship.
 
 #### Varying $w_{\mathrm{comm}}$
 
 ```{python}
-print(f"Varying w_comm: {param_values}")
 plot_observer_ridges("w_comm", param_values, base_params)
 ```
 
+If the actor is assumed to rely more on communicating equality (which directly increases the value of alternating), then observed actions separate the relationship probabilities more. 
