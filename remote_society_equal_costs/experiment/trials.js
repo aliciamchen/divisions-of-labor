@@ -54,7 +54,7 @@ export function makeTimeline(
           "50",
           "100<br>Extremely hierarchical",
         ],
-        slider_width: 900,
+        slider_width: 650,
         slider_min: 0,
         slider_max: 100,
         step: 1,
@@ -82,10 +82,10 @@ export function makeTimeline(
         <div>
           <h2>Scenario ${stimulusIndex + 1} of ${stimuli.length}</h2>
           <p>${stimulus.vignette}</p>
-          <p><strong>How hierarchical do you think ${stimulus.name1} and ${stimulus.name2}'s relationship is?</strong></p>
+          <p>How hierarchical do you think ${stimulus.name1} and ${stimulus.name2}'s relationship is?</p>
         </div>
       `,
-      slider_width: 900,
+      slider_width: 650,
       slider_min: 0,
       slider_max: 100,
       step: 1,
@@ -112,11 +112,11 @@ export function makeTimeline(
         <div>
           <h2>Scenario ${stimulusIndex + 1} of ${stimuli.length}</h2>
           <p>${stimulus.vignette}</p>
-          <p><em>${stimulus[stimulus.condition]}</em></p>
-          <p><strong>Now that you've seen how they divide tasks, how hierarchical do you think their relationship is?</strong></p>
+          <p class="action-highlight"><em>${stimulus[stimulus.condition]}</em></p>
+          <p>Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
         </div>
       `,
-      slider_width: 900,
+      slider_width: 650,
       slider_min: 0,
       slider_max: 100,
       step: 1,

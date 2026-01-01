@@ -26,7 +26,10 @@ For the datapipe stuff, I need to generate a manual key that I will do later so 
 
 ## more todos
 
-- [ ] prompt should not be bold
-- [ ] make slider a bit narrower 
-- [ ] visually highlight the observed action manipulation
-- [ ] change the "now you've seen how they divide tasks" to "now you've seen how they divide the activities or exchanges"
+- [x] description in consent form should be a bit vaguer
+- [x] prompt in trials should not be bold
+- [x] make slider a bit narrower
+- [ ] add tiny bit of more spacing between paragraphs
+- [x] clean and organize css
+- [x] visually highlight the observed action manipulation
+- [x] change the "now you've seen how they divide tasks" to "now you've seen how they divide the activities or exchanges"
