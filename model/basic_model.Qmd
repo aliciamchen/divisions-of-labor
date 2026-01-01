@@ -455,11 +455,11 @@ def get_ablation_posterior_means(get_predictions_fn, policy_names, base_params):
     return pd.DataFrame(rows)
 
 
-def plot_ablation_means(means_df, policy_names, palette, title):
+def plot_ablation_means(means_df, policy_names, palette):
     """Plot posterior means across ablations as 4-column subplot."""
     ablation_order = ["No IA", "No habit", "No comm", "Full model"]
 
-    fig, axes = plt.subplots(1, 4, figsize=(11, 4), sharey=True)
+    fig, axes = plt.subplots(1, 4, figsize=(10, 3.5), sharey=True)
 
     for ax, ablation in zip(axes, ablation_order):
         subset = means_df[means_df["Ablation"] == ablation]
@@ -469,11 +469,10 @@ def plot_ablation_means(means_df, policy_names, palette, title):
         ax.set_ylim(0, 1)
         ax.axhline(0.5, color="gray", linestyle="--", alpha=0.3)
         ax.set_xticks(range(len(subset["Policy"])))
-        ax.set_xticklabels(subset["Policy"], rotation=30, ha="right")
+        ax.set_xticklabels(subset["Policy"], rotation=45, ha="right")
         if ax == axes[0]:
             ax.set_ylabel(r"Posterior mean $R$")
 
-    fig.suptitle(title, y=1.02)
     plt.tight_layout()
     plt.show()
 ```
@@ -485,10 +484,7 @@ basic_policy_names = ["Alternate", "Precedent"]
 basic_ablation_df = get_ablation_posterior_means(
     get_observer_predictions, basic_policy_names, basic_ablation_params
 )
-plot_ablation_means(
-    basic_ablation_df, basic_policy_names, sns.color_palette(),
-    "Basic model: Observer inferences under ablations"
-)
+plot_ablation_means(basic_ablation_df, basic_policy_names, sns.color_palette())
 ```
 
 #### Varying observer parameters
@@ -1038,15 +1034,24 @@ This shows how observer inferences vary with task cost asymmetry. The main exper
 
 ### Model ablations
 
+First, the case where the costs are equal ($C_1 = C_2 = 1$):
+
 ```{python}
 bundle_ablation_params = {"alpha": 3, "w_IA": 1, "w_habit": 1, "w_comm": 1, "C1": 1, "C2": 1}
 
 bundle_ablation_df = get_ablation_posterior_means(
     get_bundle_observer_predictions, BUNDLE_POLICY_NAMES, bundle_ablation_params
 )
-plot_ablation_means(
-    bundle_ablation_df, BUNDLE_POLICY_NAMES, BUNDLE_PALETTE,
-    "Resource bundles: Observer inferences under ablations"
-)
+plot_ablation_means(bundle_ablation_df, BUNDLE_POLICY_NAMES, BUNDLE_PALETTE)
 ```
 
+Now, the case where the costs are unequal ($C_1 = 1, C_2 = 4$):
+
+```{python}
+bundle_ablation_params = {"alpha": 3, "w_IA": 1, "w_habit": 1, "w_comm": 1, "C1": 1, "C2": 4}
+
+bundle_ablation_df = get_ablation_posterior_means(
+    get_bundle_observer_predictions, BUNDLE_POLICY_NAMES, bundle_ablation_params
+)
+plot_ablation_means(bundle_ablation_df, BUNDLE_POLICY_NAMES, BUNDLE_PALETTE)
+```
