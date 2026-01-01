@@ -9,9 +9,9 @@ format:
 jupyter: python3
 ---
 
-# Model description
+# Model description for basic experiment
 
-Consider two agents A and B who need to perform actions over time. 
+First let's start with the basic experiment (see [Resource bundles](#resource-bundles) section below for the case where there are two tasks), where two agents A and B need to decide a policy for performing one type of task for each other (e.g. washing dishes, buying someone coffee, giving someone a gift). 
 
 An actor (joint planner) can choose one of two action policies: alternate or follow a precedent. The actor knows about how hierarchical the relationship $R$ is, on a scale of 0 to 1. 
 
@@ -37,9 +37,9 @@ $$
 
 ### IA utility
 
-The inequity aversion term penalizes unequal cumulative costs $c_A$ and $c_B$, weighted by the relationship $R$ (where the more hierarchical, the lower the weight on inequity aversion). This depends on the policy: alternating is assumed to balance costs, while following precedent leads to unequal costs.
+The inequity aversion term penalizes unequal cumulative costs, weighted by the relationship $R$ (where the more hierarchical, the lower the weight on inequity aversion). This depends on the policy: alternating is assumed to balance costs, while following precedent leads to unequal costs (one person pays cumulative cost $C$).
 $$
-U_\mathrm{IA}(\pi) = -(1 - R) \cdot \begin{cases} 0 & \mathrm{if } \pi = \mathrm{alternate} \\ (c_A - c_B)^2 & \mathrm{if } \pi = \mathrm{precedent} \end{cases}
+U_\mathrm{IA}(\pi) = -(1 - R) \cdot \begin{cases} 0 & \mathrm{if } \pi = \mathrm{alternate} \\ C & \mathrm{if } \pi = \mathrm{precedent} \end{cases}
 $$
 
 ### Habit utility
@@ -62,7 +62,7 @@ $$
 
 ---
 
-# Implementation
+## Implementation 
 
 Setup
 
@@ -96,11 +96,11 @@ Utility functions
 
 ```{python}
 @jax.jit
-def U_IA(policy: Policies, c_A: float, c_B: float, R: float) -> float:
+def U_IA(policy: Policies, C: float, R: float) -> float:
     projected_diff = jnp.where(
         policy == Policies.Alternate,
         0,  # alternating → costs balance out
-        (c_A - c_B) ** 2  # precedent → gap persists
+        C  # precedent → gap persists
     )
     return -(1 - R) * projected_diff
 
@@ -117,10 +117,10 @@ def U_comm(policy: Policies, R: float) -> float:
 
 @jax.jit
 def U_total(
-    pi: Policies, R: float, alpha, w_IA, w_habit, w_comm, c_A: float, c_B: float
+    pi: Policies, R: float, alpha, w_IA, w_habit, w_comm, C: float
 ) -> float:
     return alpha * (
-        w_IA * U_IA(pi, c_A, c_B, R) + w_habit * U_habit(pi) + w_comm * U_comm(pi, R)
+        w_IA * U_IA(pi, C, R) + w_habit * U_habit(pi) + w_comm * U_comm(pi, R)
     )
 ```
 
@@ -129,12 +129,12 @@ Actor model
 ```{python}
 @memo
 def basic_actor[pi: Policies, R: RELATIONSHIP_VALUES](
-    alpha, w_IA, w_habit, w_comm, c_A, c_B
+    alpha, w_IA, w_habit, w_comm, C
 ):
     cast: [actor]
     actor: knows(R)
     actor: chooses(
-        pi in Policies, wpp=exp(U_total(pi, R, alpha, w_IA, w_habit, w_comm, c_A, c_B))
+        pi in Policies, wpp=exp(U_total(pi, R, alpha, w_IA, w_habit, w_comm, C))
     )
     return Pr[actor.pi == pi]
 ```
@@ -144,14 +144,14 @@ Observer model
 ```{python}
 @memo
 def basic_observer[pi: Policies, R: RELATIONSHIP_VALUES](
-    alpha, w_IA, w_habit, w_comm, c_A, c_B
+    alpha, w_IA, w_habit, w_comm, C
 ):
     cast: [actor, observer]
     observer: thinks[
         actor : chooses(R in RELATIONSHIP_VALUES, wpp=1),
         actor : chooses(
             pi in Policies,
-            wpp=basic_actor[pi, R](alpha, w_IA, w_habit, w_comm, c_A, c_B),
+            wpp=basic_actor[pi, R](alpha, w_IA, w_habit, w_comm, C),
         ),
     ]
     observer: observes[actor.pi] is pi
@@ -162,14 +162,13 @@ def basic_observer[pi: Policies, R: RELATIONSHIP_VALUES](
 ### Actor model results
 
 ```{python}
-def get_actor_predictions(alpha, w_IA, w_habit, w_comm, c_A, c_B):
+def get_actor_predictions(alpha, w_IA, w_habit, w_comm, C):
     result = basic_actor(
         alpha=alpha,
         w_IA=w_IA,
         w_habit=w_habit,
         w_comm=w_comm,
-        c_A=c_A,
-        c_B=c_B,
+        C=C,
         return_pandas=True,
     )[1].pandas
     result.rename(
@@ -182,8 +181,7 @@ def get_actor_predictions(alpha, w_IA, w_habit, w_comm, c_A, c_B):
             "w_IA": w_IA,
             "w_habit": w_habit,
             "w_comm": w_comm,
-            "c_A": c_A,
-            "c_B": c_B,
+            "C": C,
         },
     )
 ```
@@ -191,7 +189,7 @@ def get_actor_predictions(alpha, w_IA, w_habit, w_comm, c_A, c_B):
 Compute predictions with basic parameters (everything equal weights and alpha = 1). 
 ```{python}
 result, params = get_actor_predictions(
-    alpha=1, w_IA=1, w_habit=1, w_comm=1, c_A=1, c_B=1
+    alpha=1, w_IA=1, w_habit=1, w_comm=1, C=1
 )
 ```
 
@@ -199,7 +197,7 @@ As the relationship is more hierarchical, what happens to the probability of eac
 
 ```{python}
 print(
-    f"Params: alpha = {params['alpha']}, w_IA = {params['w_IA']}, w_habit = {params['w_habit']}, w_comm = {params['w_comm']}, c_A = {params['c_A']}, c_B = {params['c_B']}"
+    f"Params: alpha = {params['alpha']}, w_IA = {params['w_IA']}, w_habit = {params['w_habit']}, w_comm = {params['w_comm']}, C = {params['C']}"
 )
 plt.figure()
 sns.lineplot(x="R", y="Probability", data=result, hue="Policy")
@@ -232,8 +230,7 @@ PARAM_LABELS = {
     "w_IA": r"$w_{\mathrm{IA}}$",
     "w_habit": r"$w_{\mathrm{habit}}$",
     "w_comm": r"$w_{\mathrm{comm}}$",
-    "c_A": r"$c_A$",
-    "c_B": r"$c_B$",
+    "C": r"$C$",
     "alpha": r"$\alpha$",
 }
 
@@ -259,28 +256,28 @@ def plot_parameter_sweep(param_name, param_values, base_params):
     plt.show()
 
 
-base_params = {"alpha": 1, "w_IA": 1, "w_habit": 1, "w_comm": 1, "c_A": 1, "c_B": 1}
+base_params = {"alpha": 1, "w_IA": 1, "w_habit": 1, "w_comm": 1, "C": 1}
 param_values = [0.5, 1, 2, 4]
 print(f"The base parameters are: {base_params}")
 ```
 
-#### Varying $w_{\mathrm{IA}}$ and $c_A$ together
+#### Varying $w_{\mathrm{IA}}$ and $C$ together
 
-Keeping $c_B$ fixed to 1, varying $c_A$ determines how unequal the two actions are. Higher $w_{\mathrm{IA}}$ values make the actor more sensitive to inequity, but knowing about a hierarchical relationship mitigates the cost of inequity (i.e. more unequal actions are more accepted in hierarchical relationships). 
+Varying $C$ determines the cost of the task. Higher $w_{\mathrm{IA}}$ values make the actor more sensitive to inequity, but knowing about a hierarchical relationship mitigates the cost of inequity (i.e. more unequal actions are more accepted in hierarchical relationships).
 
 ```{python}
-def plot_faceted_by_c_A(w_IA_values, c_A_values, base_params):
-    """Plot w_IA as hue, faceted by c_A."""
+def plot_faceted_by_C(w_IA_values, C_values, base_params):
+    """Plot w_IA as hue, faceted by C."""
     results = []
     for w_IA in w_IA_values:
-        for c_A in c_A_values:
+        for C in C_values:
             params = base_params.copy()
             params["w_IA"] = w_IA
-            params["c_A"] = c_A
+            params["C"] = C
             result, _ = get_actor_predictions(**params)
             result = result[result["Policy"] == "Alternate"]
             result["w_IA"] = w_IA
-            result["c_A"] = c_A
+            result["C"] = C
             results.append(result)
     df = pd.concat(results, ignore_index=True)
 
@@ -289,7 +286,7 @@ def plot_faceted_by_c_A(w_IA_values, c_A_values, base_params):
         x="R",
         y="Probability",
         hue="w_IA",
-        col="c_A",
+        col="C",
         kind="line",
         palette="viridis",
         col_wrap=2,
@@ -300,20 +297,20 @@ def plot_faceted_by_c_A(w_IA_values, c_A_values, base_params):
     for ax in g.axes.flat:
         ax.axhline(0.5, color="gray", linestyle="--", alpha=0.3)
         ax.set_ylim(0, 1)
-    g.set_titles(col_template=r"$c_A$ = {col_name}")
+    g.set_titles(col_template=r"$C$ = {col_name}")
     g.set_axis_labels(r"Relationship hierarchy ($R$)", r"$P(\mathrm{alternate})$")
     g._legend.set_title(r"$w_{\mathrm{IA}}$")
     plt.show()
 
 
-plot_faceted_by_c_A(param_values, param_values, base_params)
+plot_faceted_by_C(param_values, param_values, base_params)
 ```
 
 We see two trends: 
 
 1. Probability of alternation decreases as relationship becomes more hierarchical (higher $R$).
 
-2. Probability of alternation increases as the actions become more unequal and if the joint planner is more averse to inequity.
+2. Probability of alternation increases as the cost increases and if the joint planner is more averse to inequity.
 
 #### Varying w_habit (habit weight)
 
@@ -338,14 +335,13 @@ If the actor relies more on communicating an equal relationship, then they are g
 The observer sees a policy choice and infers the relationship hierarchy $R$ using Bayes' rule.
 
 ```{python}
-def get_observer_predictions(alpha, w_IA, w_habit, w_comm, c_A, c_B):
+def get_observer_predictions(alpha, w_IA, w_habit, w_comm, C):
     result = basic_observer(
         alpha=alpha,
         w_IA=w_IA,
         w_habit=w_habit,
         w_comm=w_comm,
-        c_A=c_A,
-        c_B=c_B,
+        C=C,
         return_pandas=True,
     )[1].pandas
     result.rename(
@@ -358,8 +354,7 @@ def get_observer_predictions(alpha, w_IA, w_habit, w_comm, c_A, c_B):
             "w_IA": w_IA,
             "w_habit": w_habit,
             "w_comm": w_comm,
-            "c_A": c_A,
-            "c_B": c_B,
+            "C": C,
         },
     )
 ```
@@ -370,10 +365,10 @@ We will increase alpha to 3 here for visualization purposes
 
 ```{python}
 obs_result, obs_params = get_observer_predictions(
-    alpha=3, w_IA=1, w_habit=1, w_comm=1, c_A=1, c_B=1
+    alpha=3, w_IA=1, w_habit=1, w_comm=1, C=1
 )
 print(
-    f"Params: alpha = {obs_params['alpha']}, w_IA = {obs_params['w_IA']}, w_habit = {obs_params['w_habit']}, w_comm = {obs_params['w_comm']}, c_A = {obs_params['c_A']}, c_B = {obs_params['c_B']}"
+    f"Params: alpha = {obs_params['alpha']}, w_IA = {obs_params['w_IA']}, w_habit = {obs_params['w_habit']}, w_comm = {obs_params['w_comm']}, C = {obs_params['C']}"
 )
 ```
 
@@ -489,21 +484,21 @@ def plot_observer_ridges(param_name, param_values, base_params):
     plt.show()
 
 
-def plot_observer_grid(w_IA_values, c_A_values, base_params):
-    """Plot observer posteriors as grid varying w_IA (cols) and c_A (rows)."""
+def plot_observer_grid(w_IA_values, C_values, base_params):
+    """Plot observer posteriors as grid varying w_IA (cols) and C (rows)."""
     results = []
     for w_IA in w_IA_values:
-        for c_A in c_A_values:
+        for C in C_values:
             params = base_params.copy()
             params["w_IA"] = w_IA
-            params["c_A"] = c_A
+            params["C"] = C
             result, _ = get_observer_predictions(**params)
             result["w_IA"] = w_IA
-            result["c_A"] = c_A
+            result["C"] = C
             results.append(result)
     df = pd.concat(results, ignore_index=True)
     df["Density"] = to_density(df["Probability"])
-    df = df.sort_values(["c_A", "w_IA", "Policy", "R"]).reset_index(drop=True)
+    df = df.sort_values(["C", "w_IA", "Policy", "R"]).reset_index(drop=True)
 
     palette = sns.color_palette()
     colors = {policy: palette[i] for i, policy in enumerate(["Alternate", "Precedent"])}
@@ -513,7 +508,7 @@ def plot_observer_grid(w_IA_values, c_A_values, base_params):
         x="R",
         y="Density",
         hue="Policy",
-        row="c_A",
+        row="C",
         col="w_IA",
         kind="line",
         height=2.5,
@@ -524,27 +519,27 @@ def plot_observer_grid(w_IA_values, c_A_values, base_params):
 
     # Add fill under curves
     for ax in g.axes.flat:
-        c_A_val = ax.get_title().split("c_A = ")[1].split(" |")[0] if "c_A" in ax.get_title() else None
+        C_val = ax.get_title().split("C = ")[1].split(" |")[0] if "C = " in ax.get_title() else None
         w_IA_val = ax.get_title().split("w_IA = ")[1] if "w_IA" in ax.get_title() else None
-        if c_A_val and w_IA_val:
-            subset = df[(df["c_A"] == float(c_A_val)) & (df["w_IA"] == float(w_IA_val))]
+        if C_val and w_IA_val:
+            subset = df[(df["C"] == float(C_val)) & (df["w_IA"] == float(w_IA_val))]
             for policy in ["Alternate", "Precedent"]:
                 policy_data = subset[subset["Policy"] == policy].sort_values("R")
                 ax.fill_between(policy_data["R"], policy_data["Density"], alpha=0.3, color=colors[policy])
 
-    g.set_titles(row_template=r"$c_A$ = {row_name}", col_template=r"$w_{{\mathrm{{IA}}}}$ = {col_name}")
+    g.set_titles(row_template=r"$C$ = {row_name}", col_template=r"$w_{{\mathrm{{IA}}}}$ = {col_name}")
     g.set_axis_labels(r"Inferred $R$", "Density")
     g._legend.set_title("Observed")
     plt.show()
 ```
 
-#### Varying $w_{\mathrm{IA}}$ and $c_A$ jointly
+#### Varying $w_{\mathrm{IA}}$ and $C$ jointly
 
 ```{python}
 plot_observer_grid(param_values, param_values, base_params)
 ```
 
-The more unequal the costs (and the more inequity averse the actor is assumed to be), the more informative following a precedent is for the presence of a hierarchical relationship. And the less informative alternation is, for the presence of an equal relationship
+The higher the cost (and the more inequity averse the actor is assumed to be), the more informative following a precedent is for the presence of a hierarchical relationship. And the less informative alternation is, for the presence of an equal relationship
 
 The idea here is that, when actors are more inequity averse, then inequity aversion can 'explain away' why people might be alternating in the first place — people might just be trying to balance costs, rather than because of anything related to the actual relationship hierarchy.
 
@@ -563,3 +558,417 @@ plot_observer_ridges("w_comm", param_values, base_params)
 ```
 
 If the actor is assumed to rely more on communicating equality (which directly increases the value of alternating), then observed actions separate the relationship probabilities more. 
+
+---
+
+# Resource bundles
+
+In our proposed experiment, participants read about two people (A and B) dividing up two tasks. People have to evaluate how hierarchical a relationship is, based on one of three conditions: 
+
+1. A and B alternate Task 1, A and B alternate Task 2
+2. A always does Task 1, B always does Task 2
+3. A always does Task 1 and Task 2
+
+The utility of communicating equality is based on alternating the **same** task.
+
+## Model extension
+
+We extend the basic model to handle two tasks with potentially different costs $C_1$ and $C_2$. The actor chooses a joint policy $\pi \in \{\text{BothAlternate}, \text{DivisionOfLabor}, \text{OneDoesAll}\}$:
+
+- **BothAlternate**: A and B alternate both Task 1 and Task 2
+- **DivisionOfLabor**: A always does Task 1, B always does Task 2
+- **OneDoesAll**: A always does both Task 1 and Task 2
+
+### Utility components for two tasks
+
+**IA utility**: Based on the total cost difference between A and B:
+$$
+U_\text{IA}(\pi) = -(1 - R) \cdot \begin{cases}
+0 & \text{if } \pi = \text{BothAlternate} \\
+|C_1 - C_2| & \text{if } \pi = \text{DivisionOfLabor} \\
+C_1 + C_2 & \text{if } \pi = \text{OneDoesAll}
+\end{cases}
+$$
+
+**Habit utility**: Number of tasks that follow a precedent:
+$$
+U_\text{habit}(\pi) = \begin{cases}
+0 & \text{if } \pi = \text{BothAlternate} \\
+2 & \text{if } \pi = \text{DivisionOfLabor} \\
+2 & \text{if } \pi = \text{OneDoesAll}
+\end{cases}
+$$
+
+**Communication utility**: Only alternating the same task communicates equality:
+$$
+U_\text{comm}(\pi) = (1 - R) \cdot \begin{cases}
+2 & \text{if } \pi = \text{BothAlternate} \\
+0 & \text{if } \pi = \text{DivisionOfLabor} \\
+0 & \text{if } \pi = \text{OneDoesAll}
+\end{cases}
+$$
+
+---
+
+## Implementation
+
+```{python}
+class BundlePolicies(IntEnum):
+    BothAlternate = 0
+    DivisionOfLabor = 1
+    OneDoesAll = 2
+```
+
+```{python}
+@jax.jit
+def U_IA_bundle(policy: BundlePolicies, C1: float, C2: float, R: float) -> float:
+    """IA utility based on total cost difference."""
+    cost_diff = jnp.where(
+        policy == BundlePolicies.BothAlternate,
+        0.0,
+        jnp.where(
+            policy == BundlePolicies.DivisionOfLabor,
+            jnp.abs(C1 - C2),
+            C1 + C2  # OneDoesAll
+        )
+    )
+    return -(1 - R) * cost_diff
+
+
+@jax.jit
+def U_habit_bundle(policy: BundlePolicies) -> float:
+    """Habit utility: number of tasks with precedent."""
+    return jnp.where(policy == BundlePolicies.BothAlternate, 0.0, 2.0)
+
+
+@jax.jit
+def U_comm_bundle(policy: BundlePolicies, R: float) -> float:
+    """Communication utility: only alternating communicates equality."""
+    n_alternating = jnp.where(policy == BundlePolicies.BothAlternate, 2.0, 0.0)
+    return (1 - R) * n_alternating
+
+
+@jax.jit
+def U_total_bundle(
+    pi: BundlePolicies, R: float, alpha: float,
+    w_IA: float, w_habit: float, w_comm: float,
+    C1: float, C2: float
+) -> float:
+    return alpha * (
+        w_IA * U_IA_bundle(pi, C1, C2, R)
+        + w_habit * U_habit_bundle(pi)
+        + w_comm * U_comm_bundle(pi, R)
+    )
+```
+
+### Actor model
+
+```{python}
+@memo
+def bundle_actor[pi: BundlePolicies, R: RELATIONSHIP_VALUES](
+    alpha, w_IA, w_habit, w_comm, C1, C2
+):
+    cast: [actor]
+    actor: knows(R)
+    actor: chooses(
+        pi in BundlePolicies,
+        wpp=exp(U_total_bundle(pi, R, alpha, w_IA, w_habit, w_comm, C1, C2))
+    )
+    return Pr[actor.pi == pi]
+```
+
+### Observer model
+
+```{python}
+@memo
+def bundle_observer[pi: BundlePolicies, R: RELATIONSHIP_VALUES](
+    alpha, w_IA, w_habit, w_comm, C1, C2
+):
+    cast: [actor, observer]
+    observer: thinks[
+        actor: chooses(R in RELATIONSHIP_VALUES, wpp=1),
+        actor: chooses(
+            pi in BundlePolicies,
+            wpp=bundle_actor[pi, R](alpha, w_IA, w_habit, w_comm, C1, C2),
+        ),
+    ]
+    observer: observes[actor.pi] is pi
+    observer: chooses(R in RELATIONSHIP_VALUES, wpp=E[actor.R == R])
+    return Pr[observer.R == R]
+```
+
+---
+
+## Results
+
+```{python}
+# Use a distinct color palette for the bundle model (Dark2)
+BUNDLE_PALETTE = sns.color_palette("Dark2", 3)
+BUNDLE_POLICY_NAMES = ["BothAlternate", "DivisionOfLabor", "OneDoesAll"]
+BUNDLE_COLORS = {policy: BUNDLE_PALETTE[i] for i, policy in enumerate(BUNDLE_POLICY_NAMES)}
+```
+
+```{python}
+def get_bundle_actor_predictions(alpha, w_IA, w_habit, w_comm, C1, C2):
+    result = bundle_actor(
+        alpha=alpha,
+        w_IA=w_IA,
+        w_habit=w_habit,
+        w_comm=w_comm,
+        C1=C1,
+        C2=C2,
+        return_pandas=True,
+    )[1].pandas
+    result.rename(
+        columns={"pi": "Policy", result.columns[-1]: "Probability"}, inplace=True
+    )
+    return (
+        result,
+        {"alpha": alpha, "w_IA": w_IA, "w_habit": w_habit, "w_comm": w_comm, "C1": C1, "C2": C2},
+    )
+
+
+def get_bundle_observer_predictions(alpha, w_IA, w_habit, w_comm, C1, C2):
+    result = bundle_observer(
+        alpha=alpha,
+        w_IA=w_IA,
+        w_habit=w_habit,
+        w_comm=w_comm,
+        C1=C1,
+        C2=C2,
+        return_pandas=True,
+    )[1].pandas
+    result.rename(
+        columns={"pi": "Policy", result.columns[-1]: "Probability"}, inplace=True
+    )
+    return (
+        result,
+        {"alpha": alpha, "w_IA": w_IA, "w_habit": w_habit, "w_comm": w_comm, "C1": C1, "C2": C2},
+    )
+```
+
+### Actor: Policy probabilities
+
+Start with the base case where costs are equal ($C_1 = C_2 = 1$):
+
+The key comparison is between BothAlternate and DivisionOfLabor. If the costs of the two actions are the same, then the overall cost difference in the two conditions is both zero. So the only tradeoff between those policies is between habit (favoring precedent-based policies) and communication (favoring alternation).
+
+```{python}
+bundle_base_params = {"alpha": 1, "w_IA": 1, "w_habit": 1, "w_comm": 1, "C1": 1, "C2": 1}
+bundle_result, bundle_params = get_bundle_actor_predictions(**bundle_base_params)
+
+print(f"Params: {bundle_params}")
+plt.figure(figsize=(7, 4))
+sns.lineplot(
+    x="R", y="Probability", data=bundle_result, hue="Policy",
+    hue_order=BUNDLE_POLICY_NAMES, palette=BUNDLE_PALETTE
+)
+plt.axhline(1/3, color='gray', linestyle='--', alpha=0.3)
+plt.xlabel(r"Relationship hierarchy ($R$)")
+plt.ylabel("Policy probability")
+plt.ylim(0, 1)
+plt.legend(title="Policy")
+plt.show()
+```
+
+When the relationship is equal ($R = 0$), the probability of OneDoesAll is low because of inequity aversion. There isn't a difference between BothAlternate and DivisionOfLabor in terms of costs, and BothAlternate has the benefit of communicating equality while OneDoesAll has the benefit of no switching costs (higher U_habit) so the probability of those two policies is the same. 
+
+As the relationship becomes more unequal, the probability of OneDoesAll increases because participants are more willing to accept inequity in hierarchical relationships. 
+
+BothAlternate and DivisionOfLabor now start to diverge. The probability of BothAlternate decreases (and the probability of DivisionOfLabor increases) because a more hierarchical relationship decreases the value of communicating equality. 
+
+### Actor: Effect of unequal task costs
+
+When $C_1 \neq C_2$, DivisionOfLabor creates inequity: 
+
+```{python}
+def plot_bundle_actor_cost_sweep(C2_values, base_params):
+    """Sweep C2 while keeping C1 fixed."""
+    results = []
+    for C2 in C2_values:
+        params = base_params.copy()
+        params["C2"] = C2
+        result, _ = get_bundle_actor_predictions(**params)
+        result["C2"] = C2
+        results.append(result)
+    df = pd.concat(results, ignore_index=True)
+
+    g = sns.relplot(
+        data=df,
+        x="R",
+        y="Probability",
+        hue="Policy",
+        col="C2",
+        kind="line",
+        col_wrap=2,
+        height=3,
+        aspect=1.2,
+        hue_order=BUNDLE_POLICY_NAMES,
+        palette=BUNDLE_PALETTE,
+        facet_kws={"sharex": True, "sharey": True},
+    )
+    for ax in g.axes.flat:
+        ax.axhline(1/3, color="gray", linestyle="--", alpha=0.3)
+        ax.set_ylim(0, 1)
+    g.set_titles(col_template=r"$C_2$ = {col_name} (with $C_1$ = 1)")
+    g.set_axis_labels(r"Relationship hierarchy ($R$)", "Policy probability")
+    plt.show()
+
+plot_bundle_actor_cost_sweep([0.5, 1, 2, 4], bundle_base_params)
+```
+
+As $C_2$ increases relative to $C_1$:
+
+- **DivisionOfLabor** becomes less attractive due to increasing inequity $|C_1 - C_2|$
+- **OneDoesAll** becomes even less attractive (A has a higher cost $C_1 + C_2$)
+- **BothAlternate** becomes relatively more attractive (zero inequity)
+
+---
+
+### Observer: Inferences from observed policy
+
+Use the basic params for now (equal costs):
+
+```{python}
+bundle_obs_result, bundle_obs_params = get_bundle_observer_predictions(
+    alpha=3, w_IA=1, w_habit=1, w_comm=1, C1=1, C2=1
+)
+print(f"Params: {bundle_obs_params}")
+```
+
+```{python}
+bundle_obs_data = prep_observer_data(bundle_obs_result)
+
+fig, axes = plt.subplots(1, 2, figsize=(10, 5), gridspec_kw={"width_ratios": [3, 2]})
+
+# Posterior distributions
+ax = axes[0]
+for policy in BUNDLE_POLICY_NAMES:
+    subset = bundle_obs_data[bundle_obs_data["Policy"] == policy]
+    ax.plot(subset["R"], subset["Density"], label=policy, color=BUNDLE_COLORS[policy])
+    ax.fill_between(subset["R"], subset["Density"], alpha=0.3, color=BUNDLE_COLORS[policy])
+ax.axhline(1.0, color="gray", linestyle="--", alpha=0.3)
+ax.legend(title="Observed")
+ax.set_xlabel(r"Inferred $R$")
+ax.set_ylabel("Density")
+
+# Posterior means
+ax = axes[1]
+sns.pointplot(
+    data=bundle_obs_data,
+    x="Policy",
+    y="R",
+    hue="Policy",
+    hue_order=BUNDLE_POLICY_NAMES,
+    palette=BUNDLE_PALETTE,
+    estimator="mean",
+    weights="Probability",
+    ax=ax,
+    legend=False,
+)
+ax.set_xlabel(r"Observed policy ($\pi$)")
+ax.set_ylabel(r"Inferred $R$")
+ax.set_ylim(0, 1)
+ax.set_title("Posterior means")
+ax.tick_params(axis='x', rotation=30)
+
+plt.tight_layout()
+plt.show()
+```
+
+Key predictions:
+
+1. **BothAlternate** → observer infers more equal relationship (low $R$)
+2. **OneDoesAll** → observer infers more hierarchical relationship (high $R$)
+3. **DivisionOfLabor** → intermediate inference (when $C_1 = C_2$, it has no inequity but also no communication of equality)
+
+### Observer: Effect of unequal task costs
+
+```{python}
+def plot_bundle_observer_cost_sweep(C2_values, base_params):
+    """Plot observer posteriors for different C2 values."""
+    results = []
+    for C2 in C2_values:
+        params = base_params.copy()
+        params["C2"] = C2
+        result, _ = get_bundle_observer_predictions(**params)
+        result["C2"] = C2
+        results.append(result)
+    df = pd.concat(results, ignore_index=True)
+    df["Density"] = to_density(df["Probability"])
+
+    g = sns.relplot(
+        data=df,
+        x="R",
+        y="Density",
+        hue="Policy",
+        col="C2",
+        kind="line",
+        col_wrap=2,
+        height=3,
+        aspect=1.2,
+        hue_order=BUNDLE_POLICY_NAMES,
+        palette=BUNDLE_PALETTE,
+        facet_kws={"sharex": True, "sharey": False},
+    )
+
+    for ax in g.axes.flat:
+        title = ax.get_title()
+        if "C2 = " in title:
+            C2_val = float(title.split("C2 = ")[1])
+            subset = df[df["C2"] == C2_val]
+            for policy in BUNDLE_POLICY_NAMES:
+                policy_data = subset[subset["Policy"] == policy].sort_values("R")
+                ax.fill_between(
+                    policy_data["R"], policy_data["Density"],
+                    alpha=0.3, color=BUNDLE_COLORS[policy]
+                )
+
+    g.set_titles(col_template=r"$C_2$ = {col_name} (with $C_1$ = 1)")
+    g.set_axis_labels(r"Inferred $R$", "Density")
+    g._legend.set_title("Observed")
+    plt.show()
+
+bundle_obs_base = {"alpha": 3, "w_IA": 1, "w_habit": 1, "w_comm": 1, "C1": 1}
+plot_bundle_observer_cost_sweep([0.5, 1, 2, 4], bundle_obs_base)
+```
+
+When task costs are unequal:
+
+- **DivisionOfLabor** leads to inequity, making it more diagnostic of hierarchy
+- The asymmetry between $C_1$ and $C_2$ affects how informative each policy is about relationship hierarchy
+
+### Posterior means across cost ratios
+
+```{python}
+def get_posterior_means(C2_values, base_params):
+    """Compute posterior mean R for each policy and C2 value."""
+    rows = []
+    for C2 in C2_values:
+        params = base_params.copy()
+        params["C2"] = C2
+        result, _ = get_bundle_observer_predictions(**params)
+        for policy in ["BothAlternate", "DivisionOfLabor", "OneDoesAll"]:
+            subset = result[result["Policy"] == policy]
+            mean_R = (subset["R"] * subset["Probability"]).sum()
+            rows.append({"C2": C2, "Policy": policy, "Mean_R": mean_R})
+    return pd.DataFrame(rows)
+
+C2_range = np.arange(0.5, 4.1, 0.5)
+means_df = get_posterior_means(C2_range, bundle_obs_base)
+
+plt.figure(figsize=(7, 4))
+sns.lineplot(
+    data=means_df, x="C2", y="Mean_R", hue="Policy", marker="o",
+    hue_order=BUNDLE_POLICY_NAMES, palette=BUNDLE_PALETTE
+)
+plt.axhline(0.5, color="gray", linestyle="--", alpha=0.3)
+plt.xlabel(r"$C_2$ (with $C_1$ = 1)")
+plt.ylabel(r"Posterior mean $R$")
+plt.ylim(0, 1)
+plt.title("Observer inferences across task cost ratios")
+plt.show()
+```
+
+This shows how observer inferences vary with task cost asymmetry. The main experimental prediction is the ordering: BothAlternate < DivisionOfLabor < OneDoesAll in terms of inferred hierarchy.
+
