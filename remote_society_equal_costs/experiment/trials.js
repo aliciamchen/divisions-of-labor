@@ -31,9 +31,9 @@ export function makeTimeline(
       `
       <div class="instructions-container">
         <h2>Instructions</h2>
-        <p>First, based only on the scenario description, we will ask you to estimate how hierarchical the relationship might be. Then, we will show you how the two people actually divide the activities or exchanges, and ask you again.</p>
+        <p>First, based only on the scenario description, we will ask you to rate how hierarchical you think the relationship is. Then, we will show you how the two people actually divide the activities or exchanges, and ask you again.</p>
         <p>We are interested in how people use just brief observation to make judgments about the type of relationship from observed social interactions.</p>
-        <p>You will receive $3 if you successfully complete this study.</p>
+        <p>You will receive $3 if you successfully complete this study. Please make sure to read the scenarios carefully! 🙂</p>
         <p>Press next to begin the survey.</p>
       </div>
       `,
@@ -55,6 +55,7 @@ export function makeTimeline(
           "100<br>Extremely hierarchical",
         ],
         slider_width: 670,
+        slider_start: 0,
         slider_min: 0,
         slider_max: 100,
         step: 1,
@@ -86,6 +87,7 @@ export function makeTimeline(
         </div>
       `,
       slider_width: 670,
+      slider_start: 0,
       slider_min: 0,
       slider_max: 100,
       step: 1,
@@ -117,6 +119,7 @@ export function makeTimeline(
         </div>
       `,
       slider_width: 670,
+      slider_start: 0,
       slider_min: 0,
       slider_max: 100,
       step: 1,
@@ -228,7 +231,7 @@ export function makeTimeline(
   const saveData = {
     type: jsPsychPipe,
     action: "save",
-    experiment_id: "CC2eJ7iDg1TG",
+    experiment_id: "aD8vBoDwqeyg",
     filename: `${subjectId}.json`,
     data_string: () => jsPsych.data.get().json(),
   };
