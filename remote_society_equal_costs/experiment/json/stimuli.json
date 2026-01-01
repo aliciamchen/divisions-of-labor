@@ -1,0 +1,56 @@
+[
+  {
+    "scenario_label": "chores",
+    "name1": "Paji",
+    "name2": "Tudo",
+    "vignette": "Consider Paji and Tudo, who live in the same house. Two tasks need to be done each week: taking out the jats and feeding the feps. They agree that the two tasks are equal in effort and value. ",
+    "both_alternate": "They take turns taking out the jats, and take turns feeding the feps. ",
+    "bundled": "Paji always takes out the jats, and Tudo always feeds the feps. ",
+    "one_does_all": "Paji always takes out the jats and feeds the feps."
+  },
+  {
+    "scenario_label": "work",
+    "name1": "Tavi",
+    "name2": "Boku",
+    "vignette": "Consider Tavi and Boku, who work together. Two tasks need to be done each day: organizing the shelbs and restocking the frints. They agree that the two tasks are equal in effort and value. ",
+    "both_alternate": "They take turns organizing the shelbs, and take turns restocking the frints. ",
+    "bundled": "Tavi always organizes the shelbs, and Boku always restocks the frints. ",
+    "one_does_all": "Tavi always organizes the shelbs and restocks the frints."
+  },
+  {
+    "scenario_label": "costs",
+    "name1": "Piro",
+    "name2": "Wena",
+    "vignette": "Consider Piro and Wena, who spend time together regularly. When they go out, they need to decide who pays for the kulms and who cover the cost of shared preves. They agree these expenses are equal in effort and value. ",
+    "both_alternate": "They take turns paying for the kulms, and take turns covering the cost of shared preves. ",
+    "bundled": "Piro always pays for the kulms, and Wena always covers the cost of shared preves. ",
+    "one_does_all": "Piro always pays for the kulms and covers the cost of shared preves."
+  },
+  {
+    "scenario_label": "gifts",
+    "name1": "Soji",
+    "name2": "Kemi",
+    "vignette": "Consider Soji and Kemi, who have known each other a long time. Two things happen regularly between them: giving gifts of vorts and giving gifts of melps. They agree these gifts are equal in effort and value. ",
+    "both_alternate": "They take turns giving gifts of vorts, and take turns giving gifts of melps. ",
+    "bundled": "Soji always gives gifts of vorts, and Kemi always gives gifts of melps. ",
+    "one_does_all": "Soji always gives gifts of vorts and gives gifts of melps."
+  },
+  {
+    "scenario_label": "favors",
+    "name1": "Nira",
+    "name2": "Boku",
+    "vignette": "Consider Nira and Boku, who live in the same area. Two things happen regularly between them: giving rides to the vorps and picking up the frints. They agree these favors are equal in effort and value. ",
+    "both_alternate": "They take turns giving rides to the vorps, and take turns picking up the frints. ",
+    "bundled": "Nira always gives rides to the vorps, and Boku always picks up the frints. ",
+    "one_does_all": "Nira always gives rides to the vorps and picks up the frints."
+  },
+  {
+    "scenario_label": "preferences",
+    "name1": "Bela",
+    "name2": "Koro",
+    "vignette": "Consider Bela and Koro, who eat food together regularly. Two decisions need to be made when they go out: choosing where to go for vorps and choosing where to go for frips. They have different preferences for each. They agree that these two decisions are equal in effort and value. ",
+    "both_alternate": "They take turns choosing where to go for vorps, and take turns choosing where to go for frips. ",
+    "bundled": "Bela always chooses where to go for vorps, and Koro always chooses where to go for frips. ",
+    "one_does_all": "Bela always chooses where to go for vorps and where to go for frips."
+  }
+]
