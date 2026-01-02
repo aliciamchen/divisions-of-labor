@@ -41,3 +41,5 @@ python python/generate_counterbalancing.py
 ## todos
 
 - [ ] maybe add label for 50?
+- [ ] are priors diff if the anchor point is different? maybe set it to 50? 
+- [ ] change timing, seems like experiment takes 7 minutes not 5

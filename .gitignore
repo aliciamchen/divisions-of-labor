@@ -5,6 +5,6 @@ _output/
 **/*.quarto_ipynb
 *raw/
 .Rproj.user
-.Rproj
+*.Rproj
 
 CLAUDE.md

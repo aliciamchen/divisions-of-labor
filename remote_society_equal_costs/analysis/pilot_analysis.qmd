@@ -1,0 +1,190 @@
+---
+title: Pilot data analysis 
+author: Alicia Chen
+date: 2026-01-01
+format:
+  html:
+    toc: true
+    code-fold: true 
+---
+
+In each scenario, two characters are deciding how to divide two activities or tasks. After reading the scenario, they evaluate how hierarchical they think the relationship is, on a scale from 0 (completely equal) to 100 (extremely hierarchical). Then, they observe how the characters decided to divide the tasks, and re-evaluate the relationship hierarchy.
+
+There are three conditions manipulating how the tasks are divided:
+- `both_alternate`: They both take turns doing each task. 
+- `bundled`: One person always does one task, the other always does the other task
+- `one_does_all`: One person does both the tasks all the time
+
+There are 30 participants in the pilot sample, each seeing 6 scenarios (2 per condition), with the assignment of scenarios to conditions balanced across participants.
+
+```{r}
+#| label: setup
+#| message: false
+
+library(here)
+library(tidyverse)
+library(ggplot2)
+library(tidyboot)
+
+theme_set(theme_classic(base_size = 18))
+```
+
+Load data
+
+```{r}
+#| label: load-data
+
+df <- read_csv(here("remote_society_equal_costs/analysis/2026-01-01_pilot_data.csv"), show_col_types = FALSE) |> 
+  mutate(condition = factor(condition, levels = c("both_alternate", "bundled", "one_does_all")), 
+         stage = factor(stage, levels = c("prior", "posterior")), 
+         response = response / 100)
+
+df_wide <- df |>
+  pivot_wider(
+    names_from = stage,
+    values_from = response
+  ) |>
+  mutate(belief_update = posterior - prior)
+
+df_wide
+```
+
+First, calculate and plot summarized belief updates
+
+```{r}
+#| label: belief-update-summary
+
+belief_update_summary <- df_wide |>
+  group_by(condition) |>
+  tidyboot_mean(
+    belief_update, na.rm = T
+  )
+
+belief_update_summary
+```
+
+## Belief update by condition
+
+```{r}
+#| label: fig-change-by-condition
+#| fig-cap: "Relationship belief updates by condition (positive values are more hierarchical, negative values are more equal)"
+
+ggplot(belief_update_summary, aes(x = condition, y = empirical_stat)) +
+  geom_col(fill = "steelblue", width = 0.6) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                width = 0.2) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "gray50") +
+  labs(
+    x = "Observed policy",
+    y = "Relationship belief update (posterior - prior)",
+  ) +
+  coord_flip()
+```
+
+Plot with the individual observations
+
+```{r}
+#| label: fig-dotplot-change
+ggplot(df_wide, aes(x = condition, y = belief_update)) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "gray50") +
+  geom_jitter(width = 0.1, height = 0, alpha = 0.1, stroke = 0, size = 4) +
+  geom_point(data = belief_update_summary,
+             aes(x = condition, y = empirical_stat),
+             size = 4) +
+  geom_errorbar(data = belief_update_summary,
+                aes(x = condition, y = empirical_stat, ymin = ci_lower, ymax = ci_upper),
+                width = 0.2, size = 1.2) +
+  labs(
+    x = "Observed policy",
+    y = "Relationship belief update (posterior - prior)",
+  ) +
+  coord_flip()
+```
+
+When participants observe one person doing both tasks, it makes them think that the relationship is much more hierarchical. Observing both alternate makes them think that the relationship is less hierarchical. Bundled leads to little to no change in hierarchy ratings (maybe because tasks are expected to be bundled in the first place...)
+
+## Prior vs Posterior by Condition
+
+```{r}
+#| label: fig-prior-posterior
+#| fig-cap: "Prior and posterior hierarchy ratings by condition"
+
+df_long <- df |>
+  mutate(
+    stage = factor(stage, levels = c("prior", "posterior")),
+  )
+
+stage_summary <- df_long |>
+  group_by(stage, condition) |>
+  tidyboot_mean(
+    response, na.rm = T
+  )
+
+ggplot(stage_summary, aes(x = stage, y = empirical_stat,
+                          group = condition, color = condition)) +
+  geom_line(linewidth = 1) +
+  geom_point(size = 3) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                width = 0.1) +
+  labs(
+    x = "Stage",
+    y = "Relationship hierarchy",
+    color = "Condition"
+  )
+```
+
+## Trial-level responses
+
+```{r}
+#| label: fig-individual
+#| fig-cap: "Trial-level responses by condition"
+
+ggplot(df_long, aes(x = stage, y = response, group = interaction(subject_id, stimulus_index))) +
+  geom_line(alpha = 0.1) +
+  geom_point(alpha = 0.2) +
+  facet_wrap(~condition) +
+  scale_y_continuous(limits = c(0, 1)) +
+  labs(
+    x = "Stage",
+    y = "Relationship hierarchy",
+    title = "Individual responses by condition"
+  )
+```
+
+## By scenario
+
+```{r}
+#| label: fig-by-scenario
+#| fig-cap: "Change in hierarchy ratings by scenario and condition"
+
+scenario_summary <- df_wide |>
+  group_by(scenario_label, condition) |>
+  tidyboot_mean(
+    belief_update, na.rm = T
+  ) 
+
+ggplot(scenario_summary, aes(x = scenario_label, y = empirical_stat, fill = condition)) +
+  geom_col(position = position_dodge(width = 0.8), width = 0.7) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.8), width = 0.2) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "gray50") +
+  labs(
+    x = "Scenario",
+    y = "Relationship belief update",
+    fill = "Condition",
+  ) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+Not quite sure what's going on in "preferences" or "work"
+
+## Summary
+
+```{r}
+#| label: summary
+
+cat("N subjects:", n_distinct(df$subject_id), "\n")
+cat("N observations:", nrow(df_wide), "\n")
+cat("\nCondition counts:\n")
+print(table(df_wide$condition))
+```
