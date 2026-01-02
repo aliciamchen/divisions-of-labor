@@ -1,0 +1,31 @@
+subject_id,gender,age,understood,comments,attention_passed,memory_correct_count
+P009,female,68,yes,,True,2
+P026,female,45,yes,no,True,1
+P012,female,32,yes,None,True,0
+P004,female,60,yes,,True,2
+P008,male,61,yes,I thought you were asking what names were anywhere in the survey NOT the previous question.,True,0
+P027,male,29,yes,,True,2
+P017,female,26,yes,no,True,2
+P025,female,49,yes,Thanks for the opportunity to participate! Happy New Year!,True,2
+P021,male,25,yes,,True,2
+P024,male,41,yes,,True,2
+P015,female,50,yes,This was a fun study. Thanks!,True,2
+P029,female,29,yes,,True,2
+P005,nonconforming,39,yes,,True,2
+P014,female,46,yes,I really hope I helped!,True,2
+P028,male,37,yes,,True,2
+P006,male,41,yes,,True,2
+P013,male,32,yes,no issues,True,2
+P030,female,34,yes,,True,2
+P011,male,48,yes,interesting,True,2
+P020,male,26,yes,,True,2
+P016,male,62,yes,I incorrectly answered 50 on the 1st question. I corrected my assessment after that point.,True,2
+P002,female,51,yes,,True,2
+P007,male,29,yes,,True,2
+P022,female,39,yes,,True,2
+P019,female,42,yes,,True,2
+P003,male,30,yes,none,True,2
+P010,male,50,yes,,True,2
+P018,female,48,yes,"I thought this study was pretty interesting, and I am curious how I did on the memory test. By the time I got to the sixth round I felt like I was able to easily predict the relationship since the two before seemed completely equal I felt confident the 6th scenario was hierarchical which I was able to tell it was after I was given more information.",True,2
+P023,male,45,yes,,True,1
+P001,female,58,yes,,True,1
