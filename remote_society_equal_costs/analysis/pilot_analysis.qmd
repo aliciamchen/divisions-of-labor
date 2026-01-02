@@ -69,36 +69,40 @@ belief_update_summary
 #| label: fig-change-by-condition
 #| fig-cap: "Relationship belief updates by condition (positive values are more hierarchical, negative values are more equal)"
 
-ggplot(belief_update_summary, aes(x = condition, y = empirical_stat)) +
-  geom_col(fill = "steelblue", width = 0.6) +
+ggplot(belief_update_summary, aes(x = condition, y = empirical_stat, fill = condition)) +
+  geom_col(width = 0.6) +
   geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
                 width = 0.2) +
   geom_hline(yintercept = 0, linetype = "dashed", color = "gray50") +
+  scale_fill_brewer(palette = "Dark2") +
   labs(
     x = "Observed policy",
     y = "Relationship belief update (posterior - prior)",
   ) +
-  coord_flip()
+  coord_flip() +
+  theme(legend.position = "none")
 ```
 
 Plot with the individual observations
 
 ```{r}
 #| label: fig-dotplot-change
-ggplot(df_wide, aes(x = condition, y = belief_update)) +
+ggplot(df_wide, aes(x = condition, y = belief_update, color = condition)) +
   geom_hline(yintercept = 0, linetype = "dashed", color = "gray50") +
-  geom_jitter(width = 0.1, height = 0, alpha = 0.1, stroke = 0, size = 4) +
+  geom_jitter(width = 0.1, height = 0, alpha = 0.2, stroke = 0, size = 4) +
   geom_point(data = belief_update_summary,
              aes(x = condition, y = empirical_stat),
              size = 4) +
   geom_errorbar(data = belief_update_summary,
                 aes(x = condition, y = empirical_stat, ymin = ci_lower, ymax = ci_upper),
-                width = 0.2, size = 1.2) +
+                width = 0.2, linewidth = 1.2) +
+  scale_color_brewer(palette = "Dark2") +
   labs(
     x = "Observed policy",
     y = "Relationship belief update (posterior - prior)",
   ) +
-  coord_flip()
+  coord_flip() +
+  theme(legend.position = "none")
 ```
 
 When participants observe one person doing both tasks, it makes them think that the relationship is much more hierarchical. Observing both alternate makes them think that the relationship is less hierarchical. Bundled leads to little to no change in hierarchy ratings (maybe because tasks are expected to be bundled in the first place...)
@@ -122,10 +126,11 @@ stage_summary <- df_long |>
 
 ggplot(stage_summary, aes(x = stage, y = empirical_stat,
                           group = condition, color = condition)) +
-  geom_line(linewidth = 1) +
-  geom_point(size = 3) +
+  geom_point(size = 3, position = position_dodge(width = 0.13)) +
+  geom_line(linewidth = 1.2, position = position_dodge(width = 0.13)) +
   geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
-                width = 0.1) +
+                width = 0.2, size = 1.2, position = position_dodge(width = 0.13)) +
+  scale_color_brewer(palette = "Dark2") +
   labs(
     x = "Stage",
     y = "Relationship hierarchy",
@@ -139,16 +144,18 @@ ggplot(stage_summary, aes(x = stage, y = empirical_stat,
 #| label: fig-individual
 #| fig-cap: "Trial-level responses by condition"
 
-ggplot(df_long, aes(x = stage, y = response, group = interaction(subject_id, stimulus_index))) +
-  geom_line(alpha = 0.1) +
-  geom_point(alpha = 0.2) +
+ggplot(df_long, aes(x = stage, y = response, group = interaction(subject_id, stimulus_index), color = condition)) +
+  geom_line(alpha = 0.2) +
+  geom_point(alpha = 0.3) +
   facet_wrap(~condition) +
   scale_y_continuous(limits = c(0, 1)) +
+  scale_color_brewer(palette = "Dark2") +
   labs(
     x = "Stage",
     y = "Relationship hierarchy",
     title = "Individual responses by condition"
-  )
+  ) +
+  theme(legend.position = "none")
 ```
 
 ## By scenario
@@ -168,6 +175,7 @@ ggplot(scenario_summary, aes(x = scenario_label, y = empirical_stat, fill = cond
   geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
                 position = position_dodge(width = 0.8), width = 0.2) +
   geom_hline(yintercept = 0, linetype = "dashed", color = "gray50") +
+  scale_fill_brewer(palette = "Dark2") +
   labs(
     x = "Scenario",
     y = "Relationship belief update",

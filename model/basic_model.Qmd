@@ -637,10 +637,10 @@ The utility of communicating equality is based on alternating the **same** task.
 
 ## Model extension
 
-We extend the basic model to handle two tasks with potentially different costs $C_1$ and $C_2$. The actor chooses a joint policy $\pi \in \{\text{BothAlternate}, \text{DivisionOfLabor}, \text{OneDoesAll}\}$:
+We extend the basic model to handle two tasks with potentially different costs $C_1$ and $C_2$. The actor chooses a joint policy $\pi \in \{\text{BothAlternate}, \text{Bundled}, \text{OneDoesAll}\}$:
 
 - **BothAlternate**: A and B alternate both Task 1 and Task 2
-- **DivisionOfLabor**: A always does Task 1, B always does Task 2
+- **Bundled**: A always does Task 1, B always does Task 2
 - **OneDoesAll**: A always does both Task 1 and Task 2
 
 ### Utility components for two tasks
@@ -649,7 +649,7 @@ We extend the basic model to handle two tasks with potentially different costs $
 $$
 U_\text{IA}(\pi) = -(1 - R) \cdot \begin{cases}
 0 & \text{if } \pi = \text{BothAlternate} \\
-|C_1 - C_2| & \text{if } \pi = \text{DivisionOfLabor} \\
+|C_1 - C_2| & \text{if } \pi = \text{Bundled} \\
 C_1 + C_2 & \text{if } \pi = \text{OneDoesAll}
 \end{cases}
 $$
@@ -658,7 +658,7 @@ $$
 $$
 U_\text{habit}(\pi) = \begin{cases}
 0 & \text{if } \pi = \text{BothAlternate} \\
-2 & \text{if } \pi = \text{DivisionOfLabor} \\
+2 & \text{if } \pi = \text{Bundled} \\
 2 & \text{if } \pi = \text{OneDoesAll}
 \end{cases}
 $$
@@ -667,7 +667,7 @@ $$
 $$
 U_\text{comm}(\pi) = (1 - R) \cdot \begin{cases}
 2 & \text{if } \pi = \text{BothAlternate} \\
-0 & \text{if } \pi = \text{DivisionOfLabor} \\
+0 & \text{if } \pi = \text{Bundled} \\
 0 & \text{if } \pi = \text{OneDoesAll}
 \end{cases}
 $$
@@ -679,7 +679,7 @@ $$
 ```{python}
 class BundlePolicies(IntEnum):
     BothAlternate = 0
-    DivisionOfLabor = 1
+    Bundled = 1
     OneDoesAll = 2
 ```
 
@@ -691,7 +691,7 @@ def U_IA_bundle(policy: BundlePolicies, C1: float, C2: float, R: float) -> float
         policy == BundlePolicies.BothAlternate,
         0.0,
         jnp.where(
-            policy == BundlePolicies.DivisionOfLabor,
+            policy == BundlePolicies.Bundled,
             jnp.abs(C1 - C2),
             C1 + C2  # OneDoesAll
         )
@@ -768,7 +768,7 @@ def bundle_observer[pi: BundlePolicies, R: RELATIONSHIP_VALUES](
 ```{python}
 # Use a distinct color palette for the bundle model (Dark2)
 BUNDLE_PALETTE = sns.color_palette("Dark2", 3)
-BUNDLE_POLICY_NAMES = ["BothAlternate", "DivisionOfLabor", "OneDoesAll"]
+BUNDLE_POLICY_NAMES = ["BothAlternate", "Bundled", "OneDoesAll"]
 BUNDLE_COLORS = {policy: BUNDLE_PALETTE[i] for i, policy in enumerate(BUNDLE_POLICY_NAMES)}
 ```
 
@@ -815,7 +815,7 @@ def get_bundle_observer_predictions(alpha, w_IA, w_habit, w_comm, C1, C2):
 
 Start with the base case where costs are equal ($C_1 = C_2 = 1$):
 
-The key comparison is between BothAlternate and DivisionOfLabor. If the costs of the two actions are the same, then the overall cost difference in the two conditions is both zero. So the only tradeoff between those policies is between habit (favoring precedent-based policies) and communication (favoring alternation).
+The key comparison is between BothAlternate and Bundled. If the costs of the two actions are the same, then the overall cost difference in the two conditions is both zero. So the only tradeoff between those policies is between habit (favoring precedent-based policies) and communication (favoring alternation).
 
 ```{python}
 bundle_base_params = {"alpha": 1, "w_IA": 1, "w_habit": 1, "w_comm": 1, "C1": 1, "C2": 1}
@@ -835,15 +835,15 @@ plt.legend(title="Policy")
 plt.show()
 ```
 
-When the relationship is equal ($R = 0$), the probability of OneDoesAll is low because of inequity aversion. There isn't a difference between BothAlternate and DivisionOfLabor in terms of costs, and BothAlternate has the benefit of communicating equality while OneDoesAll has the benefit of no switching costs (higher U_habit) so the probability of those two policies is the same. 
+When the relationship is equal ($R = 0$), the probability of OneDoesAll is low because of inequity aversion. There isn't a difference between BothAlternate and Bundled in terms of costs, and BothAlternate has the benefit of communicating equality while OneDoesAll has the benefit of no switching costs (higher U_habit) so the probability of those two policies is the same. 
 
 As the relationship becomes more unequal, the probability of OneDoesAll increases because participants are more willing to accept inequity in hierarchical relationships. 
 
-BothAlternate and DivisionOfLabor now start to diverge. The probability of BothAlternate decreases (and the probability of DivisionOfLabor increases) because a more hierarchical relationship decreases the value of communicating equality. 
+BothAlternate and Bundled now start to diverge. The probability of BothAlternate decreases (and the probability of Bundled increases) because a more hierarchical relationship decreases the value of communicating equality. 
 
 ### Actor: Effect of unequal task costs
 
-When $C_1 \neq C_2$, DivisionOfLabor creates inequity: 
+When $C_1 \neq C_2$, Bundled creates inequity: 
 
 ```{python}
 def plot_bundle_actor_cost_sweep(C2_values, base_params):
@@ -883,7 +883,7 @@ plot_bundle_actor_cost_sweep([0.5, 1, 2, 4], bundle_base_params)
 
 As $C_2$ increases relative to $C_1$:
 
-- **DivisionOfLabor** becomes less attractive due to increasing inequity $|C_1 - C_2|$
+- **Bundled** becomes less attractive due to increasing inequity $|C_1 - C_2|$
 - **OneDoesAll** becomes even less attractive (A has a higher cost $C_1 + C_2$)
 - **BothAlternate** becomes relatively more attractive (zero inequity)
 
@@ -944,7 +944,7 @@ Key predictions:
 
 1. **BothAlternate** → observer infers more equal relationship (low $R$)
 2. **OneDoesAll** → observer infers more hierarchical relationship (high $R$)
-3. **DivisionOfLabor** → intermediate inference (when $C_1 = C_2$, it has no inequity but also no communication of equality)
+3. **Bundled** → intermediate inference (when $C_1 = C_2$, it has no inequity but also no communication of equality)
 
 ### Observer: Effect of unequal task costs
 
@@ -999,7 +999,7 @@ plot_bundle_observer_cost_sweep([0.5, 1, 2, 4], bundle_obs_base)
 
 When task costs are unequal:
 
-- **DivisionOfLabor** leads to inequity, making it more diagnostic of hierarchy
+- **Bundled** leads to inequity, making it more diagnostic of hierarchy
 - The asymmetry between $C_1$ and $C_2$ affects how informative each policy is about relationship hierarchy
 
 ### Posterior means across cost ratios
@@ -1012,7 +1012,7 @@ def get_posterior_means(C2_values, base_params):
         params = base_params.copy()
         params["C2"] = C2
         result, _ = get_bundle_observer_predictions(**params)
-        for policy in ["BothAlternate", "DivisionOfLabor", "OneDoesAll"]:
+        for policy in ["BothAlternate", "Bundled", "OneDoesAll"]:
             subset = result[result["Policy"] == policy]
             mean_R = (subset["R"] * subset["Probability"]).sum()
             rows.append({"C2": C2, "Policy": policy, "Mean_R": mean_R})
@@ -1034,7 +1034,7 @@ plt.title("Observer inferences across task cost ratios")
 plt.show()
 ```
 
-This shows how observer inferences vary with task cost asymmetry. The main experimental prediction is the ordering: BothAlternate < DivisionOfLabor < OneDoesAll in terms of inferred hierarchy.
+This shows how observer inferences vary with task cost asymmetry. The main experimental prediction is the ordering: BothAlternate < Bundled < OneDoesAll in terms of inferred hierarchy.
 
 ### Model ablations
 
