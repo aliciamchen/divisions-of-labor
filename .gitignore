@@ -3,3 +3,8 @@ _output/
 
 /.quarto/
 **/*.quarto_ipynb
+*raw/
+.Rproj.user
+.Rproj
+
+CLAUDE.md
