@@ -1,7 +1,7 @@
 [
   {
     "1": "",
-    "scenario_label": "conventional chores",
+    "scenario_label": "household chores",
     "category": "cohabitation",
     "vignette": "Consider {name1} and {name2} who live together. Two tasks need to be done each week: taking out the trash and running the dishwasher. They agree that the two tasks are equal in effort and value. ",
     "name1_m": "Mark",
@@ -40,7 +40,7 @@
   },
   {
     "1": "",
-    "scenario_label": "paying bills",
+    "scenario_label": "finances",
     "category": "work",
     "vignette": "Consider {name1} and {name2}, who both do finances for a company. Two administrative tasks need to be done each month: paying the utility bills and submitting reimbursement forms. They agree that these tasks are equal in effort and value.",
     "name1_m": "Robert",
@@ -66,7 +66,7 @@
   },
   {
     "1": "",
-    "scenario_label": "meeting locations",
+    "scenario_label": "meetup",
     "category": "friends",
     "vignette": "Consider {name1} and {name2}, who explore their city together. Two decisions need to be made when they go out: choosing which street to explore and choosing what activity they should do there. {name1} prefers to pick the location and {name2} prefers to pick the activity.They agree that these two decisions are equal in effort and value.     ",
     "name1_m": "Burnie",
@@ -105,7 +105,7 @@
   },
   {
     "1": "",
-    "scenario_label": "nursing exams",
+    "scenario_label": "patient exams",
     "category": "work",
     "vignette": "Consider {name1} and {name2}, who are medical professionals that work together in a hospital. Two caretaking tasks occur with each patient: one of them tests for and records the patient's vitals, while the other one completes a verbal assessment regarding how the patient is feeling. They agree that these tasks are equal in effort and value.",
     "name1_m": "Richard",
@@ -131,7 +131,7 @@
   },
   {
     "1": "",
-    "scenario_label": "giving chocolates and bath items",
+    "scenario_label": "gift giving",
     "category": "friends",
     "vignette": "Consider {name1} and {name2}, who have known each other a long time. Two things happen regularly between them: giving chocolates and giving bath items. They agree these favors are equal in effort and value.",
     "name1_m": "Andrew",
@@ -157,7 +157,7 @@
   },
   {
     "1": "",
-    "scenario_label": "lawncare and laundry",
+    "scenario_label": "lawn work and laundry",
     "category": "cohabitation",
     "vignette": "Consider {name1} and {name2}, who live together. Every week, two tasks need to get done: doing the lawn work and doing the laundry. They agree that these two decisions are equal in effort and value. ",
     "name1_m": "Leon",
@@ -222,7 +222,7 @@
   },
   {
     "1": "",
-    "scenario_label": "rating and listening",
+    "scenario_label": "ranting",
     "category": "friends",
     "vignette": "Consider {name1} and {name2}, who regularly call each other. Two things happen regularly between them: discussing all of their romantic relationship issues and discussing all of their work-related issues. They agree that these speaking and listening respectively are equal in effort and value.",
     "name1_m": "Joe",

@@ -6,7 +6,7 @@ let exitSurveyHtml = "";
 let counterbalancing = [];
 
 Promise.all([
-  fetch("json/stimuli.json").then((response) => response.json()),
+  fetch("json/18scenarios.json").then((response) => response.json()),
   fetch("json/full_counterbalancing.json").then((response) => response.json()),
   fetch("html/consent.html").then((response) => response.text()),
   fetch("html/exit-survey.html").then((response) => response.text()),
@@ -42,7 +42,8 @@ async function createExperiment() {
   var study_id = jsPsych.data.getURLVariable("STUDY_ID");
   var session_id = jsPsych.data.getURLVariable("SESSION_ID");
 
-  const condition_assignment = await jsPsychPipe.getCondition("aD8vBoDwqeyg");
+  const condition_assignment = await jsPsychPipe.getCondition("lBm9oW4lLdq3");
+  console.log(condition_assignment)
   const assignedSequence = counterbalancing[condition_assignment];
 
   jsPsych.data.addProperties({
@@ -57,9 +58,11 @@ async function createExperiment() {
     const sequenceItem = assignedSequence.find(
       (item) => item.scenario_label === stimulus.scenario_label
     );
+ 
     return {
       ...stimulus,
-      condition: sequenceItem ? sequenceItem.condition : "",
+      work_condition: sequenceItem ? sequenceItem.work_condition : "",
+      gender_condition: sequenceItem ? sequenceItem.gender_condition : "",
     };
   });
 
