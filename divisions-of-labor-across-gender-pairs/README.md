@@ -1,3 +1,2 @@
-# Experiment: Remote society (equal costs)
-
-https://web.mit.edu/marlocy/www/experiment/ 
+#across genders
+# https://web.mit.edu/marlocy/www/experiment/ 
