@@ -1,0 +1,1207 @@
+subject_id,trial_index,trial_type,response_type,stage,stimulus_index,scenario_label,work_condition,gender_condition,response,condition_assignment,attention_passed,memory_correct_count,plugin_version,rt,slider_start,source_json,stimulus,time_elapsed,url,view_history
+3s4upzwvlx6m,0,instructions,,,,,,,,1,,,2.1.0,1899,,3s4upzwvlx6m.json,,1912,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,"[{""page_index"": 0, ""viewing_time"": 1898}]"
+3s4upzwvlx6m,1,instructions,,,,,,,,1,,,2.1.0,2149,,3s4upzwvlx6m.json,,4062,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,"[{""page_index"": 0, ""viewing_time"": 744}, {""page_index"": 1, ""viewing_time"": 500}, {""page_index"": 2, ""viewing_time"": 905}]"
+3s4upzwvlx6m,2,html-slider-response,response,prior,0,rating and listening,both_alternate,female_female,48,1,,,2.1.0,10668,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 1 of 18</h2>
+          <p class=""trial-text"">Consider Nicole and Kelly, who regularly call each other. Two things happen regularly between them: discussing all of their romantic relationship issues and discussing all of their work-related issues. They agree that these speaking and listening respectively are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Nicole and Kelly's relationship is?</p>
+        </div> 
+      ",14733,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,3,html-slider-response,response,posterior,0,rating and listening,both_alternate,female_female,52,1,,,2.1.0,1889,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 1 of 18</h2>
+          <p class=""trial-text"">Consider Nicole and Kelly, who regularly call each other. Two things happen regularly between them: discussing all of their romantic relationship issues and discussing all of their work-related issues. They agree that these speaking and listening respectively are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turns discussing their romantic issues and their work-related issues</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",16624,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,4,html-keyboard-response,,,,,,,,1,,,2.1.0,,,3s4upzwvlx6m.json,Next scenario,18378,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,5,html-slider-response,response,prior,1,conventional chores,one_does_all,male_female,44,1,,,2.1.0,2523,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 2 of 18</h2>
+          <p class=""trial-text"">Consider Mark and Wendy who live together. Two tasks need to be done each week: taking out the trash and running the dishwasher. They agree that the two tasks are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Mark and Wendy's relationship is?</p>
+        </div> 
+      ",20902,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,6,html-slider-response,response,posterior,1,conventional chores,one_does_all,male_female,45,1,,,2.1.0,5278,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 2 of 18</h2>
+          <p class=""trial-text"">Consider Mark and Wendy who live together. Two tasks need to be done each week: taking out the trash and running the dishwasher. They agree that the two tasks are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Mark always takes out the trash and always runs the dishwasher.
+</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",26182,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,7,html-keyboard-response,,,,,,,,1,,,2.1.0,,,3s4upzwvlx6m.json,Next scenario,28484,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,8,html-slider-response,response,prior,2,cafe closing,division_of_labor,male_male,51,1,,,2.1.0,1371,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 3 of 18</h2>
+          <p class=""trial-text"">Consider Hasan and Trent, who work together at a small cafe. Two things happen regularly between them during close: one counts all the money in the register and the other throws away any stale baked good. They agree that the two tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Hasan and Trent's relationship is?</p>
+        </div> 
+      ",29858,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,9,html-slider-response,response,posterior,2,cafe closing,division_of_labor,male_male,49,1,,,2.1.0,2664,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 3 of 18</h2>
+          <p class=""trial-text"">Consider Hasan and Trent, who work together at a small cafe. Two things happen regularly between them during close: one counts all the money in the register and the other throws away any stale baked good. They agree that the two tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Hasan always counts the money in the register and Trent always throws away the stale baked goods.</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",32524,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,10,html-keyboard-response,,,,,,,,1,,,2.1.0,,,3s4upzwvlx6m.json,Next scenario,34826,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,11,html-slider-response,attention_check,,,,,,48,1,False,,2.1.0,2738,0,3s4upzwvlx6m.json,"
+          <div>
+            <p>This is an attention check to make sure you're not a bot and that we can award you your pay for the study.</p>
+            <p><strong>Please set the slider to ""Completely equal"" (all the way to the left).</strong></p>
+          </div>
+        ",37565,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,12,html-slider-response,response,prior,3,restaurant preference,division_of_labor,male_male,60,1,,,2.1.0,2132,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 4 of 18</h2>
+          <p class=""trial-text"">Consider John and Shane, who eat food together regularly. Two decisions need to be made when they go out: choosing where to go for lunch and choosing where to go for dinner. They have different preferences for each. They agree that these two decisions are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think John and Shane's relationship is?</p>
+        </div> 
+      ",39700,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,13,html-slider-response,response,posterior,3,restaurant preference,division_of_labor,male_male,17,1,,,2.1.0,1960,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 4 of 18</h2>
+          <p class=""trial-text"">Consider John and Shane, who eat food together regularly. Two decisions need to be made when they go out: choosing where to go for lunch and choosing where to go for dinner. They have different preferences for each. They agree that these two decisions are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>John always chooses where to go for lunch and Shane always chooses where to go for dinner. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",41661,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,14,html-keyboard-response,,,,,,,,1,,,2.1.0,,,3s4upzwvlx6m.json,Next scenario,43164,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,15,html-slider-response,response,prior,4,deep cleans,one_does_all,female_female,20,1,,,2.1.0,1557,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 5 of 18</h2>
+          <p class=""trial-text"">Consider the Marianna and Rebecca, who live in the same apartment. Two deep cleans need to be done each week: sweeping and mopping the floors and scrubbing the bathroom. They agree that the two tasks are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Marianna and Rebecca's relationship is?</p>
+        </div> 
+      ",44723,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,16,html-slider-response,response,posterior,4,deep cleans,one_does_all,female_female,68,1,,,2.1.0,1258,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 5 of 18</h2>
+          <p class=""trial-text"">Consider the Marianna and Rebecca, who live in the same apartment. Two deep cleans need to be done each week: sweeping and mopping the floors and scrubbing the bathroom. They agree that the two tasks are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Marianna always sweeps and mops the floors and scrubs the bathroom. 
+</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",45983,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,17,html-keyboard-response,,,,,,,,1,,,2.1.0,,,3s4upzwvlx6m.json,Next scenario,48286,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,18,html-slider-response,response,prior,5,paying bills,one_does_all,male_male,35,1,,,2.1.0,1261,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 6 of 18</h2>
+          <p class=""trial-text"">Consider Robert and Tom, who both do finances for a company. Two administrative tasks need to be done each month: paying the utility bills and submitting reimbursement forms. They agree that these tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Robert and Tom's relationship is?</p>
+        </div> 
+      ",49549,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,19,html-slider-response,response,posterior,5,paying bills,one_does_all,male_male,65,1,,,2.1.0,2318,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 6 of 18</h2>
+          <p class=""trial-text"">Consider Robert and Tom, who both do finances for a company. Two administrative tasks need to be done each month: paying the utility bills and submitting reimbursement forms. They agree that these tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Robert always pays the utility bills and submits reimbursement forms. 
+</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",51869,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,20,html-keyboard-response,,,,,,,,1,,,2.1.0,,,3s4upzwvlx6m.json,Next scenario,53871,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,21,html-slider-response,response,prior,6,cargo monitoring,division_of_labor,male_female,21,1,,,2.1.0,1722,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 7 of 18</h2>
+          <p class=""trial-text"">Consider Brian and Bridget, who manage and monitor shared cargo. Two tasks regularly need to get done: supply inventory and inspecting for damage. They agree that these tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Brian and Bridget's relationship is?</p>
+        </div> 
+      ",55594,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,22,html-slider-response,response,posterior,6,cargo monitoring,division_of_labor,male_female,37,1,,,2.1.0,1645,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 7 of 18</h2>
+          <p class=""trial-text"">Consider Brian and Bridget, who manage and monitor shared cargo. Two tasks regularly need to get done: supply inventory and inspecting for damage. They agree that these tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Brian always monitors supply inventory and Bridget always inspected for damage. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",57240,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,23,html-keyboard-response,,,,,,,,1,,,2.1.0,,,3s4upzwvlx6m.json,Next scenario,58744,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,24,html-slider-response,response,prior,7,CIA tasks,both_alternate,female_female,31,1,,,2.1.0,1620,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 8 of 18</h2>
+          <p class=""trial-text"">Consider Abby and Emilia, who work together. Two tasks need to be done each week: blacking-out classified information in documents and doing background checks on employees. They agree that the two tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Abby and Emilia's relationship is?</p>
+        </div> 
+      ",60366,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,25,html-slider-response,response,posterior,7,CIA tasks,both_alternate,female_female,35,1,,,2.1.0,2281,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 8 of 18</h2>
+          <p class=""trial-text"">Consider Abby and Emilia, who work together. Two tasks need to be done each week: blacking-out classified information in documents and doing background checks on employees. They agree that the two tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turns blacking out the information and doing background checks. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",62648,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,26,html-keyboard-response,,,,,,,,1,,,2.1.0,,,3s4upzwvlx6m.json,Next scenario,64401,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,27,html-slider-response,response,prior,8,meeting locations,both_alternate,male_female,29,1,,,2.1.0,1429,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 9 of 18</h2>
+          <p class=""trial-text"">Consider Burnie and Margaret , who explore their city together. Two decisions need to be made when they go out: choosing which street to explore and choosing what activity they should do there. Burnie prefers to pick the location and Margaret  prefers to pick the activity.They agree that these two decisions are equal in effort and value.     </p>
+          <p class=""trial-text"">How hierarchical do you think Burnie and Margaret 's relationship is?</p>
+        </div> 
+      ",65832,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,28,html-slider-response,response,posterior,8,meeting locations,both_alternate,male_female,50,1,,,2.1.0,5448,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 9 of 18</h2>
+          <p class=""trial-text"">Consider Burnie and Margaret , who explore their city together. Two decisions need to be made when they go out: choosing which street to explore and choosing what activity they should do there. Burnie prefers to pick the location and Margaret  prefers to pick the activity.They agree that these two decisions are equal in effort and value.     </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turn deciding which street to explore and which activity to try. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",71282,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,29,html-keyboard-response,,,,,,,,1,,,2.1.0,,,3s4upzwvlx6m.json,Next scenario,74195,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,30,html-slider-response,response,prior,9,burger prep,one_does_all,male_female,48,1,,,2.1.0,13169,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 10 of 18</h2>
+          <p class=""trial-text"">Consider James and Lauren, who work together at a burger joint. They are tasked with two basic tasks every morning: prepping all the vegetables and weighing all the patties. They agree that the two tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think James and Lauren's relationship is?</p>
+        </div> 
+      ",87365,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,31,html-slider-response,response,posterior,9,burger prep,one_does_all,male_female,43,1,,,2.1.0,2898,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 10 of 18</h2>
+          <p class=""trial-text"">Consider James and Lauren, who work together at a burger joint. They are tasked with two basic tasks every morning: prepping all the vegetables and weighing all the patties. They agree that the two tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>James always prepares the vegetables and weighs all the patties.
+</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",90266,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,32,html-keyboard-response,,,,,,,,1,,,2.1.0,,,3s4upzwvlx6m.json,Next scenario,92267,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,33,html-slider-response,response,prior,10,neighborly favors,one_does_all,male_male,36,1,,,2.1.0,1671,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 11 of 18</h2>
+          <p class=""trial-text"">Consider Parker and Luke, who are neighbors who regularly do favors for one another. This consists of two things: watching the others' kids when the other person has to pick up a shift and hosting the other family over for dinner. They agree that these two decisions are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Parker and Luke's relationship is?</p>
+        </div> 
+      ",93940,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,34,html-slider-response,response,posterior,10,neighborly favors,one_does_all,male_male,50,1,,,2.1.0,1923,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 11 of 18</h2>
+          <p class=""trial-text"">Consider Parker and Luke, who are neighbors who regularly do favors for one another. This consists of two things: watching the others' kids when the other person has to pick up a shift and hosting the other family over for dinner. They agree that these two decisions are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Parker always watches Luke's kids and always hosts them for dinner. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",95865,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,35,html-keyboard-response,,,,,,,,1,,,2.1.0,,,3s4upzwvlx6m.json,Next scenario,98168,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,36,html-slider-response,response,prior,11,mansion renovation,both_alternate,male_male,49,1,,,2.1.0,1628,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 12 of 18</h2>
+          <p class=""trial-text"">Consider Micheal and Sam, who just co-bought a lot for renovating a mansion. Two errands need to be done each week until the house is completed: decorating each finished room and installing the carpet and flooring in the uncompleted ones. They agree that the two tasks are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Micheal and Sam's relationship is?</p>
+        </div> 
+      ",99798,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,37,html-slider-response,response,posterior,11,mansion renovation,both_alternate,male_male,51,1,,,2.1.0,3382,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 12 of 18</h2>
+          <p class=""trial-text"">Consider Micheal and Sam, who just co-bought a lot for renovating a mansion. Two errands need to be done each week until the house is completed: decorating each finished room and installing the carpet and flooring in the uncompleted ones. They agree that the two tasks are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turns decorating each finished room and installing the carpet and flooring.</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",103182,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,38,html-keyboard-response,,,,,,,,1,,,2.1.0,,,3s4upzwvlx6m.json,Next scenario,104935,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,39,html-slider-response,response,prior,12,nursing exams,division_of_labor,female_female,50,1,,,2.1.0,1895,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 13 of 18</h2>
+          <p class=""trial-text"">Consider Laura and Sandra, who are medical professionals that work together in a hospital. Two caretaking tasks occur with each patient: one of them tests for and records the patient's vitals, while the other one completes a verbal assessment regarding how the patient is feeling. They agree that these tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Laura and Sandra's relationship is?</p>
+        </div> 
+      ",106832,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,40,html-slider-response,response,posterior,12,nursing exams,division_of_labor,female_female,53,1,,,2.1.0,1389,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 13 of 18</h2>
+          <p class=""trial-text"">Consider Laura and Sandra, who are medical professionals that work together in a hospital. Two caretaking tasks occur with each patient: one of them tests for and records the patient's vitals, while the other one completes a verbal assessment regarding how the patient is feeling. They agree that these tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Laura always records the patient's vitals and Sandra always completes the verbal assessment. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",108223,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,41,html-keyboard-response,,,,,,,,1,,,2.1.0,,,3s4upzwvlx6m.json,Next scenario,109725,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,42,html-slider-response,response,prior,13,paying for outings,division_of_labor,female_female,49,1,,,2.1.0,2281,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 14 of 18</h2>
+          <p class=""trial-text"">Consider Bella and Sammy, who go clubbing. When they go out, one pays for dinner beforehand and one covers the cost of the drinks at the club. They agree these expenses are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Bella and Sammy's relationship is?</p>
+        </div> 
+      ",112007,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,43,html-slider-response,response,posterior,13,paying for outings,division_of_labor,female_female,47,1,,,2.1.0,2540,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 14 of 18</h2>
+          <p class=""trial-text"">Consider Bella and Sammy, who go clubbing. When they go out, one pays for dinner beforehand and one covers the cost of the drinks at the club. They agree these expenses are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Bella always pays for the dinner and Sammy always pays for the drinks.</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",114549,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,44,html-keyboard-response,,,,,,,,1,,,2.1.0,,,3s4upzwvlx6m.json,Next scenario,116852,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,45,html-slider-response,response,prior,14,lawncare and laundry,division_of_labor,male_female,49,1,,,2.1.0,2777,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 15 of 18</h2>
+          <p class=""trial-text"">Consider Leon and Jennifer, who live together. Every week, two tasks need to get done: doing the lawn work and doing the laundry. They agree that these two decisions are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Leon and Jennifer's relationship is?</p>
+        </div> 
+      ",119631,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,46,html-slider-response,response,posterior,14,lawncare and laundry,division_of_labor,male_female,51,1,,,2.1.0,1699,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 15 of 18</h2>
+          <p class=""trial-text"">Consider Leon and Jennifer, who live together. Every week, two tasks need to get done: doing the lawn work and doing the laundry. They agree that these two decisions are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Leon always does the lawn work and Jennifer always does the laundry. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",121331,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,47,html-keyboard-response,,,,,,,,1,,,2.1.0,,,3s4upzwvlx6m.json,Next scenario,123633,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,48,html-slider-response,response,prior,15,traveling,both_alternate,male_male,49,1,,,2.1.0,2379,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 16 of 18</h2>
+          <p class=""trial-text"">Consider Robert and Roger, two travelers who just bought a new home trailer to explore the country. Two errands need to be done before a long drive: securing all the furniture in place and restocking on water and gas from a local store. They agree that the two tasks are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Robert and Roger's relationship is?</p>
+        </div> 
+      ",126014,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,49,html-slider-response,response,posterior,15,traveling,both_alternate,male_male,45,1,,,2.1.0,1525,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 16 of 18</h2>
+          <p class=""trial-text"">Consider Robert and Roger, two travelers who just bought a new home trailer to explore the country. Two errands need to be done before a long drive: securing all the furniture in place and restocking on water and gas from a local store. They agree that the two tasks are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turns securing the furniture in place and restocking the water and gas.
+</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",127540,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,50,html-keyboard-response,,,,,,,,1,,,2.1.0,,,3s4upzwvlx6m.json,Next scenario,129043,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,51,html-slider-response,response,prior,16,giving chocolates and bath items,one_does_all,female_female,47,1,,,2.1.0,2020,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 17 of 18</h2>
+          <p class=""trial-text"">Consider Janet and Rachel, who have known each other a long time. Two things happen regularly between them: giving chocolates and giving bath items. They agree these favors are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Janet and Rachel's relationship is?</p>
+        </div> 
+      ",131065,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,52,html-slider-response,response,posterior,16,giving chocolates and bath items,one_does_all,female_female,43,1,,,2.1.0,2248,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 17 of 18</h2>
+          <p class=""trial-text"">Consider Janet and Rachel, who have known each other a long time. Two things happen regularly between them: giving chocolates and giving bath items. They agree these favors are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Janet always gives chocolates and bath items.
+</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",133315,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,53,html-keyboard-response,,,,,,,,1,,,2.1.0,,,3s4upzwvlx6m.json,Next scenario,135068,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,54,html-slider-response,response,prior,17,carpool,both_alternate,male_female,46,1,,,2.1.0,1941,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 18 of 18</h2>
+          <p class=""trial-text"">Consider Brent and Maddy, who live in the same area. Two favors happen regularly between them: giving the children rides to school and picking up the children from soccer practice. They agree these favors are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Brent and Maddy's relationship is?</p>
+        </div> 
+      ",137010,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,55,html-slider-response,response,posterior,17,carpool,both_alternate,male_female,46,1,,,2.1.0,2887,0,3s4upzwvlx6m.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 18 of 18</h2>
+          <p class=""trial-text"">Consider Brent and Maddy, who live in the same area. Two favors happen regularly between them: giving the children rides to school and picking up the children from soccer practice. They agree these favors are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turns giving the children rides to school and picking up the children from soccer practice. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",139898,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+3s4upzwvlx6m,56,survey-html-form,exit_survey,,,,,,"{""gender"": ""female"", ""age"": ""81"", ""understood"": ""yes"", ""comments"": """"}",1,False,0,2.0.0,10333,,3s4upzwvlx6m.json,,150234,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,0,instructions,,,,,,,,2,,,2.1.0,130579,,44ku608m8emf.json,,130590,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,"[{""page_index"": 0, ""viewing_time"": 130579}]"
+44ku608m8emf,1,instructions,,,,,,,,2,,,2.1.0,2882,,44ku608m8emf.json,,133474,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,"[{""page_index"": 0, ""viewing_time"": 1223}, {""page_index"": 1, ""viewing_time"": 618}, {""page_index"": 2, ""viewing_time"": 1042}]"
+44ku608m8emf,2,html-slider-response,response,prior,0,conventional chores,division_of_labor,male_male,0,2,,,2.1.0,36600,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 1 of 18</h2>
+          <p class=""trial-text"">Consider Mark and Jack who live together. Two tasks need to be done each week: taking out the trash and running the dishwasher. They agree that the two tasks are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Mark and Jack's relationship is?</p>
+        </div> 
+      ",170077,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,3,html-slider-response,response,posterior,0,conventional chores,division_of_labor,male_male,3,2,,,2.1.0,13931,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 1 of 18</h2>
+          <p class=""trial-text"">Consider Mark and Jack who live together. Two tasks need to be done each week: taking out the trash and running the dishwasher. They agree that the two tasks are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Mark always takes out the trash and Jack always runs the dishwater. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",184012,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,4,html-keyboard-response,,,,,,,,2,,,2.1.0,,,44ku608m8emf.json,Next scenario,185516,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,5,html-slider-response,response,prior,1,cargo monitoring,both_alternate,female_female,0,2,,,2.1.0,33866,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 2 of 18</h2>
+          <p class=""trial-text"">Consider Paulina and Bridget, who manage and monitor shared cargo. Two tasks regularly need to get done: supply inventory and inspecting for damage. They agree that these tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Paulina and Bridget's relationship is?</p>
+        </div> 
+      ",219385,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,6,html-slider-response,response,posterior,1,cargo monitoring,both_alternate,female_female,0,2,,,2.1.0,9655865,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 2 of 18</h2>
+          <p class=""trial-text"">Consider Paulina and Bridget, who manage and monitor shared cargo. Two tasks regularly need to get done: supply inventory and inspecting for damage. They agree that these tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turns monitoring supply inventory and inspecting for damage.</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",13645641,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,7,html-keyboard-response,,,,,,,,2,,,2.1.0,,,44ku608m8emf.json,Next scenario,13647395,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,8,html-slider-response,response,prior,2,mansion renovation,one_does_all,male_male,0,2,,,2.1.0,27803,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 3 of 18</h2>
+          <p class=""trial-text"">Consider Micheal and Sam, who just co-bought a lot for renovating a mansion. Two errands need to be done each week until the house is completed: decorating each finished room and installing the carpet and flooring in the uncompleted ones. They agree that the two tasks are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Micheal and Sam's relationship is?</p>
+        </div> 
+      ",13675202,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,9,html-slider-response,response,posterior,2,mansion renovation,one_does_all,male_male,3,2,,,2.1.0,992699,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 3 of 18</h2>
+          <p class=""trial-text"">Consider Micheal and Sam, who just co-bought a lot for renovating a mansion. Two errands need to be done each week until the house is completed: decorating each finished room and installing the carpet and flooring in the uncompleted ones. They agree that the two tasks are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Micheal always decorates each finished room and installs the carpet and flooring.
+</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",14957294,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,10,html-keyboard-response,,,,,,,,2,,,2.1.0,,,44ku608m8emf.json,Next scenario,14959299,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,11,html-slider-response,attention_check,,,,,,0,2,True,,2.1.0,11022,0,44ku608m8emf.json,"
+          <div>
+            <p>This is an attention check to make sure you're not a bot and that we can award you your pay for the study.</p>
+            <p><strong>Please set the slider to ""Completely equal"" (all the way to the left).</strong></p>
+          </div>
+        ",14970325,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,12,html-slider-response,response,prior,3,traveling,one_does_all,male_female,0,2,,,2.1.0,12917,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 4 of 18</h2>
+          <p class=""trial-text"">Consider Robert and Alice, two travelers who just bought a new home trailer to explore the country. Two errands need to be done before a long drive: securing all the furniture in place and restocking on water and gas from a local store. They agree that the two tasks are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Robert and Alice's relationship is?</p>
+        </div> 
+      ",14983244,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,13,html-slider-response,response,posterior,3,traveling,one_does_all,male_female,35,2,,,2.1.0,10007,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 4 of 18</h2>
+          <p class=""trial-text"">Consider Robert and Alice, two travelers who just bought a new home trailer to explore the country. Two errands need to be done before a long drive: securing all the furniture in place and restocking on water and gas from a local store. They agree that the two tasks are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Robert always secures the furniture in place and restocks the water and gas.
+</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",14993253,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,14,html-keyboard-response,,,,,,,,2,,,2.1.0,,,44ku608m8emf.json,Next scenario,14994756,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,15,html-slider-response,response,prior,4,paying bills,one_does_all,female_female,0,2,,,2.1.0,28969,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 5 of 18</h2>
+          <p class=""trial-text"">Consider Nicolette and Ally, who both do finances for a company. Two administrative tasks need to be done each month: paying the utility bills and submitting reimbursement forms. They agree that these tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Nicolette and Ally's relationship is?</p>
+        </div> 
+      ",15023727,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,16,html-slider-response,response,posterior,4,paying bills,one_does_all,female_female,41,2,,,2.1.0,7167,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 5 of 18</h2>
+          <p class=""trial-text"">Consider Nicolette and Ally, who both do finances for a company. Two administrative tasks need to be done each month: paying the utility bills and submitting reimbursement forms. They agree that these tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Nicolette always pays the utility bills and submits reimbursement forms. 
+</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",15030895,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,17,html-keyboard-response,,,,,,,,2,,,2.1.0,,,44ku608m8emf.json,Next scenario,15032648,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,18,html-slider-response,response,prior,5,meeting locations,one_does_all,male_female,0,2,,,2.1.0,32993,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 6 of 18</h2>
+          <p class=""trial-text"">Consider Burnie and Margaret , who explore their city together. Two decisions need to be made when they go out: choosing which street to explore and choosing what activity they should do there. Burnie prefers to pick the location and Margaret  prefers to pick the activity.They agree that these two decisions are equal in effort and value.     </p>
+          <p class=""trial-text"">How hierarchical do you think Burnie and Margaret 's relationship is?</p>
+        </div> 
+      ",15065644,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,19,html-slider-response,response,posterior,5,meeting locations,one_does_all,male_female,34,2,,,2.1.0,22119,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 6 of 18</h2>
+          <p class=""trial-text"">Consider Burnie and Margaret , who explore their city together. Two decisions need to be made when they go out: choosing which street to explore and choosing what activity they should do there. Burnie prefers to pick the location and Margaret  prefers to pick the activity.They agree that these two decisions are equal in effort and value.     </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Burnie always decides which street to explore and which activity to try.  </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",15087765,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,20,html-keyboard-response,,,,,,,,2,,,2.1.0,,,44ku608m8emf.json,Next scenario,15089517,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,21,html-slider-response,response,prior,6,lawncare and laundry,one_does_all,female_female,32,2,,,2.1.0,209424,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 7 of 18</h2>
+          <p class=""trial-text"">Consider Danielle and Jennifer, who live together. Every week, two tasks need to get done: doing the lawn work and doing the laundry. They agree that these two decisions are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Danielle and Jennifer's relationship is?</p>
+        </div> 
+      ",15298945,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,22,html-slider-response,response,posterior,6,lawncare and laundry,one_does_all,female_female,43,2,,,2.1.0,7605,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 7 of 18</h2>
+          <p class=""trial-text"">Consider Danielle and Jennifer, who live together. Every week, two tasks need to get done: doing the lawn work and doing the laundry. They agree that these two decisions are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Danielle always does the lawn work and always does the laundry.</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",15306552,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,23,html-keyboard-response,,,,,,,,2,,,2.1.0,,,44ku608m8emf.json,Next scenario,15308055,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,24,html-slider-response,response,prior,7,neighborly favors,both_alternate,male_male,0,2,,,2.1.0,11883,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 8 of 18</h2>
+          <p class=""trial-text"">Consider Parker and Luke, who are neighbors who regularly do favors for one another. This consists of two things: watching the others' kids when the other person has to pick up a shift and hosting the other family over for dinner. They agree that these two decisions are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Parker and Luke's relationship is?</p>
+        </div> 
+      ",15319941,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,25,html-slider-response,response,posterior,7,neighborly favors,both_alternate,male_male,0,2,,,2.1.0,288655,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 8 of 18</h2>
+          <p class=""trial-text"">Consider Parker and Luke, who are neighbors who regularly do favors for one another. This consists of two things: watching the others' kids when the other person has to pick up a shift and hosting the other family over for dinner. They agree that these two decisions are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turns watching the others' kids when and hosting the other family for dinner.</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",15608599,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,26,html-keyboard-response,,,,,,,,2,,,2.1.0,,,44ku608m8emf.json,Next scenario,15610605,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,27,html-slider-response,response,prior,8,nursing exams,both_alternate,male_male,12,2,,,2.1.0,14308,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 9 of 18</h2>
+          <p class=""trial-text"">Consider Richard and Hans, who are medical professionals that work together in a hospital. Two caretaking tasks occur with each patient: one of them tests for and records the patient's vitals, while the other one completes a verbal assessment regarding how the patient is feeling. They agree that these tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Richard and Hans's relationship is?</p>
+        </div> 
+      ",15624915,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,28,html-slider-response,response,posterior,8,nursing exams,both_alternate,male_male,13,2,,,2.1.0,3297,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 9 of 18</h2>
+          <p class=""trial-text"">Consider Richard and Hans, who are medical professionals that work together in a hospital. Two caretaking tasks occur with each patient: one of them tests for and records the patient's vitals, while the other one completes a verbal assessment regarding how the patient is feeling. They agree that these tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turns recording the patient's vitals and completing a verbal assessment. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",15628214,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,29,html-keyboard-response,,,,,,,,2,,,2.1.0,,,44ku608m8emf.json,Next scenario,15630217,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,30,html-slider-response,response,prior,9,paying for outings,both_alternate,female_female,6,2,,,2.1.0,97645,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 10 of 18</h2>
+          <p class=""trial-text"">Consider Bella and Sammy, who go clubbing. When they go out, one pays for dinner beforehand and one covers the cost of the drinks at the club. They agree these expenses are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Bella and Sammy's relationship is?</p>
+        </div> 
+      ",15727864,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,31,html-slider-response,response,posterior,9,paying for outings,both_alternate,female_female,0,2,,,2.1.0,9238,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 10 of 18</h2>
+          <p class=""trial-text"">Consider Bella and Sammy, who go clubbing. When they go out, one pays for dinner beforehand and one covers the cost of the drinks at the club. They agree these expenses are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turns paying for dinner and paying for drinks.
+</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",15737105,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,32,html-keyboard-response,,,,,,,,2,,,2.1.0,,,44ku608m8emf.json,Next scenario,15739407,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,33,html-slider-response,response,prior,10,CIA tasks,division_of_labor,female_female,49,2,,,2.1.0,260103,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 11 of 18</h2>
+          <p class=""trial-text"">Consider Abby and Emilia, who work together. Two tasks need to be done each week: blacking-out classified information in documents and doing background checks on employees. They agree that the two tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Abby and Emilia's relationship is?</p>
+        </div> 
+      ",15999514,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,34,html-slider-response,response,posterior,10,CIA tasks,division_of_labor,female_female,50,2,,,2.1.0,22987,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 11 of 18</h2>
+          <p class=""trial-text"">Consider Abby and Emilia, who work together. Two tasks need to be done each week: blacking-out classified information in documents and doing background checks on employees. They agree that the two tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Abby always blacks out the information and Emilia always does background checks.</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",16022504,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,35,html-keyboard-response,,,,,,,,2,,,2.1.0,,,44ku608m8emf.json,Next scenario,16024806,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,36,html-slider-response,response,prior,11,rating and listening,both_alternate,male_female,10,2,,,2.1.0,30087,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 12 of 18</h2>
+          <p class=""trial-text"">Consider Joe and Kelly, who regularly call each other. Two things happen regularly between them: discussing all of their romantic relationship issues and discussing all of their work-related issues. They agree that these speaking and listening respectively are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Joe and Kelly's relationship is?</p>
+        </div> 
+      ",16054896,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,37,html-slider-response,response,posterior,11,rating and listening,both_alternate,male_female,1,2,,,2.1.0,4879,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 12 of 18</h2>
+          <p class=""trial-text"">Consider Joe and Kelly, who regularly call each other. Two things happen regularly between them: discussing all of their romantic relationship issues and discussing all of their work-related issues. They agree that these speaking and listening respectively are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turns discussing their romantic issues and their work-related issues</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",16059776,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,38,html-keyboard-response,,,,,,,,2,,,2.1.0,,,44ku608m8emf.json,Next scenario,16061778,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,39,html-slider-response,response,prior,12,restaurant preference,division_of_labor,female_female,0,2,,,2.1.0,13811,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 13 of 18</h2>
+          <p class=""trial-text"">Consider Jane and Jenny, who eat food together regularly. Two decisions need to be made when they go out: choosing where to go for lunch and choosing where to go for dinner. They have different preferences for each. They agree that these two decisions are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Jane and Jenny's relationship is?</p>
+        </div> 
+      ",16075591,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,40,html-slider-response,response,posterior,12,restaurant preference,division_of_labor,female_female,5,2,,,2.1.0,11907,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 13 of 18</h2>
+          <p class=""trial-text"">Consider Jane and Jenny, who eat food together regularly. Two decisions need to be made when they go out: choosing where to go for lunch and choosing where to go for dinner. They have different preferences for each. They agree that these two decisions are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Jane always chooses where to go for lunch and Jenny always chooses where to go for dinner. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",16087500,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,41,html-keyboard-response,,,,,,,,2,,,2.1.0,,,44ku608m8emf.json,Next scenario,16089502,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,42,html-slider-response,response,prior,13,deep cleans,division_of_labor,male_female,0,2,,,2.1.0,466155,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 14 of 18</h2>
+          <p class=""trial-text"">Consider the Abe and Rebecca, who live in the same apartment. Two deep cleans need to be done each week: sweeping and mopping the floors and scrubbing the bathroom. They agree that the two tasks are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Abe and Rebecca's relationship is?</p>
+        </div> 
+      ",16555661,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,43,html-slider-response,response,posterior,13,deep cleans,division_of_labor,male_female,0,2,,,2.1.0,3824,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 14 of 18</h2>
+          <p class=""trial-text"">Consider the Abe and Rebecca, who live in the same apartment. Two deep cleans need to be done each week: sweeping and mopping the floors and scrubbing the bathroom. They agree that the two tasks are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Abe always sweeps and mops the floor and Rebecca always scrubs the bathroom. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",16559486,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,44,html-keyboard-response,,,,,,,,2,,,2.1.0,,,44ku608m8emf.json,Next scenario,16561489,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,45,html-slider-response,response,prior,14,burger prep,division_of_labor,male_female,0,2,,,2.1.0,30154,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 15 of 18</h2>
+          <p class=""trial-text"">Consider James and Lauren, who work together at a burger joint. They are tasked with two basic tasks every morning: prepping all the vegetables and weighing all the patties. They agree that the two tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think James and Lauren's relationship is?</p>
+        </div> 
+      ",16591645,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,46,html-slider-response,response,posterior,14,burger prep,division_of_labor,male_female,0,2,,,2.1.0,8780,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 15 of 18</h2>
+          <p class=""trial-text"">Consider James and Lauren, who work together at a burger joint. They are tasked with two basic tasks every morning: prepping all the vegetables and weighing all the patties. They agree that the two tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>James always prepares the vegetables and Lauren always weighs the patties. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",16600427,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,47,html-keyboard-response,,,,,,,,2,,,2.1.0,,,44ku608m8emf.json,Next scenario,16602730,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,48,html-slider-response,response,prior,15,giving chocolates and bath items,one_does_all,male_male,0,2,,,2.1.0,6709,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 16 of 18</h2>
+          <p class=""trial-text"">Consider Andrew and Tristan, who have known each other a long time. Two things happen regularly between them: giving chocolates and giving bath items. They agree these favors are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Andrew and Tristan's relationship is?</p>
+        </div> 
+      ",16609441,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,49,html-slider-response,response,posterior,15,giving chocolates and bath items,one_does_all,male_male,23,2,,,2.1.0,5544,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 16 of 18</h2>
+          <p class=""trial-text"">Consider Andrew and Tristan, who have known each other a long time. Two things happen regularly between them: giving chocolates and giving bath items. They agree these favors are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Andrew always gives chocolates and bath items.
+</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",16614987,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,50,html-keyboard-response,,,,,,,,2,,,2.1.0,,,44ku608m8emf.json,Next scenario,16617290,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,51,html-slider-response,response,prior,16,carpool,division_of_labor,male_male,0,2,,,2.1.0,15685,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 17 of 18</h2>
+          <p class=""trial-text"">Consider Brent and Kyle, who live in the same area. Two favors happen regularly between them: giving the children rides to school and picking up the children from soccer practice. They agree these favors are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Brent and Kyle's relationship is?</p>
+        </div> 
+      ",16632977,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,52,html-slider-response,response,posterior,16,carpool,division_of_labor,male_male,3,2,,,2.1.0,21246,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 17 of 18</h2>
+          <p class=""trial-text"">Consider Brent and Kyle, who live in the same area. Two favors happen regularly between them: giving the children rides to school and picking up the children from soccer practice. They agree these favors are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Brent always gives the children rides to school and Kyle always picks them up from soccer practice. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",16654224,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,53,html-keyboard-response,,,,,,,,2,,,2.1.0,,,44ku608m8emf.json,Next scenario,16655727,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,54,html-slider-response,response,prior,17,cafe closing,both_alternate,male_female,7,2,,,2.1.0,20006,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 18 of 18</h2>
+          <p class=""trial-text"">Consider Hasan and Ruthe, who work together at a small cafe. Two things happen regularly between them during close: one counts all the money in the register and the other throws away any stale baked good. They agree that the two tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Hasan and Ruthe's relationship is?</p>
+        </div> 
+      ",16675735,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,55,html-slider-response,response,posterior,17,cafe closing,both_alternate,male_female,0,2,,,2.1.0,4820,0,44ku608m8emf.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 18 of 18</h2>
+          <p class=""trial-text"">Consider Hasan and Ruthe, who work together at a small cafe. Two things happen regularly between them during close: one counts all the money in the register and the other throws away any stale baked good. They agree that the two tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turns counting the money in the register and throwing away the stale baked goods. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",16680556,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+44ku608m8emf,56,survey-html-form,exit_survey,,,,,,"{""gender"": ""female"", ""age"": ""18"", ""understood"": ""yes"", ""comments"": """"}",2,True,0,2.0.0,8515,,44ku608m8emf.json,,16689074,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,0,instructions,,,,,,,,5,,,2.1.0,1839,,9kpmhvunqzb0.json,,1850,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,"[{""page_index"": 0, ""viewing_time"": 1839}]"
+9kpmhvunqzb0,1,instructions,,,,,,,,5,,,2.1.0,4603,,9kpmhvunqzb0.json,,6456,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,"[{""page_index"": 0, ""viewing_time"": 2778}, {""page_index"": 1, ""viewing_time"": 763}, {""page_index"": 2, ""viewing_time"": 1062}]"
+9kpmhvunqzb0,2,html-slider-response,response,prior,0,rating and listening,division_of_labor,male_female,49,5,,,2.1.0,2056,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 1 of 18</h2>
+          <p class=""trial-text"">Consider Joe and Kelly, who regularly call each other. Two things happen regularly between them: discussing all of their romantic relationship issues and discussing all of their work-related issues. They agree that these speaking and listening respectively are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Joe and Kelly's relationship is?</p>
+        </div> 
+      ",8515,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,3,html-slider-response,response,posterior,0,rating and listening,division_of_labor,male_female,50,5,,,2.1.0,3789,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 1 of 18</h2>
+          <p class=""trial-text"">Consider Joe and Kelly, who regularly call each other. Two things happen regularly between them: discussing all of their romantic relationship issues and discussing all of their work-related issues. They agree that these speaking and listening respectively are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Joe always discusses their relationship issues and Kelly discusses their work issues. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",12307,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,4,html-keyboard-response,,,,,,,,5,,,2.1.0,,,9kpmhvunqzb0.json,Next scenario,13811,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,5,html-slider-response,response,prior,1,carpool,division_of_labor,male_female,49,5,,,2.1.0,3309,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 2 of 18</h2>
+          <p class=""trial-text"">Consider Brent and Maddy, who live in the same area. Two favors happen regularly between them: giving the children rides to school and picking up the children from soccer practice. They agree these favors are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Brent and Maddy's relationship is?</p>
+        </div> 
+      ",17122,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,6,html-slider-response,response,posterior,1,carpool,division_of_labor,male_female,50,5,,,2.1.0,4087,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 2 of 18</h2>
+          <p class=""trial-text"">Consider Brent and Maddy, who live in the same area. Two favors happen regularly between them: giving the children rides to school and picking up the children from soccer practice. They agree these favors are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Brent always gives the children rides to school and Maddy always picks them up from soccer practice. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",21210,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,7,html-keyboard-response,,,,,,,,5,,,2.1.0,,,9kpmhvunqzb0.json,Next scenario,23514,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,8,html-slider-response,response,prior,2,neighborly favors,one_does_all,female_female,50,5,,,2.1.0,2013,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 3 of 18</h2>
+          <p class=""trial-text"">Consider Ruby and Mary, who are neighbors who regularly do favors for one another. This consists of two things: watching the others' kids when the other person has to pick up a shift and hosting the other family over for dinner. They agree that these two decisions are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Ruby and Mary's relationship is?</p>
+        </div> 
+      ",25530,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,9,html-slider-response,response,posterior,2,neighborly favors,one_does_all,female_female,54,5,,,2.1.0,6400,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 3 of 18</h2>
+          <p class=""trial-text"">Consider Ruby and Mary, who are neighbors who regularly do favors for one another. This consists of two things: watching the others' kids when the other person has to pick up a shift and hosting the other family over for dinner. They agree that these two decisions are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Ruby always watches Mary's kids and always hosts them for dinner. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",31931,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,10,html-keyboard-response,,,,,,,,5,,,2.1.0,,,9kpmhvunqzb0.json,Next scenario,34234,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,11,html-slider-response,attention_check,,,,,,0,5,True,,2.1.0,3044,0,9kpmhvunqzb0.json,"
+          <div>
+            <p>This is an attention check to make sure you're not a bot and that we can award you your pay for the study.</p>
+            <p><strong>Please set the slider to ""Completely equal"" (all the way to the left).</strong></p>
+          </div>
+        ",37281,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,12,html-slider-response,response,prior,3,meeting locations,division_of_labor,male_male,51,5,,,2.1.0,2265,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 4 of 18</h2>
+          <p class=""trial-text"">Consider Burnie and Calvin, who explore their city together. Two decisions need to be made when they go out: choosing which street to explore and choosing what activity they should do there. Burnie prefers to pick the location and Calvin prefers to pick the activity.They agree that these two decisions are equal in effort and value.     </p>
+          <p class=""trial-text"">How hierarchical do you think Burnie and Calvin's relationship is?</p>
+        </div> 
+      ",39548,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,13,html-slider-response,response,posterior,3,meeting locations,division_of_labor,male_male,50,5,,,2.1.0,5035,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 4 of 18</h2>
+          <p class=""trial-text"">Consider Burnie and Calvin, who explore their city together. Two decisions need to be made when they go out: choosing which street to explore and choosing what activity they should do there. Burnie prefers to pick the location and Calvin prefers to pick the activity.They agree that these two decisions are equal in effort and value.     </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Burnie always decides which street to explore and Calvin always decides the activity to try.</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",44585,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,14,html-keyboard-response,,,,,,,,5,,,2.1.0,,,9kpmhvunqzb0.json,Next scenario,46338,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,15,html-slider-response,response,prior,4,mansion renovation,division_of_labor,male_male,50,5,,,2.1.0,2160,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 5 of 18</h2>
+          <p class=""trial-text"">Consider Micheal and Sam, who just co-bought a lot for renovating a mansion. Two errands need to be done each week until the house is completed: decorating each finished room and installing the carpet and flooring in the uncompleted ones. They agree that the two tasks are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Micheal and Sam's relationship is?</p>
+        </div> 
+      ",48501,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,16,html-slider-response,response,posterior,4,mansion renovation,division_of_labor,male_male,49,5,,,2.1.0,3215,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 5 of 18</h2>
+          <p class=""trial-text"">Consider Micheal and Sam, who just co-bought a lot for renovating a mansion. Two errands need to be done each week until the house is completed: decorating each finished room and installing the carpet and flooring in the uncompleted ones. They agree that the two tasks are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Micheal always decorates each finished room and Sam always installs the carpet and flooring.</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",51718,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,17,html-keyboard-response,,,,,,,,5,,,2.1.0,,,9kpmhvunqzb0.json,Next scenario,53721,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,18,html-slider-response,response,prior,5,paying for outings,one_does_all,female_female,49,5,,,2.1.0,1627,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 6 of 18</h2>
+          <p class=""trial-text"">Consider Bella and Sammy, who go clubbing. When they go out, one pays for dinner beforehand and one covers the cost of the drinks at the club. They agree these expenses are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Bella and Sammy's relationship is?</p>
+        </div> 
+      ",55351,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,19,html-slider-response,response,posterior,5,paying for outings,one_does_all,female_female,52,5,,,2.1.0,3031,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 6 of 18</h2>
+          <p class=""trial-text"">Consider Bella and Sammy, who go clubbing. When they go out, one pays for dinner beforehand and one covers the cost of the drinks at the club. They agree these expenses are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Bella always pays for dinner and pays for drinks. 
+</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",58384,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,20,html-keyboard-response,,,,,,,,5,,,2.1.0,,,9kpmhvunqzb0.json,Next scenario,60687,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,21,html-slider-response,response,prior,6,cafe closing,both_alternate,male_male,49,5,,,2.1.0,4087,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 7 of 18</h2>
+          <p class=""trial-text"">Consider Hasan and Trent, who work together at a small cafe. Two things happen regularly between them during closing: one counts all the money in the register and the other throws away any stale baked good. They agree that the two tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Hasan and Trent's relationship is?</p>
+        </div> 
+      ",64777,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,22,html-slider-response,response,posterior,6,cafe closing,both_alternate,male_male,49,5,,,2.1.0,3889,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 7 of 18</h2>
+          <p class=""trial-text"">Consider Hasan and Trent, who work together at a small cafe. Two things happen regularly between them during closing: one counts all the money in the register and the other throws away any stale baked good. They agree that the two tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turns counting the money in the register and throwing away the stale baked goods. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",68668,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,23,html-keyboard-response,,,,,,,,5,,,2.1.0,,,9kpmhvunqzb0.json,Next scenario,70971,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,24,html-slider-response,response,prior,7,paying bills,both_alternate,female_female,46,5,,,2.1.0,2552,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 8 of 18</h2>
+          <p class=""trial-text"">Consider Nicolette and Ally, who both do finances for a company. Two administrative tasks need to be done each month: paying the utility bills and submitting reimbursement forms. They agree that these tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Nicolette and Ally's relationship is?</p>
+        </div> 
+      ",73525,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,25,html-slider-response,response,posterior,7,paying bills,both_alternate,female_female,51,5,,,2.1.0,2800,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 8 of 18</h2>
+          <p class=""trial-text"">Consider Nicolette and Ally, who both do finances for a company. Two administrative tasks need to be done each month: paying the utility bills and submitting reimbursement forms. They agree that these tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turns paying the utility bills and submitting reimbursement forms</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",76326,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,26,html-keyboard-response,,,,,,,,5,,,2.1.0,,,9kpmhvunqzb0.json,Next scenario,77829,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,27,html-slider-response,response,prior,8,deep cleans,one_does_all,male_female,47,5,,,2.1.0,1336,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 9 of 18</h2>
+          <p class=""trial-text"">Consider Abe and Rebecca, who live in the same apartment. Two deep cleans need to be done each week: sweeping and mopping the floors and scrubbing the bathroom. They agree that the two tasks are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Abe and Rebecca's relationship is?</p>
+        </div> 
+      ",79168,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,28,html-slider-response,response,posterior,8,deep cleans,one_does_all,male_female,51,5,,,2.1.0,7298,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 9 of 18</h2>
+          <p class=""trial-text"">Consider Abe and Rebecca, who live in the same apartment. Two deep cleans need to be done each week: sweeping and mopping the floors and scrubbing the bathroom. They agree that the two tasks are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Abe always sweeps and mops the floors and scrubs the bathroom. 
+</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",86468,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,29,html-keyboard-response,,,,,,,,5,,,2.1.0,,,9kpmhvunqzb0.json,Next scenario,88770,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,30,html-slider-response,response,prior,9,CIA tasks,both_alternate,male_female,50,5,,,2.1.0,9266,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 10 of 18</h2>
+          <p class=""trial-text"">Consider Noah and Emilia, who work together. Two tasks need to be done each week: blacking-out classified information in documents and doing background checks on employees. They agree that the two tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Noah and Emilia's relationship is?</p>
+        </div> 
+      ",98039,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,31,html-slider-response,response,posterior,9,CIA tasks,both_alternate,male_female,49,5,,,2.1.0,11756,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 10 of 18</h2>
+          <p class=""trial-text"">Consider Noah and Emilia, who work together. Two tasks need to be done each week: blacking-out classified information in documents and doing background checks on employees. They agree that the two tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turns blacking out the information and doing background checks. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",109797,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,32,html-keyboard-response,,,,,,,,5,,,2.1.0,,,9kpmhvunqzb0.json,Next scenario,112099,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,33,html-slider-response,response,prior,10,nursing exams,division_of_labor,female_female,49,5,,,2.1.0,2105,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 11 of 18</h2>
+          <p class=""trial-text"">Consider Laura and Sandra, who are medical professionals that work together in a hospital. Two caretaking tasks occur with each patient: one of them tests for and records the patient's vitals, while the other one completes a verbal assessment regarding how the patient is feeling. They agree that these tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Laura and Sandra's relationship is?</p>
+        </div> 
+      ",114207,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,34,html-slider-response,response,posterior,10,nursing exams,division_of_labor,female_female,50,5,,,2.1.0,46243,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 11 of 18</h2>
+          <p class=""trial-text"">Consider Laura and Sandra, who are medical professionals that work together in a hospital. Two caretaking tasks occur with each patient: one of them tests for and records the patient's vitals, while the other one completes a verbal assessment regarding how the patient is feeling. They agree that these tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Laura always records the patient's vitals and Sandra always completes the verbal assessment. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",160452,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,35,html-keyboard-response,,,,,,,,5,,,2.1.0,,,9kpmhvunqzb0.json,Next scenario,161955,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,36,html-slider-response,response,prior,11,restaurant preference,one_does_all,male_male,50,5,,,2.1.0,1385,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 12 of 18</h2>
+          <p class=""trial-text"">Consider John and Shane, who eat food together regularly. Two decisions need to be made when they go out: choosing where to go for lunch and choosing where to go for dinner. They have different preferences for each. They agree that these two decisions are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think John and Shane's relationship is?</p>
+        </div> 
+      ",163342,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,37,html-slider-response,response,posterior,11,restaurant preference,one_does_all,male_male,45,5,,,2.1.0,4266,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 12 of 18</h2>
+          <p class=""trial-text"">Consider John and Shane, who eat food together regularly. Two decisions need to be made when they go out: choosing where to go for lunch and choosing where to go for dinner. They have different preferences for each. They agree that these two decisions are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>John always chooses where to go for lunch and always chooses where to go for dinner.
+</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",167609,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,38,html-keyboard-response,,,,,,,,5,,,2.1.0,,,9kpmhvunqzb0.json,Next scenario,169986,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,39,html-slider-response,response,prior,12,giving chocolates and bath items,both_alternate,male_female,49,5,,,2.1.0,3791,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 13 of 18</h2>
+          <p class=""trial-text"">Consider Andrew and Rachel, who have known each other a long time. Two things happen regularly between them: giving chocolates and giving bath items. They agree these favors are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Andrew and Rachel's relationship is?</p>
+        </div> 
+      ",173779,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,40,html-slider-response,response,posterior,12,giving chocolates and bath items,both_alternate,male_female,48,5,,,2.1.0,2991,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 13 of 18</h2>
+          <p class=""trial-text"">Consider Andrew and Rachel, who have known each other a long time. Two things happen regularly between them: giving chocolates and giving bath items. They agree these favors are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turns giving chocolates and relaxing bath items. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",176771,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,41,html-keyboard-response,,,,,,,,5,,,2.1.0,,,9kpmhvunqzb0.json,Next scenario,178273,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,42,html-slider-response,response,prior,13,lawncare and laundry,both_alternate,male_male,52,5,,,2.1.0,1136,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 14 of 18</h2>
+          <p class=""trial-text"">Consider Leon and Frank, who live together. Every week, two tasks need to get done: doing the lawn work and doing the laundry. They agree that these two decisions are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Leon and Frank's relationship is?</p>
+        </div> 
+      ",179412,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,43,html-slider-response,response,posterior,13,lawncare and laundry,both_alternate,male_male,49,5,,,2.1.0,2336,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 14 of 18</h2>
+          <p class=""trial-text"">Consider Leon and Frank, who live together. Every week, two tasks need to get done: doing the lawn work and doing the laundry. They agree that these two decisions are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turns doing the lawn work and doing the laundry</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",181749,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,44,html-keyboard-response,,,,,,,,5,,,2.1.0,,,9kpmhvunqzb0.json,Next scenario,184051,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,45,html-slider-response,response,prior,14,conventional chores,division_of_labor,female_female,45,5,,,2.1.0,1294,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 15 of 18</h2>
+          <p class=""trial-text"">Consider Daisy and Wendy who live together. Two tasks need to be done each week: taking out the trash and running the dishwasher. They agree that the two tasks are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Daisy and Wendy's relationship is?</p>
+        </div> 
+      ",185346,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,46,html-slider-response,response,posterior,14,conventional chores,division_of_labor,female_female,50,5,,,2.1.0,50839,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 15 of 18</h2>
+          <p class=""trial-text"">Consider Daisy and Wendy who live together. Two tasks need to be done each week: taking out the trash and running the dishwasher. They agree that the two tasks are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Daisy always takes out the trash and Wendy always runs the dishwater. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",236186,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,47,html-keyboard-response,,,,,,,,5,,,2.1.0,,,9kpmhvunqzb0.json,Next scenario,237689,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,48,html-slider-response,response,prior,15,traveling,one_does_all,male_female,49,5,,,2.1.0,1905,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 16 of 18</h2>
+          <p class=""trial-text"">Consider Robert and Alice, two travelers who just bought a new home trailer to explore the country. Two errands need to be done before a long drive: securing all the furniture in place and restocking on water and gas from a local store. They agree that the two tasks are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Robert and Alice's relationship is?</p>
+        </div> 
+      ",239595,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,49,html-slider-response,response,posterior,15,traveling,one_does_all,male_female,50,5,,,2.1.0,6102,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 16 of 18</h2>
+          <p class=""trial-text"">Consider Robert and Alice, two travelers who just bought a new home trailer to explore the country. Two errands need to be done before a long drive: securing all the furniture in place and restocking on water and gas from a local store. They agree that the two tasks are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Robert always secures the furniture in place and restocks the water and gas.
+</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",245700,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,50,html-keyboard-response,,,,,,,,5,,,2.1.0,,,9kpmhvunqzb0.json,Next scenario,247985,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,51,html-slider-response,response,prior,16,cargo monitoring,both_alternate,female_female,48,5,,,2.1.0,2374,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 17 of 18</h2>
+          <p class=""trial-text"">Consider Paulina and Bridget, who manage and monitor shared cargo. Two tasks regularly need to get done: supply inventory and inspecting for damage. They agree that these tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Paulina and Bridget's relationship is?</p>
+        </div> 
+      ",250362,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,52,html-slider-response,response,posterior,16,cargo monitoring,both_alternate,female_female,50,5,,,2.1.0,3572,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 17 of 18</h2>
+          <p class=""trial-text"">Consider Paulina and Bridget, who manage and monitor shared cargo. Two tasks regularly need to get done: supply inventory and inspecting for damage. They agree that these tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turns monitoring supply inventory and inspecting for damage.</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",253938,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,53,html-keyboard-response,,,,,,,,5,,,2.1.0,,,9kpmhvunqzb0.json,Next scenario,255985,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,54,html-slider-response,response,prior,17,burger prep,one_does_all,male_male,49,5,,,2.1.0,4100,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 18 of 18</h2>
+          <p class=""trial-text"">Consider James and Bill, who work together at a burger joint. They are tasked with two basic tasks every morning: prepping all the vegetables and weighing all the patties. They agree that the two tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think James and Bill's relationship is?</p>
+        </div> 
+      ",260086,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,55,html-slider-response,response,posterior,17,burger prep,one_does_all,male_male,47,5,,,2.1.0,45414,0,9kpmhvunqzb0.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 18 of 18</h2>
+          <p class=""trial-text"">Consider James and Bill, who work together at a burger joint. They are tasked with two basic tasks every morning: prepping all the vegetables and weighing all the patties. They agree that the two tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>James always prepares the vegetables and weighs all the patties.
+</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",305502,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+9kpmhvunqzb0,56,survey-html-form,exit_survey,,,,,,"{""gender"": ""female"", ""age"": ""9"", ""understood"": ""yes"", ""comments"": """"}",5,True,0,2.0.0,17844,,9kpmhvunqzb0.json,,323349,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,0,instructions,,,,,,,,4,,,2.1.0,194673,,au3yxqj0z6lr.json,,194678,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,"[{""page_index"": 0, ""viewing_time"": 194673}]"
+au3yxqj0z6lr,1,instructions,,,,,,,,4,,,2.1.0,3530,,au3yxqj0z6lr.json,,198210,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,"[{""page_index"": 0, ""viewing_time"": 1263}, {""page_index"": 1, ""viewing_time"": 674}, {""page_index"": 2, ""viewing_time"": 1593}]"
+au3yxqj0z6lr,2,html-slider-response,response,prior,0,rating and listening,division_of_labor,male_female,0,4,,,2.1.0,11254,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 1 of 18</h2>
+          <p class=""trial-text"">Consider Joe and Kelly, who regularly call each other. Two things happen regularly between them: discussing all of their romantic relationship issues and discussing all of their work-related issues. They agree that these speaking and listening respectively are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Joe and Kelly's relationship is?</p>
+        </div> 
+      ",209467,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,3,html-slider-response,response,posterior,0,rating and listening,division_of_labor,male_female,2,4,,,2.1.0,4066,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 1 of 18</h2>
+          <p class=""trial-text"">Consider Joe and Kelly, who regularly call each other. Two things happen regularly between them: discussing all of their romantic relationship issues and discussing all of their work-related issues. They agree that these speaking and listening respectively are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Joe always discusses their relationship issues and Kelly discusses their work issues. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",213535,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,4,html-keyboard-response,,,,,,,,4,,,2.1.0,,,au3yxqj0z6lr.json,Next scenario,215837,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,5,html-slider-response,response,prior,1,giving chocolates and bath items,division_of_labor,female_female,0,4,,,2.1.0,7878,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 2 of 18</h2>
+          <p class=""trial-text"">Consider Janet and Rachel, who have known each other a long time. Two things happen regularly between them: giving chocolates and giving bath items. They agree these favors are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Janet and Rachel's relationship is?</p>
+        </div> 
+      ",223717,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,6,html-slider-response,response,posterior,1,giving chocolates and bath items,division_of_labor,female_female,0,4,,,2.1.0,4215,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 2 of 18</h2>
+          <p class=""trial-text"">Consider Janet and Rachel, who have known each other a long time. Two things happen regularly between them: giving chocolates and giving bath items. They agree these favors are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Janet always gives chocolates and Rachel always gives bath items. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",227934,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,7,html-keyboard-response,,,,,,,,4,,,2.1.0,,,au3yxqj0z6lr.json,Next scenario,229687,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,8,html-slider-response,response,prior,2,nursing exams,both_alternate,male_male,0,4,,,2.1.0,51983,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 3 of 18</h2>
+          <p class=""trial-text"">Consider Richard and Hans, who are medical professionals that work together in a hospital. Two caretaking tasks occur with each patient: one of them tests for and records the patient's vitals, while the other one completes a verbal assessment regarding how the patient is feeling. They agree that these tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Richard and Hans's relationship is?</p>
+        </div> 
+      ",281672,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,9,html-slider-response,response,posterior,2,nursing exams,both_alternate,male_male,0,4,,,2.1.0,3273,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 3 of 18</h2>
+          <p class=""trial-text"">Consider Richard and Hans, who are medical professionals that work together in a hospital. Two caretaking tasks occur with each patient: one of them tests for and records the patient's vitals, while the other one completes a verbal assessment regarding how the patient is feeling. They agree that these tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turns recording the patient's vitals and completing a verbal assessment. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",284947,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,10,html-keyboard-response,,,,,,,,4,,,2.1.0,,,au3yxqj0z6lr.json,Next scenario,286950,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,11,html-slider-response,attention_check,,,,,,0,4,True,,2.1.0,10642,0,au3yxqj0z6lr.json,"
+          <div>
+            <p>This is an attention check to make sure you're not a bot and that we can award you your pay for the study.</p>
+            <p><strong>Please set the slider to ""Completely equal"" (all the way to the left).</strong></p>
+          </div>
+        ",297593,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,12,html-slider-response,response,prior,3,lawncare and laundry,division_of_labor,male_female,0,4,,,2.1.0,21930,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 4 of 18</h2>
+          <p class=""trial-text"">Consider Leon and Jennifer, who live together. Every week, two tasks need to get done: doing the lawn work and doing the laundry. They agree that these two decisions are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Leon and Jennifer's relationship is?</p>
+        </div> 
+      ",319526,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,13,html-slider-response,response,posterior,3,lawncare and laundry,division_of_labor,male_female,4,4,,,2.1.0,19224,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 4 of 18</h2>
+          <p class=""trial-text"">Consider Leon and Jennifer, who live together. Every week, two tasks need to get done: doing the lawn work and doing the laundry. They agree that these two decisions are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Leon always does the lawn work and Jennifer always does the laundry. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",338752,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,14,html-keyboard-response,,,,,,,,4,,,2.1.0,,,au3yxqj0z6lr.json,Next scenario,340255,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,15,html-slider-response,response,prior,4,paying bills,division_of_labor,female_female,0,4,,,2.1.0,22219,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 5 of 18</h2>
+          <p class=""trial-text"">Consider Nicolette and Ally, who both do finances for a company. Two administrative tasks need to be done each month: paying the utility bills and submitting reimbursement forms. They agree that these tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Nicolette and Ally's relationship is?</p>
+        </div> 
+      ",362476,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,16,html-slider-response,response,posterior,4,paying bills,division_of_labor,female_female,0,4,,,2.1.0,16799,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 5 of 18</h2>
+          <p class=""trial-text"">Consider Nicolette and Ally, who both do finances for a company. Two administrative tasks need to be done each month: paying the utility bills and submitting reimbursement forms. They agree that these tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Nicolette always pays the utility bills and Ally always submits the reimbursement forms.</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",379277,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,17,html-keyboard-response,,,,,,,,4,,,2.1.0,,,au3yxqj0z6lr.json,Next scenario,381580,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,18,html-slider-response,response,prior,5,cargo monitoring,one_does_all,male_male,0,4,,,2.1.0,10018,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 6 of 18</h2>
+          <p class=""trial-text"">Consider Brian and Jose, who manage and monitor shared cargo. Two tasks regularly need to get done: supply inventory and inspecting for damage. They agree that these tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Brian and Jose's relationship is?</p>
+        </div> 
+      ",391601,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,19,html-slider-response,response,posterior,5,cargo monitoring,one_does_all,male_male,14,4,,,2.1.0,5666,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 6 of 18</h2>
+          <p class=""trial-text"">Consider Brian and Jose, who manage and monitor shared cargo. Two tasks regularly need to get done: supply inventory and inspecting for damage. They agree that these tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Brian always monitors the supply inventory and inspects for damage. 
+</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",397268,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,20,html-keyboard-response,,,,,,,,4,,,2.1.0,,,au3yxqj0z6lr.json,Next scenario,399570,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,21,html-slider-response,response,prior,6,neighborly favors,one_does_all,male_female,0,4,,,2.1.0,168561,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 7 of 18</h2>
+          <p class=""trial-text"">Consider Parker and Mary, who are neighbors who regularly do favors for one another. This consists of two things: watching the others' kids when the other person has to pick up a shift and hosting the other family over for dinner. They agree that these two decisions are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Parker and Mary's relationship is?</p>
+        </div> 
+      ",568134,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,22,html-slider-response,response,posterior,6,neighborly favors,one_does_all,male_female,18,4,,,2.1.0,11884,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 7 of 18</h2>
+          <p class=""trial-text"">Consider Parker and Mary, who are neighbors who regularly do favors for one another. This consists of two things: watching the others' kids when the other person has to pick up a shift and hosting the other family over for dinner. They agree that these two decisions are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Parker always watches Mary's kids and always hosts them for dinner. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",580019,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,23,html-keyboard-response,,,,,,,,4,,,2.1.0,,,au3yxqj0z6lr.json,Next scenario,581522,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,24,html-slider-response,response,prior,7,CIA tasks,both_alternate,female_female,0,4,,,2.1.0,4752,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 8 of 18</h2>
+          <p class=""trial-text"">Consider Abby and Emilia, who work together. Two tasks need to be done each week: blacking-out classified information in documents and doing background checks on employees. They agree that the two tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Abby and Emilia's relationship is?</p>
+        </div> 
+      ",586277,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,25,html-slider-response,response,posterior,7,CIA tasks,both_alternate,female_female,0,4,,,2.1.0,5381,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 8 of 18</h2>
+          <p class=""trial-text"">Consider Abby and Emilia, who work together. Two tasks need to be done each week: blacking-out classified information in documents and doing background checks on employees. They agree that the two tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turns blacking out the information and doing background checks. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",591661,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,26,html-keyboard-response,,,,,,,,4,,,2.1.0,,,au3yxqj0z6lr.json,Next scenario,593413,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,27,html-slider-response,response,prior,8,traveling,one_does_all,female_female,0,4,,,2.1.0,8282,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 9 of 18</h2>
+          <p class=""trial-text"">Consider Halie and Alice, two travelers who just bought a new home trailer to explore the country. Two errands need to be done before a long drive: securing all the furniture in place and restocking on water and gas from a local store. They agree that the two tasks are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Halie and Alice's relationship is?</p>
+        </div> 
+      ",601698,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,28,html-slider-response,response,posterior,8,traveling,one_does_all,female_female,6,4,,,2.1.0,20676,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 9 of 18</h2>
+          <p class=""trial-text"">Consider Halie and Alice, two travelers who just bought a new home trailer to explore the country. Two errands need to be done before a long drive: securing all the furniture in place and restocking on water and gas from a local store. They agree that the two tasks are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Halie always secures the furniture in place and restocks the water and gas.
+</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",622376,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,29,html-keyboard-response,,,,,,,,4,,,2.1.0,,,au3yxqj0z6lr.json,Next scenario,624378,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,30,html-slider-response,response,prior,9,burger prep,division_of_labor,male_male,0,4,,,2.1.0,4621,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 10 of 18</h2>
+          <p class=""trial-text"">Consider James and Bill, who work together at a burger joint. They are tasked with two basic tasks every morning: prepping all the vegetables and weighing all the patties. They agree that the two tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think James and Bill's relationship is?</p>
+        </div> 
+      ",629002,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,31,html-slider-response,response,posterior,9,burger prep,division_of_labor,male_male,0,4,,,2.1.0,3483,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 10 of 18</h2>
+          <p class=""trial-text"">Consider James and Bill, who work together at a burger joint. They are tasked with two basic tasks every morning: prepping all the vegetables and weighing all the patties. They agree that the two tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>James always prepares the vegetables and Bill always weighs the patties. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",632488,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,32,html-keyboard-response,,,,,,,,4,,,2.1.0,,,au3yxqj0z6lr.json,Next scenario,634239,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,33,html-slider-response,response,prior,10,carpool,both_alternate,female_female,0,4,,,2.1.0,17390,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 11 of 18</h2>
+          <p class=""trial-text"">Consider Rachel and Maddy, who live in the same area. Two favors happen regularly between them: giving the children rides to school and picking up the children from soccer practice. They agree these favors are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Rachel and Maddy's relationship is?</p>
+        </div> 
+      ",651631,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,34,html-slider-response,response,posterior,10,carpool,both_alternate,female_female,0,4,,,2.1.0,4477,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 11 of 18</h2>
+          <p class=""trial-text"">Consider Rachel and Maddy, who live in the same area. Two favors happen regularly between them: giving the children rides to school and picking up the children from soccer practice. They agree these favors are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turns giving the children rides to school and picking up the children from soccer practice. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",656110,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,35,html-keyboard-response,,,,,,,,4,,,2.1.0,,,au3yxqj0z6lr.json,Next scenario,657613,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,36,html-slider-response,response,prior,11,conventional chores,both_alternate,male_female,2,4,,,2.1.0,13041,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 12 of 18</h2>
+          <p class=""trial-text"">Consider Mark and Wendy who live together. Two tasks need to be done each week: taking out the trash and running the dishwasher. They agree that the two tasks are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Mark and Wendy's relationship is?</p>
+        </div> 
+      ",670655,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,37,html-slider-response,response,posterior,11,conventional chores,both_alternate,male_female,0,4,,,2.1.0,13266,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 12 of 18</h2>
+          <p class=""trial-text"">Consider Mark and Wendy who live together. Two tasks need to be done each week: taking out the trash and running the dishwasher. They agree that the two tasks are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turns taking out the trash and running the dishwasher</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",683923,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,38,html-keyboard-response,,,,,,,,4,,,2.1.0,,,au3yxqj0z6lr.json,Next scenario,685425,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,39,html-slider-response,response,prior,12,mansion renovation,one_does_all,female_female,0,4,,,2.1.0,10609,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 13 of 18</h2>
+          <p class=""trial-text"">Consider Caitlyn and Jessica, who just co-bought a lot for renovating a mansion. Two errands need to be done each week until the house is completed: decorating each finished room and installing the carpet and flooring in the uncompleted ones. They agree that the two tasks are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Caitlyn and Jessica's relationship is?</p>
+        </div> 
+      ",696036,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,40,html-slider-response,response,posterior,12,mansion renovation,one_does_all,female_female,7,4,,,2.1.0,3348,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 13 of 18</h2>
+          <p class=""trial-text"">Consider Caitlyn and Jessica, who just co-bought a lot for renovating a mansion. Two errands need to be done each week until the house is completed: decorating each finished room and installing the carpet and flooring in the uncompleted ones. They agree that the two tasks are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Caitlyn always decorates each finished room and installs the carpet and flooring.
+</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",699385,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,41,html-keyboard-response,,,,,,,,4,,,2.1.0,,,au3yxqj0z6lr.json,Next scenario,701387,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,42,html-slider-response,response,prior,13,deep cleans,division_of_labor,male_male,0,4,,,2.1.0,14665,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 14 of 18</h2>
+          <p class=""trial-text"">Consider Abe and Mark, who live in the same apartment. Two deep cleans need to be done each week: sweeping and mopping the floors and scrubbing the bathroom. They agree that the two tasks are equal in effort and value. </p>
+          <p class=""trial-text"">How hierarchical do you think Abe and Mark's relationship is?</p>
+        </div> 
+      ",716054,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,43,html-slider-response,response,posterior,13,deep cleans,division_of_labor,male_male,2,4,,,2.1.0,6958,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 14 of 18</h2>
+          <p class=""trial-text"">Consider Abe and Mark, who live in the same apartment. Two deep cleans need to be done each week: sweeping and mopping the floors and scrubbing the bathroom. They agree that the two tasks are equal in effort and value. </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Abe always sweeps and mops the floor and Mark always scrubs the bathroom. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",723014,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,44,html-keyboard-response,,,,,,,,4,,,2.1.0,,,au3yxqj0z6lr.json,Next scenario,725316,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,45,html-slider-response,response,prior,14,meeting locations,both_alternate,male_female,0,4,,,2.1.0,5468,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 15 of 18</h2>
+          <p class=""trial-text"">Consider Burnie and Margaret, who explore their city together. Two decisions need to be made when they go out: choosing which street to explore and choosing what activity they should do there. Burnie prefers to pick the location and Margaret prefers to pick the activity.They agree that these two decisions are equal in effort and value.     </p>
+          <p class=""trial-text"">How hierarchical do you think Burnie and Margaret's relationship is?</p>
+        </div> 
+      ",730786,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,46,html-slider-response,response,posterior,14,meeting locations,both_alternate,male_female,0,4,,,2.1.0,4289,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 15 of 18</h2>
+          <p class=""trial-text"">Consider Burnie and Margaret, who explore their city together. Two decisions need to be made when they go out: choosing which street to explore and choosing what activity they should do there. Burnie prefers to pick the location and Margaret prefers to pick the activity.They agree that these two decisions are equal in effort and value.     </p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turn deciding which street to explore and which activity to try. </strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",735077,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,47,html-keyboard-response,,,,,,,,4,,,2.1.0,,,au3yxqj0z6lr.json,Next scenario,736829,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,48,html-slider-response,response,prior,15,paying for outings,both_alternate,male_male,0,4,,,2.1.0,2906,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 16 of 18</h2>
+          <p class=""trial-text"">Consider Zack and Kevin, who go clubbing. When they go out, one pays for dinner beforehand and one covers the cost of the drinks at the club. They agree these expenses are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Zack and Kevin's relationship is?</p>
+        </div> 
+      ",739736,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,49,html-slider-response,response,posterior,15,paying for outings,both_alternate,male_male,0,4,,,2.1.0,21055,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 16 of 18</h2>
+          <p class=""trial-text"">Consider Zack and Kevin, who go clubbing. When they go out, one pays for dinner beforehand and one covers the cost of the drinks at the club. They agree these expenses are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>They take turns paying for dinner and paying for drinks.
+</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",760793,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,50,html-keyboard-response,,,,,,,,4,,,2.1.0,,,au3yxqj0z6lr.json,Next scenario,763095,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,51,html-slider-response,response,prior,16,cafe closing,one_does_all,male_female,4,4,,,2.1.0,14857,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 17 of 18</h2>
+          <p class=""trial-text"">Consider Hasan and Ruthe, who work together at a small cafe. Two things happen regularly between them during close: one counts all the money in the register and the other throws away any stale baked good. They agree that the two tasks are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think Hasan and Ruthe's relationship is?</p>
+        </div> 
+      ",777952,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,52,html-slider-response,response,posterior,16,cafe closing,one_does_all,male_female,11,4,,,2.1.0,9666,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 17 of 18</h2>
+          <p class=""trial-text"">Consider Hasan and Ruthe, who work together at a small cafe. Two things happen regularly between them during close: one counts all the money in the register and the other throws away any stale baked good. They agree that the two tasks are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>Hasan always counts the money in the register and always throws away the stale baked goods. 
+</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",787620,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,53,html-keyboard-response,,,,,,,,4,,,2.1.0,,,au3yxqj0z6lr.json,Next scenario,789374,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,54,html-slider-response,response,prior,17,restaurant preference,one_does_all,male_male,0,4,,,2.1.0,4480,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 18 of 18</h2>
+          <p class=""trial-text"">Consider John and Shane, who eat food together regularly. Two decisions need to be made when they go out: choosing where to go for lunch and choosing where to go for dinner. They have different preferences for each. They agree that these two decisions are equal in effort and value.</p>
+          <p class=""trial-text"">How hierarchical do you think John and Shane's relationship is?</p>
+        </div> 
+      ",793856,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,55,html-slider-response,response,posterior,17,restaurant preference,one_does_all,male_male,12,4,,,2.1.0,15966,0,au3yxqj0z6lr.json,"
+        <div class=""trial-content"">
+          <h2>Scenario 18 of 18</h2>
+          <p class=""trial-text"">Consider John and Shane, who eat food together regularly. Two decisions need to be made when they go out: choosing where to go for lunch and choosing where to go for dinner. They have different preferences for each. They agree that these two decisions are equal in effort and value.</p>
+          <div class=""action-highlight-wrapper""><p class=""action-highlight""><strong>John always chooses where to go for lunch and always chooses where to go for dinner.
+</strong></p></div>
+          <p class=""trial-text"">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
+        </div>
+      ",809823,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,
+au3yxqj0z6lr,56,survey-html-form,exit_survey,,,,,,"{""gender"": ""male"", ""age"": ""18"", ""understood"": ""yes"", ""comments"": """"}",4,True,0,2.0.0,11465,,au3yxqj0z6lr.json,,821291,http://127.0.0.1:5500/remote_society_equal_costs/experiment/,

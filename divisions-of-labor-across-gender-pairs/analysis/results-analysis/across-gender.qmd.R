@@ -1,0 +1,289 @@
+---
+  title: Data analysis for remote society equal costs pilot
+author: Alicia Chen
+date: 2026-01-01
+format:
+  html:
+  toc: true
+code-fold: true
+df-print: paged
+page-layout: full
+search: false
+execute:
+  warning: false 
+---
+  
+  In each scenario, two characters are deciding how to divide two activities or tasks. After reading the scenario, they evaluate how hierarchical they think the relationship is, on a scale from 0 (completely equal) to 100 (extremely hierarchical). Then, they observe how the characters decided to divide the tasks, and re-evaluate the relationship hierarchy.
+
+There are three conditions manipulating how the tasks are divided:
+  
+- `both_alternate`: They both take turns doing each task. 
+- `division_of_labor`: One person always does one task, the other always does the other task
+- `one_does_all`: One person does both the tasks all the time
+
+There are 30 participants in the pilot sample, each seeing 6 scenarios (2 per condition), with the assignment of scenarios to conditions balanced across participants.
+
+## Links
+
+[Link to stimuli](https://docs.google.com/spreadsheets/d/1obuN__iqbhiU4If-fssAcYfo8RugpR4uD84iVX0P4I8/edit?usp=sharing)
+
+[Link to task](https://web.mit.edu/aliciach/www/divisions-of-labor/remote-society-equal-costs/)
+
+## Setup and load data
+```{r}
+#| label: setup
+#| message: false
+
+library(here)
+library(tidyverse)
+library(ggplot2)
+library(tidyboot)
+
+theme_set(theme_classic(base_size = 18))
+```
+
+```{r}
+#| label: load-data
+
+
+df <- read_csv(here("remote_society_equal_costs/analysis/2026-04-22_data.csv"), show_col_types = FALSE) |>
+  filter(response_type == "response") |>
+  filter(!is.na(stage), !is.na(response)) |>
+  mutate(work_condition = factor(work_condition, levels = c("both_alternate", "division_of_labor", "one_does_all")), 
+         gender_condition = factor(gender_condition, levels = c("female_female", "male_male", "male_female")),
+         stage = factor(stage, levels = c("prior", "posterior")), 
+         response = as.numeric(response) / 100) |>
+  select(subject_id, stimulus_index, scenario_label, work_condition, gender_condition, stage, response)
+
+df_wide <- df |>
+  group_by(subject_id, stimulus_index, scenario_label, work_condition, gender_condition) |>
+  pivot_wider(
+    names_from = stage,
+    values_from = response
+  ) |>
+  mutate(belief_update = posterior - prior)
+
+df_wide <- df_wide[, c("subject_id", "stimulus_index", "scenario_label", "work_condition", "gender_condition", "prior", "posterior", "belief_update")] #!!! add "category" when needed later.
+
+df_wide
+```
+
+First, calculate and plot summarized belief updates
+
+```{r}
+#| label: belief-update-summary
+
+belief_update_summary <- df_wide |>
+  group_by(work_condition, gender_condition) |>
+  tidyboot_mean(
+    belief_update, na.rm = T
+  )
+
+belief_update_summary
+```
+
+## Belief update by condition
+
+```{r}
+#| label: fig-change-by-condition
+#| fig-cap: "Relationship belief updates by condition (positive values are more hierarchical, negative values are more equal)"
+#| fig-width: 7
+#| fig-height: 4
+
+ggplot(belief_update_summary, aes(x = work_condition, y = empirical_stat, fill = work_condition)) +
+  geom_col(width = 0.6) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                width = 0.2) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "gray50") +
+  scale_fill_brewer(palette = "Dark2") +
+  labs(
+    x = "Observed policy",
+    y = "Relationship belief update (posterior - prior)",
+  ) +
+  coord_flip() +
+  theme(legend.position = "none")
+```
+
+Plot with the individual observations
+
+```{r}
+#| label: fig-dotplot-change
+#| fig-cap: "Relationship belief updates by condition with individual data points"
+#| fig-width: 7
+#| fig-height: 4
+
+ggplot(df_wide, aes(x = work_condition, y = belief_update, color = gender_condition)) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "gray50") +
+  geom_jitter(width = 0.1, height = 0, alpha = 0.2, stroke = 0, size = 4) +
+  geom_point(data = belief_update_summary,
+             aes(x = work_condition, y = empirical_stat),
+             size = 4) +
+  geom_errorbar(data = belief_update_summary,
+                aes(x = work_condition, y = empirical_stat, ymin = ci_lower, ymax = ci_upper),
+                width = 0.2, linewidth = 1.2) +
+  scale_color_brewer(palette = "Dark2") +
+  labs(
+    x = "Observed policy",
+    y = "Relationship belief update (posterior - prior)",
+  ) +
+  coord_flip() +
+  theme(legend.position = "none")
+```
+
+When participants observe one person doing both tasks, it makes them think that the relationship is much more hierarchical. Observing both alternate makes them think that the relationship is less hierarchical. Bundled leads to little to no change in hierarchy ratings (maybe because tasks are expected to be bundled in the first place...)
+
+## Prior vs posterior by condition
+
+```{r}
+df_long <- df |>
+  mutate(
+    stage = factor(stage, levels = c("prior", "posterior")),
+  )
+
+stage_summary <- df_long |>
+  group_by(stage, condition) |>
+  tidyboot_mean(
+    response, na.rm = T
+  )
+
+stage_summary
+```
+
+```{r}
+#| label: fig-prior-posterior
+#| fig-cap: "Prior and posterior hierarchy ratings by condition"
+#| fig-width: 6
+#| fig-height: 4 
+
+ggplot(stage_summary, aes(x = stage, y = empirical_stat,
+                          group = condition, color = condition)) +
+  geom_point(size = 3, position = position_dodge(width = 0.13)) +
+  geom_line(linewidth = 1.2, position = position_dodge(width = 0.13)) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                width = 0.2, size = 1.2, position = position_dodge(width = 0.13)) +
+  scale_color_brewer(palette = "Dark2") +
+  labs(
+    x = "Stage",
+    y = "Relationship hierarchy",
+    color = "Condition"
+  )
+```
+
+## Trial-level responses
+
+```{r}
+#| label: fig-individual
+#| fig-cap: "Trial-level responses by condition"
+#| fig-width: 7
+#| fig-height: 4
+
+ggplot(df_long, aes(x = stage, y = response, group = interaction(subject_id, stimulus_index), color = condition)) +
+  geom_line(alpha = 0.2) +
+  geom_point(alpha = 0.3) +
+  facet_wrap(~condition) +
+  scale_y_continuous(limits = c(0, 1)) +
+  scale_color_brewer(palette = "Dark2") +
+  labs(
+    x = "Stage",
+    y = "Relationship hierarchy"
+  ) +
+  theme(legend.position = "none")
+```
+
+## By scenario
+
+```{r}
+#| label: fig-by-scenario
+#| fig-cap: "Change in hierarchy ratings by scenario and condition"
+#| fig-width: 8
+#| fig-height: 4.5 
+
+scenario_summary <- df_wide |>
+  group_by(scenario_label, condition) |>
+  tidyboot_mean(
+    belief_update, na.rm = T
+  ) 
+
+ggplot(scenario_summary, aes(x = scenario_label, y = empirical_stat, fill = condition)) +
+  geom_col(position = position_dodge(width = 0.8), width = 0.7) +
+  geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper),
+                position = position_dodge(width = 0.8), width = 0.2) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "gray50") +
+  scale_fill_brewer(palette = "Dark2") +
+  labs(
+    x = "Scenario",
+    y = "Relationship belief update",
+    fill = "Condition",
+  ) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+Not quite sure what's going on in "preferences" or "work"
+
+## Demographics
+
+```{r}
+#| label: load-exit-survey
+
+exit_survey <- read_csv(
+  here("remote_society_equal_costs/analysis/2026-01-01_pilot_exit-survey.csv"),
+  show_col_types = FALSE
+)
+```
+
+### Age
+
+```{r}
+#| label: age-summary
+
+cat("Age: M =", round(mean(exit_survey$age, na.rm = TRUE), 1),
+    ", SD =", round(sd(exit_survey$age, na.rm = TRUE), 1), "\n")
+cat("Range:", min(exit_survey$age, na.rm = TRUE), "-", max(exit_survey$age, na.rm = TRUE), "\n")
+```
+
+### Gender
+
+```{r}
+#| label: gender-breakdown
+
+table(exit_survey$gender)
+```
+
+### Exclusions
+
+Participants who did not pass attention check and/or indicated they did not understand the instructions:
+
+```{r}
+#| label: exclusions
+
+exclusions <- exit_survey |>
+  filter(attention_passed == FALSE | understood != "yes")
+
+cat("N excluded:", nrow(exclusions), "\n\n")
+
+if (nrow(exclusions) > 0) {
+  exclusions |> select(subject_id, understood, attention_passed)
+} else {
+  cat("No exclusions\n")
+}
+```
+
+### Attention and memory performance
+
+```{r}
+#| label: attention-memory
+
+cat("Attention check passed:", sum(exit_survey$attention_passed), "/", nrow(exit_survey), "\n")
+cat("Memory check (out of 2):\n")
+table(exit_survey$memory_correct_count)
+```
+
+### Comments
+
+```{r}
+#| label: comments
+
+exit_survey |>
+  filter(!is.na(comments) & comments != "" & !comments %in% c("no", "No", "None", "none", "n/a", "N/A", "NA")) |>
+  select(comments)
+```
