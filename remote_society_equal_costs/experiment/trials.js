@@ -24,14 +24,13 @@ export function makeTimeline(
       `
       <div class="instructions-container">
         <h2>Instructions</h2>
-        <p>Imagine that you are traveling very far away, and you meet a new group of people you know nothing about. You are trying to learn about the people, the society, and the language, all at the same time.</p>
-        <p>In this study, you will read 6 scenarios. Each scenario describes two people who regularly interact around two recurring activities or exchanges. You will observe how they divide these between them.</p>
+        <p>In this study, you will read 18 scenarios. Each scenario describes two people who regularly interact around two recurring activities or exchanges. You will observe how they divide these between them.</p>
       </div>
       `,
       `
       <div class="instructions-container">
         <h2>Instructions</h2>
-        <p>First, based only on the scenario description, we will ask you to rate how hierarchical you think the relationship is. Then, we will show you how the two people actually divide the activities or exchanges, and ask you again.</p>
+        <p>First, based only on the scenario description, we will ask you to rate how hierarchical you think the relationship is. Then, we will show you how the two people actually divide the activities and then ask you again.</p>
         <p>We are interested in how people use just brief observation to make judgments about the type of relationship from observed social interactions.</p>
         <p>You will receive $3 if you successfully complete this study. Please make sure to read the scenarios carefully! 🙂</p>
         <p>Press next to begin the survey.</p>
@@ -44,8 +43,39 @@ export function makeTimeline(
 
   const trials = [];
 
+  function fillNames(template, name1, name2) {
+    // Replaces `{name1}` / `{name2}` placeholders in scenario strings.
+    return String(template ?? "")
+      .replaceAll("{name1}", name1)
+      .replaceAll("{name2}", name2);
+  }
+
   stimuli.forEach((stimulus, stimulusIndex) => {
     // Add attention check after the 3rd scenario
+    // Choose names based on gender_condition
+    let name1 = "";
+    let name2 = "";
+
+    if (stimulus.gender_condition === "male_male") {
+      name1 = stimulus.name1_m ?? stimulus.name1 ?? "";
+      name2 = stimulus.name2_m ?? stimulus.name2 ?? "";
+    } else if (stimulus.gender_condition === "female_female") {
+      name1 = stimulus.name1_f ?? stimulus.name1 ?? "";
+      name2 = stimulus.name2_f ?? stimulus.name2 ?? "";
+    } else if (stimulus.gender_condition === "male_female") {
+      // Convention used by your counterbalancing script: first is male, second is female.
+      name1 = stimulus.name1_m ?? stimulus.name1 ?? "";
+      name2 = stimulus.name2_f ?? stimulus.name2 ?? "";
+    } else {
+      // Fallback if gender_condition isn't present.
+      name1 = stimulus.name1 ?? "";
+      name2 = stimulus.name2 ?? "";
+    }
+
+    const vignetteFilled = fillNames(stimulus.vignette, name1, name2);
+    const workTemplate = stimulus[stimulus.work_condition];
+    const workFilled = fillNames(workTemplate, name1, name2);
+
     if (stimulusIndex === 3) {
       trials.push({
         type: jsPsychHtmlSliderResponse,
@@ -82,9 +112,9 @@ export function makeTimeline(
       stimulus: `
         <div class="trial-content">
           <h2>Scenario ${stimulusIndex + 1} of ${stimuli.length}</h2>
-          <p class="trial-text">${stimulus.vignette}</p>
-          <p class="trial-text">How hierarchical do you think ${stimulus.name1} and ${stimulus.name2}'s relationship is?</p>
-        </div>
+          <p class="trial-text">${vignetteFilled}</p>
+          <p class="trial-text">How hierarchical do you think ${name1} and ${name2}'s relationship is?</p>
+        </div> 
       `,
       slider_width: 670,
       slider_start: 0,
@@ -103,9 +133,13 @@ export function makeTimeline(
         stage: "prior",
         stimulus_index: stimulusIndex,
         scenario_label: stimulus.scenario_label,
-        condition: stimulus.condition,
+        category: stimulus.category,
+        work_condition: stimulus.work_condition,
+        gender_condition: stimulus.gender_condition,
       },
     });
+
+    console.log(stimulus)
 
     // Posterior elicitation - show vignette + action manipulation, ask about hierarchy again
     trials.push({
@@ -113,8 +147,8 @@ export function makeTimeline(
       stimulus: `
         <div class="trial-content">
           <h2>Scenario ${stimulusIndex + 1} of ${stimuli.length}</h2>
-          <p class="trial-text">${stimulus.vignette}</p>
-          <div class="action-highlight-wrapper"><p class="action-highlight"><strong>${stimulus[stimulus.condition]}</strong></p></div>
+          <p class="trial-text">${vignetteFilled}</p>
+          <div class="action-highlight-wrapper"><p class="action-highlight"><strong>${workFilled}</strong></p></div>
           <p class="trial-text">Now that you've seen how they divide the activities or exchanges, how hierarchical do you think their relationship is?</p>
         </div>
       `,
@@ -135,7 +169,9 @@ export function makeTimeline(
         stage: "posterior",
         stimulus_index: stimulusIndex,
         scenario_label: stimulus.scenario_label,
-        condition: stimulus.condition,
+        category: stimulus.category,
+        work_condition: stimulus.work_condition,
+        gender_condition: stimulus.gender_condition,
       },
     });
 
@@ -205,6 +241,9 @@ export function makeTimeline(
     }
   });
 
+  console.log(stimuli)
+  console.log(trials)
+
   const exitSurvey = {
     type: jsPsychSurveyHtmlForm,
     preamble: `
@@ -231,7 +270,7 @@ export function makeTimeline(
   const saveData = {
     type: jsPsychPipe,
     action: "save",
-    experiment_id: "aD8vBoDwqeyg",
+    experiment_id: "lBm9oW4lLdq3",
     filename: `${subjectId}.json`,
     data_string: () => jsPsych.data.get().json(),
   };
