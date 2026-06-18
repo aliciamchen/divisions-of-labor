@@ -3,7 +3,7 @@ export function makeTimeline(
   stimuli,
   consentHtml,
   exitSurveyHtml,
-  subjectId
+  subjectId,
 ) {
   const consent = {
     type: jsPsychInstructions,
@@ -18,7 +18,7 @@ export function makeTimeline(
       `
       <div class="instructions-container">
         <h2>Instructions</h2>
-        <p>In this study, we are interested in how people evaluate relationships by observing everyday behavior. We want to understand how people judge whether a relationship is hierarchical, meaning whether one person appears to have greater rank, authority, influence, or importance than the other, or whether the relationship is equal, with both people sharing the same level of rank, authority, influence, and importance.</p>
+        <p>In this study, we are interested in how people evaluate relationships by observing everyday behavior. We want to understand how people judge whether a relationship is hierarchical, meaning whether one person appears to have greater rank, authority, influence, or importance than the other, or whether the relationship is equal, with both people having the same level of rank, authority, influence, and importance.</p>
       </div>
       `,
       `
@@ -33,12 +33,12 @@ export function makeTimeline(
   <h2>Instructions</h2>
   <p>Here is how each scenario will work:</p>
   <ol>
-    <li style="margin-bottom: 12px;">You will first read a short description of two people and their situation. There is some information about the social interaction that is not initially described in the scenario. Based only on what is described, you will rate how hierarchical or equal their relationship appears to you.</li>
-    <li style="margin-bottom: 12px;">You will then be shown how the two people divide the activities between them, and rate the relationship one more time.</li>
+    <li style="margin-bottom: 12px;">You will first read a short description of two people and their situation. There is some information about the social interaction that is not initially described in the scenario. First, based only on what is described, you will rate how hierarchical or equal you think the two people would describe their relationship.</li>
+    <li style="margin-bottom: 12px;">You will then be shown how the two people divide the activities between them. Based on this information, we will ask you to rate the relationship again.</li>
   </ol>
-  <p>For each rating, you will use a 7-point scale ranging from <strong>"Completely equal relationship,"</strong> meaning both people appear to be on the same level, to <strong>"Extremely hierarchical relationship,"</strong> meaning one person clearly appears to have greater rank, authority, or importance than the other.</p>
+  <p>For each rating, you will use a 7-point scale ranging from a <strong>"Completely equal relationship,"</strong> to an <strong>"Extremely hierarchical relationship"</strong>.</p>
   <p>Please read each scenario carefully. The study should take approximately 20 minutes, and you will receive <strong>$6.00</strong> for successfully completing it. 🙂</p>
-  <p>Press next to begin.</p>
+  <p>This is the end of the instructions. Press next to begin the survey.</p>
 </div>
       `,
     ],
@@ -50,7 +50,7 @@ export function makeTimeline(
     "Completely equal relationship",
     "Mostly equal relationship",
     "Somewhat equal relationship",
-    "Neither clearly equal nor hierarchical",
+    "Neither equal nor hierarchical",
     "Somewhat hierarchical relationship",
     "Mostly hierarchical relationship",
     "Extremely hierarchical relationship",
@@ -143,7 +143,9 @@ export function makeTimeline(
         on_finish: function (data) {
           const response = data.response.memory_check;
           data.memory_correct_count =
-            response === "That the two tasks are equal in effort and value" ? 1 : 0;
+            response === "That the two tasks are equal in effort and value"
+              ? 1
+              : 0;
           data.attention_passed =
             response === "That the two tasks are equal in effort and value";
         },
@@ -236,12 +238,13 @@ export function makeTimeline(
     if (stimulusIndex < stimuli.length - 1) {
       trials.push({
         type: jsPsychHtmlKeyboardResponse,
-        stimulus: "<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>",
+        stimulus:
+          "<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>",
         choices: "NO_KEYS",
         trial_duration: function () {
           return jsPsych.randomization.sampleWithoutReplacement(
             [1500, 1750, 2000, 2300],
-            1
+            1,
           )[0];
         },
       });
@@ -263,7 +266,7 @@ export function makeTimeline(
         .filter({ response_type: "attention_check" })
         .values();
       const attentionFails = attentionChecks.filter(
-        (d) => d.attention_passed === false
+        (d) => d.attention_passed === false,
       ).length;
 
       const memoryCorrect = jsPsych.data
@@ -282,7 +285,7 @@ export function makeTimeline(
   const saveData = {
     type: jsPsychPipe,
     action: "save",
-    experiment_id: "lBm9oW4lLdq3",
+    experiment_id: "BL2ic5oXbDBN",
     filename: `${subjectId}.json`,
     data_string: () => jsPsych.data.get().json(),
   };

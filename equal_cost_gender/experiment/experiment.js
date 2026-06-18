@@ -7,7 +7,9 @@ let counterbalancing = [];
 
 Promise.all([
   fetch("./json/18scenarios.json").then((response) => response.json()),
-  fetch("./json/full_counterbalancing.json").then((response) => response.json()),
+  fetch("./json/full_counterbalancing.json").then((response) =>
+    response.json(),
+  ),
   fetch("./html/consent.html").then((response) => response.text()),
   fetch("./html/exit-survey.html").then((response) => response.text()),
 ])
@@ -23,7 +25,7 @@ Promise.all([
       consentHtml = consentContent;
       exitSurveyHtml = exitSurveyContent;
       initExperiment();
-    }
+    },
   )
   .catch((error) => {
     console.error("Error loading experiment files:", error);
@@ -42,9 +44,12 @@ async function createExperiment() {
   var study_id = jsPsych.data.getURLVariable("STUDY_ID");
   var session_id = jsPsych.data.getURLVariable("SESSION_ID");
 
-  const condition_assignment = await jsPsychPipe.getCondition("lBm9oW4lLdq3");
-  console.log(condition_assignment)
+  const condition_assignment = await jsPsychPipe.getCondition("BL2ic5oXbDBN");
+
+  // console.log("Counterbalancing assignment", condition_assignment);
+
   const assignedSequence = counterbalancing[condition_assignment];
+  // console.log(assignedSequence);
 
   jsPsych.data.addProperties({
     study_id: study_id,
@@ -56,7 +61,7 @@ async function createExperiment() {
 
   const stimuliWithConditions = stimuli.map((stimulus) => {
     const sequenceItem = assignedSequence.find(
-      (item) => item.scenario_label === stimulus.scenario_label
+      (item) => item.scenario_label === stimulus.scenario_label,
     );
 
     return {
@@ -73,7 +78,7 @@ async function createExperiment() {
     shuffledStimuli,
     consentHtml,
     exitSurveyHtml,
-    subject_id
+    subject_id,
   );
 
   jsPsych.run(timeline);
