@@ -8,3 +8,5 @@ _output/
 *.Rproj
 
 CLAUDE.md
+.Rhistory
+
