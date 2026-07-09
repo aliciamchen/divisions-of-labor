@@ -32,16 +32,30 @@ Promise.all([
     alert("Error loading experiment data. Please refresh the page.");
   });
 
+async function hashId(raw) {
+  const buf = await crypto.subtle.digest(
+    "SHA-256",
+    new TextEncoder().encode(raw),
+  );
+  return Array.from(new Uint8Array(buf))
+    .map((b) => b.toString(16).padStart(2, "0"))
+    .join("")
+    .slice(0, 24);
+}
+
 async function createExperiment() {
   const jsPsych = initJsPsych({
     show_progress_bar: true,
   });
 
+  const prolificPid = jsPsych.data.getURLVariable("PROLIFIC_PID");
   var subject_id =
-    jsPsych.data.getURLVariable("PROLIFIC_PID") == undefined
+    prolificPid == undefined
       ? jsPsych.randomization.randomID(12)
-      : jsPsych.data.getURLVariable("PROLIFIC_PID");
-  var study_id = jsPsych.data.getURLVariable("STUDY_ID");
+      : await hashId(prolificPid);
+  const rawStudyId = jsPsych.data.getURLVariable("STUDY_ID");
+  var study_id =
+    rawStudyId == undefined ? undefined : await hashId(rawStudyId);
   var session_id = jsPsych.data.getURLVariable("SESSION_ID");
 
   const condition_assignment = await jsPsychPipe.getCondition("BL2ic5oXbDBN");
@@ -55,7 +69,6 @@ async function createExperiment() {
     study_id: study_id,
     session_id: session_id,
     subject_id: subject_id,
-    url: window.location.href,
     condition_assignment: condition_assignment,
   });
 

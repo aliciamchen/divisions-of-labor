@@ -96,7 +96,7 @@ export function makeTimeline(
       firstScenarioName2 = name2;
     }
 
-    // --- ATTENTION CHECK 1 (after scenario 3) ---
+    // ATTENTION CHECK 1 (after scenario 3)
     if (stimulusIndex === 3) {
       trials.push({
         type: jsPsychSurveyLikert,
@@ -119,7 +119,7 @@ export function makeTimeline(
       });
     }
 
-    // --- ATTENTION CHECK 2 (after scenario 9): memory check ---
+    // ATTENTION CHECK 2 (after scenario 9):
     if (stimulusIndex === 9) {
       trials.push({
         type: jsPsychSurveyMultiChoice,
@@ -152,7 +152,7 @@ export function makeTimeline(
       });
     }
 
-    // --- ATTENTION CHECK 3 (after scenario 15) ---
+    // annoATTENTION CHECK 3 (after scenario 15)
     if (stimulusIndex === 15) {
       trials.push({
         type: jsPsychSurveyLikert,
