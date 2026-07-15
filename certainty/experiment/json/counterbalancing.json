@@ -1,0 +1,5882 @@
+[
+  [
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    }
+  ],
+  [
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    }
+  ],
+  [
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    }
+  ],
+  [
+    {
+      "scenario_label": "meetup",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    }
+  ],
+  [
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    }
+  ],
+  [
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    }
+  ],
+  [
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    }
+  ],
+  [
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    }
+  ],
+  [
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    }
+  ],
+  [
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    }
+  ],
+  [
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    }
+  ],
+  [
+    {
+      "scenario_label": "ranting",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    }
+  ],
+  [
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    }
+  ],
+  [
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    }
+  ],
+  [
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    }
+  ],
+  [
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    }
+  ],
+  [
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    }
+  ],
+  [
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    }
+  ],
+  [
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    }
+  ],
+  [
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    }
+  ],
+  [
+    {
+      "scenario_label": "neighborly favors",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "restaurant preference",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "meetup",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "finances",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "paying for outings",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "patient exams",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "mansion renovation",
+      "work_condition": "both_alternate",
+      "certainty_condition": "agree",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "cargo monitoring",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "cafe closing",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "traveling",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "lawn work and laundry",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "gift giving",
+      "work_condition": "both_alternate",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_female"
+    },
+    {
+      "scenario_label": "burger prep",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "ranting",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "male_male"
+    },
+    {
+      "scenario_label": "household chores",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "agree",
+      "gender_condition": "female_female"
+    },
+    {
+      "scenario_label": "carpool",
+      "work_condition": "division_of_labor",
+      "certainty_condition": "uncertain",
+      "gender_condition": "male_male"
+    }
+  ]
+]
