@@ -61,9 +61,7 @@ async function createExperiment() {
     rawSessionId == undefined ? undefined : await hashId(rawSessionId);
 
   // TODO: replace with the jsPsychPipe experiment ID for this new experiment
-  const condition_assignment = await jsPsychPipe.getCondition(
-    "REPLACE_WITH_NEW_JSPSYCH_PIPE_ID",
-  );
+ const condition_assignment = 0; // TEMP: hardcoded for testing until real DataPipe ID is set up
 
   const assignedSequence = counterbalancing[condition_assignment];
 

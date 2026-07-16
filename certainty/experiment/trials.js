@@ -18,7 +18,7 @@ export function makeTimeline(
       `
       <div class="instructions-container">
         <h2>Instructions</h2>
-        <p>In this study, we are interested in how people evaluate relationships by observing everyday behavior. We want to understand how people judge whether a relationship is hierarchical, meaning whether one person appears to have greater rank, authority, influence, or importance than the other, or whether the relationship is equal, with both people having the same level of rank, authority, influence, and importance.</p>
+        <p>In this study, we are interested in how people evaluate relationships by observing everyday behavior. We want to understand how people judge whether a relationship is hierarchical, meaning whether one person appears to have greater rank, authority, influence, or importance than the other. Or whether the relationship is equal, with both people having the same level of rank, authority, influence, and importance.</p>
       </div>
       `,
       `
@@ -64,13 +64,13 @@ export function makeTimeline(
       .replaceAll("{name2}", name2);
   }
 
-  // Generic certainty statement, reused across all 18 scenarios so the 18-scenario
+  // Generic certainty statement, reused across all 16 scenarios so the 16-scenario
   // stimuli file does not need to be duplicated/edited for this experiment.
   function certaintyStatement(certaintyCondition, name1, name2) {
     if (certaintyCondition === "uncertain") {
       return `Recently, ${name1} has started to wonder whether the two tasks are really as equal in effort and value as they originally thought.`;
     }
-    return `${name1} and ${name2} still agree that the two tasks are equal in effort and value.`;
+    return `${name2} continues to agree that the two tasks are equal in effort and value.`;
   }
 
   let firstScenarioLabel = "";
@@ -233,7 +233,9 @@ export function makeTimeline(
               <div class="action-highlight-wrapper">
                 <p class="action-highlight"><strong>${workFilled}</strong></p>
               </div>
-              <p class="trial-text">${certaintyFilled}</p>
+              <div class="certainty-highlight-wrapper">
+                <p class="certainty-highlight"><strong>${certaintyFilled}</strong></p>
+              </div>
               <p class="trial-text">Now that you know this, how hierarchical do you think their relationship is?</p>
             </div>
           `,
