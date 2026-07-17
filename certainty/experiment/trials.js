@@ -66,12 +66,12 @@ export function makeTimeline(
 
   // Generic certainty statement, reused across all 16 scenarios so the 16-scenario
   // stimuli file does not need to be duplicated/edited for this experiment.
-  function certaintyStatement(certaintyCondition, name1, name2) {
-    if (certaintyCondition === "uncertain") {
-      return `Recently, ${name1} has started to wonder whether the two tasks are really as equal in effort and value as they originally thought.`;
-    }
-    return `${name2} continues to agree that the two tasks are equal in effort and value.`;
+ function certaintyStatement(certaintyCondition, name1, name2) {
+  if (certaintyCondition === "uncertain") {
+    return `Recently, ${name1} has started to wonder whether the two tasks are really as equal in effort and value as they originally thought.`;
   }
+  return `${name1} continues to agree that the two tasks are equal in effort and value.`;
+}
 
   let firstScenarioLabel = "";
   let firstScenarioName1 = "";
