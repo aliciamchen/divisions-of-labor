@@ -56,7 +56,9 @@ async function createExperiment() {
   const rawStudyId = jsPsych.data.getURLVariable("STUDY_ID");
   var study_id =
     rawStudyId == undefined ? undefined : await hashId(rawStudyId);
-  var session_id = jsPsych.data.getURLVariable("SESSION_ID");
+  const rawSessionId = jsPsych.data.getURLVariable("SESSION_ID");
+  var session_id =
+    rawSessionId == undefined ? undefined : await hashId(rawSessionId);
 
   const condition_assignment = await jsPsychPipe.getCondition("BL2ic5oXbDBN");
 

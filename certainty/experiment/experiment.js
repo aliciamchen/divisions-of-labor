@@ -60,8 +60,7 @@ async function createExperiment() {
   var session_id =
     rawSessionId == undefined ? undefined : await hashId(rawSessionId);
 
-  // TODO: replace with the jsPsychPipe experiment ID for this new experiment
- const condition_assignment = 0; // TEMP: hardcoded for testing until real DataPipe ID is set up
+  const condition_assignment = 0;
 
   const assignedSequence = counterbalancing[condition_assignment];
 
@@ -98,6 +97,16 @@ async function createExperiment() {
     exitSurveyHtml,
     subject_id,
   );
+
+  const filename = `${subject_id}.csv`;
+  const save_data = {
+    type: jsPsychPipe,
+    action: "save",
+    experiment_id: "heOAO6K0piLa",
+    filename: filename,
+    data_string: () => jsPsych.data.get().csv(),
+  };
+  timeline.push(save_data);
 
   jsPsych.run(timeline);
 }

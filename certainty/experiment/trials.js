@@ -24,7 +24,7 @@ export function makeTimeline(
       `
       <div class="instructions-container">
         <h2>Instructions</h2>
-        <p>You will read 16 short scenarios. Each scenario describes two characters who regularly interact around two recurring activities or exchanges.</p>
+        <p>You will read 16 short scenarios. Each scenario describes two characters who regularly interact around two recurring activities or exchanges. In each scenario, <strong>assume the two characters have already been dividing these activities this way for a while,<strong> this is their established, ongoing pattern, not something new.</p>
         <p>Please read all of the scenarios carefully. Make sure to pay attention to how the two characters divide the activities, and to anything that changes over the course of the scenario!</p>
       </div>
       `,
@@ -64,14 +64,13 @@ export function makeTimeline(
       .replaceAll("{name2}", name2);
   }
 
-  // Generic certainty statement, reused across all 16 scenarios so the 16-scenario
-  // stimuli file does not need to be duplicated/edited for this experiment.
- function certaintyStatement(certaintyCondition, name1, name2) {
-  if (certaintyCondition === "uncertain") {
-    return `Recently, ${name1} has started to wonder whether the two tasks are really as equal in effort and value as they originally thought.`;
+  // Generic certainty statement
+  function certaintyStatement(certaintyCondition, name1, name2) {
+    if (certaintyCondition === "uncertain") {
+      return `After doing this for a while now, ${name1} has started to wonder whether the two tasks are really as equal in effort and value as they originally thought.`;
+    }
+    return `After doing this for a while now, ${name1} continues to agree that the two tasks are equal in effort and value.`;
   }
-  return `${name1} continues to agree that the two tasks are equal in effort and value.`;
-}
 
   let firstScenarioLabel = "";
   let firstScenarioName1 = "";
@@ -221,7 +220,7 @@ export function makeTimeline(
       },
     });
 
-    // --- POSTERIOR: same content + certainty statement, ask again ---
+    // POSTERIOR: same content + certainty statement, ask again
     trials.push({
       type: jsPsychSurveyLikert,
       questions: [
