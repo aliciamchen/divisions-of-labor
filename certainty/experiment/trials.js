@@ -24,7 +24,7 @@ export function makeTimeline(
       `
       <div class="instructions-container">
         <h2>Instructions</h2>
-        <p>You will read 16 short scenarios. Each scenario describes two characters who regularly interact around two recurring activities or exchanges. In each scenario, <strong>assume the two characters have already been dividing these activities this way for a while,<strong> this is their established, ongoing pattern, not something new.</p>
+        <p>You will read 16 short scenarios. Each scenario describes two characters who regularly interact around two recurring activities or exchanges. In each scenario, <strong>assume the two characters have already been dividing these activities this way for a while</strong>, this is their established, ongoing pattern, not something new.</p>
         <p>Please read all of the scenarios carefully. Make sure to pay attention to how the two characters divide the activities, and to anything that changes over the course of the scenario!</p>
       </div>
       `,
@@ -307,8 +307,7 @@ export function makeTimeline(
     type: jsPsychPipe,
     action: "save",
     // TODO: replace with the jsPsychPipe experiment ID for this new experiment
-    // (obtained from the OSF/DataPipe dashboard, per "on the horizon" setup notes).
-    experiment_id: "REPLACE_WITH_NEW_JSPSYCH_PIPE_ID",
+    experiment_id: "heOAO6K0piLa",
     filename: `${subjectId}.json`,
     data_string: () => jsPsych.data.get().json(),
   };
@@ -317,7 +316,7 @@ export function makeTimeline(
     type: jsPsychHtmlKeyboardResponse,
     stimulus: `
       <p>Thanks for participating in the experiment!</p>
-      <p><a href="https://app.prolific.com/submissions/complete?cc=REPLACE_WITH_PROLIFIC_CODE">Click here to return to Prolific and complete the study</a>.</p>
+      <p><a href="https://app.prolific.com/submissions/complete?cc=C1SM75OA">Click here to return to Prolific and complete the study</a>.</p>
       <p>It is now safe to close the window. Your pay will be delivered within a few days.</p>
     `,
     choices: "NO_KEYS",
