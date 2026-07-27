@@ -24,7 +24,7 @@ export function makeTimeline(
       `
       <div class="instructions-container">
         <h2>Instructions</h2>
-        <p>You will read 16 short scenarios. Each scenario describes two characters who regularly interact around two recurring activities or exchanges. In each scenario, <strong>assume the two characters have already been dividing these activities this way for a while</strong>, this is their established, ongoing pattern, not something new.</p>
+        <p>You will read 16 short scenarios. Each scenario describes two characters who regularly interact around two recurring activities or exchanges. In each scenario, <strong>the two characters have already been dividing these activities this way for a while</strong>, this is their established, ongoing pattern, not something new.</p>
         <p>Please read all of the scenarios carefully. Make sure to pay attention to how the two characters divide the activities, and to anything that changes over the course of the scenario!</p>
       </div>
       `,
@@ -34,7 +34,7 @@ export function makeTimeline(
   <p>Here is how each scenario will work:</p>
   <ol>
     <li style="margin-bottom: 12px;">You will first read a short description of two people, their situation, and how they divide the two activities between them (either alternating or dividing them consistently). Based on this information, you will rate how hierarchical or equal you think the two people would describe their relationship.</li>
-    <li style="margin-bottom: 12px;">You will then read one additional sentence about how one of the charachters has begun to perceive the effort and value of the tasks. Based on this new information, we will ask you to rate the relationship again.</li>
+    <li style="margin-bottom: 12px;">You will then read one additional sentence about how one of the characters has begun to perceive the effort and value of the tasks. Based on this new information, we will ask you to rate the relationship again.</li>
   </ol>
   <p>For each rating, you will use a 7-point scale ranging from a <strong>"Completely equal relationship,"</strong> to an <strong>"Extremely hierarchical relationship"</strong>.</p>
   <p>Please read each scenario carefully. The study should take approximately 20 minutes, and you will receive <strong>$6.00</strong> for successfully completing it. 🙂</p>
