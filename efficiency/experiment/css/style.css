@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
 }
 
-/Instructions/
+/* Instructions */
 .instructions-container {
   max-width: 700px;
   margin: 0 auto;
@@ -23,7 +23,7 @@ body {
   margin-bottom: 16px;
 }
 
-/Trial content */
+/* Trial content */
 .trial-content {
   max-width: 700px;
   margin: 0 auto;
@@ -42,7 +42,7 @@ body {
   margin-bottom: 16px;
 }
 
-/highlighted action sentence */
+/* highlighted action sentence */
 .action-highlight-wrapper {
   background-color: #eef4ff;
   border-left: 4px solid #4a7fd4;
@@ -57,7 +57,7 @@ body {
   color: #2c3e50;
 }
 
-/highlighted certainty statement */
+/* highlighted certainty statement */
 .certainty-highlight-wrapper {
   background-color: #fef3e0;
   border-left: 4px solid #f9a825;
@@ -72,7 +72,7 @@ body {
   color: #2c3e50;
 }
 
-/highlighted efficiency statement/
+/* highlighted efficiency statement */
 .efficiency-highlight-wrapper {
   background-color: #e8f5e9;
   border-left: 4px solid #43a047;

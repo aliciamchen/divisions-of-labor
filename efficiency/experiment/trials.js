@@ -25,7 +25,7 @@ export function makeTimeline(
       `
       <div class="instructions-container">
         <h2>Instructions</h2>
-        <p>You will read 16 short scenarios. Each scenario describes two characters who regularly interact around two recurring activities or exchanges, along with information about how much time or effort their current arrangement saves them.</p>
+        <p>You will read 16 short scenarios. Each scenario describes two characters who regularly interact around two recurring activities or exchanges, along with information about how much time or effort could be saved by dividing those tasks rather than alternating them.</p>
         <p>Please read all of the scenarios carefully.</p>
       </div>
       `,
@@ -33,7 +33,7 @@ export function makeTimeline(
       <div class="instructions-container">
         <h2>Instructions</h2>
         <p>For each scenario, you will rate how hierarchical or equal you think the two people would describe their relationship, using a 7-point scale ranging from a <strong>"Completely equal relationship"</strong> to an <strong>"Extremely hierarchical relationship"</strong>.</p>
-        <p>You will also be asked whether you think the pair will continue with their current arrangement or switch to a different one.</p>
+        <p>You will also be asked whether <strong>with the information that you know, do you think the pair will continue with their current arrangement or switch to a different one</strong>.</p>
         <p>This is the end of the instructions. Press next to begin the survey.</p>
       </div>
       `,
@@ -60,15 +60,68 @@ export function makeTimeline(
       .replaceAll("{name2}", name2);
   }
 
-  //  efficiency-benefit statement,
-  function efficiencyStatement(efficiencyCondition, name1, name2) {
-    if (efficiencyCondition === "low") {
-      return `This current arrangement saves ${name1} and ${name2} very little time or effort compared to the alternative.`;
+  // Efficiency statement
+  const scenarioMagnitudeCategory = {
+    "household chores": "quick_task",
+    "mansion renovation": "hours_task",
+    "cargo monitoring": "hours_task",
+    "finances": "quick_task",
+    "carpool": "quick_task",
+    "meetup": "decision",
+    "traveling": "hours_task",
+    "patient exams": "hours_task",
+    "burger prep": "quick_task",
+    "gift giving": "effort",
+    "paying for outings": "tracking_effort",
+    "lawn work and laundry": "hours_task",
+    "neighborly favors": "hours_task",
+    "cafe closing": "quick_task",
+    "restaurant preference": "decision",
+    "ranting": "effort",
+  };
+
+  function magnitudeForScenario(scenarioLabel, efficiencyCondition) {
+    const category = scenarioMagnitudeCategory[scenarioLabel] ?? "quick_task";
+    const isHigh = efficiencyCondition !== "low";
+
+    switch (category) {
+      case "hours_task":
+        return isHigh ? "several hours of time and effort" : "only a few minutes of time and effort";
+      case "quick_task":
+        return isHigh ? "a good amount of time and effort" : "hardly any time or effort";
+      case "decision":
+        return isHigh ? "a lot of back-and-forth deciding" : "only a little back-and-forth deciding";
+      case "effort":
+        return isHigh ? "a lot of effort" : "only a little effort";
+      case "tracking_effort":
+        return isHigh
+          ? "a lot of effort keeping track of who pays for what"
+          : "very little effort keeping track of who pays for what";
+      default:
+        return isHigh ? "a good amount of time and effort" : "hardly any time or effort";
     }
-    return `This current arrangement saves ${name1} and ${name2} significant time and effort compared to the alternative.`;
   }
 
-  // ---preference question options, phrased relative to the pair's current work_condition ---
+  function efficiencyStatement(workCondition, efficiencyCondition, name1, name2, scenarioLabel) {
+    const magnitude = magnitudeForScenario(scenarioLabel, efficiencyCondition);
+
+    if (workCondition === "division_of_labor") {
+      return `By dividing these tasks the way they do, ${name1} and ${name2} save ${magnitude} compared to if they alternated.`;
+    }
+
+    // both_alternate: neutral counterfactual, no "giving up" / sacrifice framing
+    return `If ${name1} and ${name2} divided these tasks instead of alternating them, they would save ${magnitude}.`;
+  }
+
+  // Whether the pair's observed behavior matches what pure efficiency would predict
+  function matchesEfficiencyDefault(workCondition, efficiencyCondition) {
+    if (workCondition === "division_of_labor") {
+      return efficiencyCondition === "high";
+    }
+    return efficiencyCondition === "low";
+  }
+
+  //Preference question options, phrased relative to the pair's current work_condition
   function preferenceOptions(workCondition) {
     if (workCondition === "division_of_labor") {
       return [
@@ -104,9 +157,15 @@ export function makeTimeline(
     const workTemplate = stimulus[stimulus.work_condition];
     const workFilled = fillNames(workTemplate, name1, name2);
     const efficiencyFilled = efficiencyStatement(
+      stimulus.work_condition,
       stimulus.efficiency_condition,
       name1,
       name2,
+      stimulus.scenario_label,
+    );
+    const matchesDefault = matchesEfficiencyDefault(
+      stimulus.work_condition,
+      stimulus.efficiency_condition,
     );
 
     // --- ATTENTION CHECKS
@@ -154,7 +213,7 @@ export function makeTimeline(
       });
     }
 
-    // --- SINGLE RATING TRIAL: vignette + behavior + efficiency shown together, one hierarchy rating
+    // Single rating trial
     trials.push({
       type: jsPsychSurveyLikert,
       questions: [
@@ -185,17 +244,18 @@ export function makeTimeline(
         category: stimulus.category,
         work_condition: stimulus.work_condition,
         efficiency_condition: stimulus.efficiency_condition,
+        matches_default: matchesDefault,
         gender_condition: stimulus.gender_condition,
       },
     });
 
-    // preference question, immediately after the rating for the same scenario ---
+    // preference question
     trials.push({
       type: jsPsychSurveyMultiChoice,
       questions: [
         {
           prompt: `
-            <p class="trial-text">Given what you know about ${name1} and ${name2}, and how much their current arrangement saves them, do you think they will...</p>
+            <p class="trial-text">Given what <strong>you know</strong> about ${name1} and ${name2}, which arrangement do you think makes more sense for their relationship?</p>
           `,
           name: "preference",
           options: preferenceOptions(stimulus.work_condition),
@@ -208,11 +268,12 @@ export function makeTimeline(
         scenario_label: stimulus.scenario_label,
         work_condition: stimulus.work_condition,
         efficiency_condition: stimulus.efficiency_condition,
+        matches_default: matchesDefault,
         gender_condition: stimulus.gender_condition,
       },
     });
 
-    // TRANSITION between scenarios
+    // Transition between scenarios
     if (stimulusIndex < stimuli.length - 1) {
       trials.push({
         type: jsPsychHtmlKeyboardResponse,
