@@ -62,14 +62,14 @@
   {
     "scenario_label": "meetup",
     "category": "friends",
-    "vignette": "Consider {name1} and {name2}, who explore their city together. Two decisions need to be made when they go out: choosing which street to explore and choosing what activity they should do there. They agree that these two decisions are equal in effort and value.",
+    "vignette": "Consider {name1} and {name2}, who volunteer together at an animal shelter each week. Two tasks need to be done during their shift: walking the dogs and cleaning the cages. They agree that these two tasks are equal in effort and value.",
     "name1_m": "Burnie",
     "name2_m": "Calvin",
     "name1_f": "Sophia",
     "name2_f": "Margaret",
-    "both_alternate": "{name1} and {name2} alternate deciding which street to explore. {name1} and {name2} alternate deciding which activity to try.",
-    "division_of_labor": "{name1} always decides which street to explore and {name2} always decides the activity to try.",
-    "one_does_all": "{name1} always makes both decisions: deciding which street to explore and deciding which activity to try."
+    "both_alternate": "{name1} and {name2} alternate walking the dogs. {name1} and {name2} alternate cleaning the cages.",
+    "division_of_labor": "{name1} always walks the dogs and {name2} always cleans the cages.",
+    "one_does_all": "{name1} always does both tasks: walking the dogs and cleaning the cages."
   },
   {
     "scenario_label": "traveling",
@@ -110,26 +110,26 @@
   {
     "scenario_label": "gift giving",
     "category": "friends",
-    "vignette": "Consider {name1} and {name2}, who have known each other a long time. Two things happen regularly between them: giving chocolates and giving bath items. They agree these favors are equal in effort and value.",
+    "vignette": "Consider {name1} and {name2}, who sell handmade crafts together at weekend markets. Two tasks need to be done before each market: making the products and setting up the booth. They agree these tasks are equal in effort and value.",
     "name1_m": "Andrew",
     "name2_m": "Jake",
     "name1_f": "Janet",
     "name2_f": "Rachel",
-    "both_alternate": "{name1} and {name2} alternate giving chocolates. {name1} and {name2} alternate giving bath items.",
-    "division_of_labor": "{name1} always gives chocolates and {name2} always gives bath items.",
-    "one_does_all": "{name1} always does both favors: giving chocolates and giving bath items."
+    "both_alternate": "{name1} and {name2} alternate making the products. {name1} and {name2} alternate setting up the booth.",
+    "division_of_labor": "{name1} always makes the products and {name2} always sets up the booth.",
+    "one_does_all": "{name1} always does both tasks: making the products and setting up the booth."
   },
   {
     "scenario_label": "paying for outings",
     "category": "friends",
-    "vignette": "Consider {name1} and {name2}, who go clubbing. When they go out, one pays for dinner beforehand and one covers the cost of the drinks at the club. They agree these expenses are equal in effort and value.",
+    "vignette": "Consider {name1} and {name2}, who share a community garden plot. Two tasks need to be done each week: watering the plants and pulling the weeds. They agree these tasks are equal in effort and value.",
     "name1_m": "Zack",
     "name2_m": "Kevin",
     "name1_f": "Bella",
     "name2_f": "Rose",
-    "both_alternate": "{name1} and {name2} alternate paying for dinner. {name1} and {name2} alternate paying for drinks.",
-    "division_of_labor": "{name1} always pays for dinner and {name2} always pays for the drinks.",
-    "one_does_all": "{name1} always covers both expenses: paying for dinner and paying for drinks."
+    "both_alternate": "{name1} and {name2} alternate watering the plants. {name1} and {name2} alternate pulling the weeds.",
+    "division_of_labor": "{name1} always waters the plants and {name2} always pulls the weeds.",
+    "one_does_all": "{name1} always does both tasks: watering the plants and pulling the weeds."
   },
   {
     "scenario_label": "lawn work and laundry",
@@ -170,25 +170,25 @@
   {
     "scenario_label": "restaurant preference",
     "category": "friends",
-    "vignette": "Consider {name1} and {name2}, who eat food together regularly. Two decisions need to be made when they go out: choosing where to go for lunch and choosing where to go for dinner. They agree that these two decisions are equal in effort and value.",
+    "vignette": "Consider {name1} and {name2}, who host a weekly trivia night together. Two tasks need to be done before each night: writing the trivia questions and setting up the sound equipment. They agree these tasks are equal in effort and value.",
     "name1_m": "John",
     "name2_m": "Shane",
     "name1_f": "Jane",
     "name2_f": "Jenny",
-    "both_alternate": "{name1} and {name2} alternate choosing where to go for lunch. {name1} and {name2} alternate choosing where to go for dinner.",
-    "division_of_labor": "{name1} always chooses where to go for lunch and {name2} always chooses where to go for dinner.",
-    "one_does_all": "{name1} always makes both decisions: choosing where to go for lunch and choosing where to go for dinner."
+    "both_alternate": "{name1} and {name2} alternate writing the trivia questions. {name1} and {name2} alternate setting up the sound equipment.",
+    "division_of_labor": "{name1} always writes the trivia questions and {name2} always sets up the sound equipment.",
+    "one_does_all": "{name1} always does both tasks: writing the trivia questions and setting up the sound equipment."
   },
   {
     "scenario_label": "ranting",
     "category": "friends",
-    "vignette": "Consider {name1} and {name2}, who regularly call each other. Two things happen regularly between them: discussing their romantic relationship issues and discussing their work-related issues. They agree that these two roles are equal in effort and value.",
+    "vignette": "Consider {name1} and {name2}, who organize a running club together. Two tasks need to be done before each session: mapping out the running route and leading the warm-up stretches. They agree these tasks are equal in effort and value.",
     "name1_m": "Joe",
     "name2_m": "Lucas",
     "name1_f": "Nicole",
     "name2_f": "Kelly",
-    "both_alternate": "{name1} and {name2} alternate discussing their romantic issues. {name1} and {name2} alternate discussing their work-related issues.",
-    "division_of_labor": "{name1} always discusses their relationship issues and {name2} always discusses their work issues.",
-    "one_does_all": "{name1} always discusses both topics: their romantic issues and their work-related issues."
+    "both_alternate": "{name1} and {name2} alternate mapping out the running route. {name1} and {name2} alternate leading the warm-up stretches.",
+    "division_of_labor": "{name1} always maps out the running route and {name2} always leads the warm-up stretches.",
+    "one_does_all": "{name1} always does both tasks: mapping out the running route and leading the warm-up stretches."
   }
 ]

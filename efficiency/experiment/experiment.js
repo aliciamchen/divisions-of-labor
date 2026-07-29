@@ -1,4 +1,4 @@
-import { makeTimeline } from "./trials-v2.js";
+import { makeTimeline } from "./trials.js";
 
 let stimuli = [];
 let consentHtml = "";

@@ -25,7 +25,7 @@ export function makeTimeline(
       `
       <div class="instructions-container">
         <h2>Instructions</h2>
-        <p>You will read 16 short scenarios. Each scenario describes two characters who regularly interact around two recurring activities or exchanges, along with information about how much time or effort could be saved by dividing those tasks rather than alternating them.</p>
+        <p>You will read 16 short scenarios. Each scenario describes two characters who regularly interact around two recurring tasks, along with information about how much time or effort could be saved by dividing those tasks rather than taking turns doing each one.</p>
         <p>Please read all of the scenarios carefully.</p>
       </div>
       `,
@@ -33,7 +33,7 @@ export function makeTimeline(
       <div class="instructions-container">
         <h2>Instructions</h2>
         <p>For each scenario, you will rate how hierarchical or equal you think the two people would describe their relationship, using a 7-point scale ranging from a <strong>"Completely equal relationship"</strong> to an <strong>"Extremely hierarchical relationship"</strong>.</p>
-        <p>You will also be asked whether <strong>with the information that you know, do you think the pair will continue with their current arrangement or switch to a different one</strong>.</p>
+        <p>You will also be asked whether you expect the pair to keep their current arrangement going forward, or for it to change.</p>
         <p>This is the end of the instructions. Press next to begin the survey.</p>
       </div>
       `,
@@ -60,60 +60,26 @@ export function makeTimeline(
       .replaceAll("{name2}", name2);
   }
 
-  // Efficiency statement
-  const scenarioMagnitudeCategory = {
-    "household chores": "quick_task",
-    "mansion renovation": "hours_task",
-    "cargo monitoring": "hours_task",
-    "finances": "quick_task",
-    "carpool": "quick_task",
-    "meetup": "decision",
-    "traveling": "hours_task",
-    "patient exams": "hours_task",
-    "burger prep": "quick_task",
-    "gift giving": "effort",
-    "paying for outings": "tracking_effort",
-    "lawn work and laundry": "hours_task",
-    "neighborly favors": "hours_task",
-    "cafe closing": "quick_task",
-    "restaurant preference": "decision",
-    "ranting": "effort",
-  };
-
   function magnitudeForScenario(scenarioLabel, efficiencyCondition) {
-    const category = scenarioMagnitudeCategory[scenarioLabel] ?? "quick_task";
     const isHigh = efficiencyCondition !== "low";
-
-    switch (category) {
-      case "hours_task":
-        return isHigh ? "several hours of time and effort" : "only a few minutes of time and effort";
-      case "quick_task":
-        return isHigh ? "a good amount of time and effort" : "hardly any time or effort";
-      case "decision":
-        return isHigh ? "a lot of back-and-forth deciding" : "only a little back-and-forth deciding";
-      case "effort":
-        return isHigh ? "a lot of effort" : "only a little effort";
-      case "tracking_effort":
-        return isHigh
-          ? "a lot of effort keeping track of who pays for what"
-          : "very little effort keeping track of who pays for what";
-      default:
-        return isHigh ? "a good amount of time and effort" : "hardly any time or effort";
-    }
+    return isHigh
+      ? "a great deal of time and effort"
+      : "just a little bit of time and effort";
   }
 
+  // Efficiency statement
   function efficiencyStatement(workCondition, efficiencyCondition, name1, name2, scenarioLabel) {
     const magnitude = magnitudeForScenario(scenarioLabel, efficiencyCondition);
 
     if (workCondition === "division_of_labor") {
-      return `By dividing these tasks the way they do, ${name1} and ${name2} save ${magnitude} compared to if they alternated.`;
+      return `By dividing these tasks the way they do, ${name1} and ${name2} save ${magnitude} compared to if they took turns doing each task.`;
     }
 
-    // both_alternate: neutral counterfactual, no "giving up" / sacrifice framing
-    return `If ${name1} and ${name2} divided these tasks instead of alternating them, they would save ${magnitude}.`;
+    // both_alternate
+    return `If ${name1} and ${name2} divided these tasks instead of taking turns doing each task, they would save ${magnitude}.`;
   }
 
-  // Whether the pair's observed behavior matches what pure efficiency would predict
+  // whether the pair's observed behavior matches what pure efficiency would predict
   function matchesEfficiencyDefault(workCondition, efficiencyCondition) {
     if (workCondition === "division_of_labor") {
       return efficiencyCondition === "high";
@@ -121,17 +87,11 @@ export function makeTimeline(
     return efficiencyCondition === "low";
   }
 
-  //Preference question options, phrased relative to the pair's current work_condition
-  function preferenceOptions(workCondition) {
-    if (workCondition === "division_of_labor") {
-      return [
-        "Continue dividing tasks the way they currently do",
-        "Switch to alternating tasks equally",
-      ];
-    }
+  // preference options
+  function preferenceOptions() {
     return [
-      "Continue alternating tasks equally",
-      "Switch to dividing tasks by specialization",
+      "I expect them to keep this arrangement",
+      "I expect this arrangement to change",
     ];
   }
 
@@ -168,7 +128,7 @@ export function makeTimeline(
       stimulus.efficiency_condition,
     );
 
-    // --- ATTENTION CHECKS
+    // AaTTENTION CHECKS
     if (stimulusIndex === 3) {
       trials.push({
         type: jsPsychSurveyLikert,
@@ -213,28 +173,52 @@ export function makeTimeline(
       });
     }
 
-    // Single rating trial
+    // Combined trial: hierarchy rating AND preference question on the same page.
+    const likertRadios = likertLabels
+      .map(
+        (label, i) => `
+          <div class="likert-option">
+            <input type="radio" name="hierarchy_rating" id="hierarchy_${i}" value="${i}" required>
+            <label for="hierarchy_${i}">${label}</label>
+          </div>
+        `,
+      )
+      .join("");
+
+    const preferenceRadios = preferenceOptions()
+      .map(
+        (label, i) => `
+          <div class="preference-option">
+            <input type="radio" name="preference" id="preference_${i}" value="${label}" required>
+            <label for="preference_${i}">${label}</label>
+          </div>
+        `,
+      )
+      .join("");
+
     trials.push({
-      type: jsPsychSurveyLikert,
-      questions: [
-        {
-          prompt: `
-            <div class="trial-content">
-              <h2>Scenario ${stimulusIndex + 1} of ${stimuli.length}</h2>
-              <p class="trial-text">${vignetteFilled}</p>
-              <div class="action-highlight-wrapper">
-                <p class="action-highlight"><strong>${workFilled}</strong></p>
-              </div>
-              <div class="efficiency-highlight-wrapper">
-                <p class="efficiency-highlight"><strong>${efficiencyFilled}</strong></p>
-              </div>
-              <p class="trial-text">How hierarchical do you think ${name1} and ${name2}'s relationship is?</p>
-            </div>
-          `,
-          labels: likertLabels,
-          required: true,
-        },
-      ],
+      type: jsPsychSurveyHtmlForm,
+      preamble: `
+        <div class="trial-content">
+          <h2>Scenario ${stimulusIndex + 1} of ${stimuli.length}</h2>
+          <p class="trial-text">${vignetteFilled}</p>
+          <div class="action-highlight-wrapper">
+            <p class="action-highlight"><strong>${workFilled}</strong></p>
+          </div>
+          <div class="efficiency-highlight-wrapper">
+            <p class="efficiency-highlight"><strong>${efficiencyFilled}</strong></p>
+          </div>
+        </div>
+      `,
+      html: `
+        <div class="trial-content">
+          <p class="trial-text">How hierarchical do you think ${name1} and ${name2}'s relationship is?</p>
+          <div class="likert-group">${likertRadios}</div>
+
+          <p class="trial-text">Based on everything you've read about ${name1} and ${name2}, do you expect them to keep this arrangement, or do you expect it to change?</p>
+          <div class="preference-group">${preferenceRadios}</div>
+        </div>
+      `,
       button_label: "Continue",
       data: {
         response_type: "response",
@@ -247,29 +231,10 @@ export function makeTimeline(
         matches_default: matchesDefault,
         gender_condition: stimulus.gender_condition,
       },
-    });
-
-    // preference question
-    trials.push({
-      type: jsPsychSurveyMultiChoice,
-      questions: [
-        {
-          prompt: `
-            <p class="trial-text">Given what <strong>you know</strong> about ${name1} and ${name2}, which arrangement do you think makes more sense for their relationship?</p>
-          `,
-          name: "preference",
-          options: preferenceOptions(stimulus.work_condition),
-          required: true,
-        },
-      ],
-      data: {
-        response_type: "preference",
-        stimulus_index: stimulusIndex,
-        scenario_label: stimulus.scenario_label,
-        work_condition: stimulus.work_condition,
-        efficiency_condition: stimulus.efficiency_condition,
-        matches_default: matchesDefault,
-        gender_condition: stimulus.gender_condition,
+      on_finish: function (data) {
+        // survey-html-form collects named inputs into data.response
+        data.hierarchy_rating = Number(data.response.hierarchy_rating);
+        data.preference = data.response.preference;
       },
     });
 

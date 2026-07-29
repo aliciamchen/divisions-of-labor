@@ -127,3 +127,98 @@ body {
   margin-bottom: 14px;
   text-align: left;
 }
+
+/* ---- Hierarchy rating scale (combined trial page) ---- */
+
+.likert-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 700px;
+  margin: 20px auto 32px auto;
+  position: relative;
+}
+
+.likert-group::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 5%;
+  right: 5%;
+  height: 1px;
+  background-color: #ccc;
+  z-index: 0;
+}
+
+.likert-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 13%;
+  position: relative;
+  z-index: 1;
+}
+
+.likert-option input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  margin: 0 0 10px 0;
+  cursor: pointer;
+  accent-color: #4a7fd4;
+}
+
+.likert-option label {
+  font-size: 14px;
+  color: #2c3e50;
+  cursor: pointer;
+  line-height: 1.3;
+}
+
+/* ---- Preference question (combined trial page) ---- */
+
+.preference-group {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: 700px;
+  margin: 16px auto 32px auto;
+  text-align: left;
+}
+
+.preference-option {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.preference-option input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: #4a7fd4;
+  flex-shrink: 0;
+}
+
+.preference-option label {
+  font-size: 20px;
+  color: #2c3e50;
+  cursor: pointer;
+}
+
+/* ---- Responsive: stack the scale on narrow screens ---- */
+
+@media (max-width: 700px) {
+  .likert-group {
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+
+  .likert-group::before {
+    display: none;
+  }
+
+  .likert-option {
+    width: 30%;
+  }
+}
