@@ -2,7 +2,7 @@
 # Prior vs. posterior ratings of perceived hierarchy across work conditions
 library(tidyverse)
 
-df <- read_csv("equal_cost_gender/data/mit_exp2a_raw_data.csv")
+df <- read_csv(here::here("equal_cost_gender", "data", "mit_exp2a_raw_data.csv"))
 
 #get ratings
 ratings <- df %>%
@@ -14,7 +14,7 @@ ratings <- df %>%
 nrow(ratings)
 summary(ratings$rating)
 
-#attention checks (Particioan 10 passed the attention check, but not the memory check, I decided to keep them for the analysis)
+#attention checks (Participant 10 passed the attention check, but not the memory check, I decided to keep them for the analysis)
 attention <- df %>%
   filter(response_type == "exit_survey") %>%
   select(anon_id, attention_fails, memory_correct_count, attention_passed)
@@ -62,7 +62,7 @@ direction_colors <- c("Increased" = "#e66101",
                       "Decreased" = "#008837",
                       "No change" = "#2166ac")
 
-# Plot 1: articipant means plot. Each line represents one participant's average rating within one condition (prior -> posterior). Diamond = condition mean, error bars = 95% CI across participants.
+# Plot 1: Participant means plot. Each line represents one participant's average rating within one condition (prior -> posterior). Diamond = condition mean, error bars = 95% CI across participants.
 plot_data <- participant_means %>%
   mutate(direction = case_when(posterior > prior ~ "Increased",
                                posterior < prior ~ "Decreased",
@@ -101,7 +101,7 @@ participant_plot
 
 #Plot 2:individual ratings plot. Each line = one single rating (one participant x one scenario), prior -> posterior, jittered so overlapping lines are visible (about 120 lines per condition). Diamond = condition mean, error bars = 95% CI across ratings.
 
-set.seed(1) #for the jitter reproducible
+set.seed(1) # make the jitter reproducible
 
 trial_lines <- belief_update %>%
   mutate(jit = runif(n(), -0.1, 0.1),
@@ -118,8 +118,8 @@ trial_summary <- trial_lines %>%
             se   = sd(rating) / sqrt(n()),
             .groups = "drop")
 
-exp1_plot <- ggplot(trial_lines, aes(x = stage_num)) +
-  geom_violin(aes(y = rating, group = stage_num), trim = FALSE,
+individual_ratings_plot <- ggplot(trial_lines, aes(x = stage_num)) +
+  geom_violin(aes(y = rating, group = stage_num),
               fill = "grey90", alpha = 0.6, color = "grey60", linewidth = 0.4) +
   geom_line(aes(y = rating_jit, group = interaction(anon_id, scenario_label),
                 color = direction),
@@ -142,21 +142,22 @@ exp1_plot <- ggplot(trial_lines, aes(x = stage_num)) +
         legend.position = "bottom") +
   guides(color = guide_legend(override.aes = list(alpha = 1, linewidth = 1.5)))
 
-exp1_plot
+individual_ratings_plot
 
 
 #Save both plots into equal_cost_gender/figures
 
-dir.create("equal_cost_gender/figures", showWarnings = FALSE)
+fig_dir <- here::here("equal_cost_gender", "figures")
+dir.create(fig_dir, showWarnings = FALSE)
 
 plots <- list(
   participant_means_plot  = participant_plot,  # Plot 1
-  individual_ratings_plot = exp1_plot          # Plot 2
+  individual_ratings_plot = individual_ratings_plot  # Plot 2
 )
 
 for (name in names(plots)) {
-  ggsave(file.path("equal_cost_gender/figures", paste0(name, ".png")),
+  ggsave(file.path(fig_dir, paste0(name, ".png")),
          plots[[name]], width = 9, height = 6, dpi = 300, bg = "white")
 }
 
-list.files("equal_cost_gender/figures")
+list.files(fig_dir)
