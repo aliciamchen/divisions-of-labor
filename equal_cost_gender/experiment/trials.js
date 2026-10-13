@@ -203,7 +203,7 @@ export function makeTimeline(
       },
     });
 
-    // --- POSTERIOR: show vignette + action, ask again ---
+    // POSTERIOR: show vignette & action, ask again
     trials.push({
       type: jsPsychSurveyLikert,
       questions: [
