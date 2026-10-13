@@ -119,7 +119,7 @@ trial_summary <- trial_lines %>%
             .groups = "drop")
 
 individual_ratings_plot <- ggplot(trial_lines, aes(x = stage_num)) +
-  geom_violin(aes(y = rating, group = stage_num),
+   geom_violin(aes(y = rating, group = stage_num), trim = FALSE,   
               fill = "grey90", alpha = 0.6, color = "grey60", linewidth = 0.4) +
   geom_line(aes(y = rating_jit, group = interaction(anon_id, scenario_label),
                 color = direction),
