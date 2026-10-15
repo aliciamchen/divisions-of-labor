@@ -1,0 +1,1061 @@
+anon_id,view_history,rt,trial_type,trial_index,plugin_version,time_elapsed,condition_assignment,response_type,stage,stimulus_index,scenario_label,category,work_condition,certainty_condition,gender_condition,response,question_order,stimulus,check_number,attention_passed,memory_correct_count,attention_fails
+P01,"[{""page_index"": 0, ""viewing_time"": 4571}]",4571,instructions,0,2.1.0,4575,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P01,"[{""page_index"": 0, ""viewing_time"": 13837}, {""page_index"": 1, ""viewing_time"": 26784}, {""page_index"": 2, ""viewing_time"": 22960}]",63581,instructions,1,2.1.0,68157,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P01,NA,15535,survey-likert,2,2.1.0,83694,0,response,prior,0,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P01,NA,6207,survey-likert,3,2.1.0,89902,0,response,posterior,0,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P01,NA,NA,html-keyboard-response,4,2.1.0,92208,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P01,NA,22557,survey-likert,5,2.1.0,114766,0,response,prior,1,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P01,NA,4823,survey-likert,6,2.1.0,119590,0,response,posterior,1,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P01,NA,NA,html-keyboard-response,7,2.1.0,121902,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P01,NA,20431,survey-likert,8,2.1.0,142334,0,response,prior,2,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P01,NA,8055,survey-likert,9,2.1.0,150390,0,response,posterior,2,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P01,NA,NA,html-keyboard-response,10,2.1.0,151902,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P01,NA,4861,survey-likert,11,2.1.0,156765,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 0}",[0],NA,1,TRUE,NA,NA
+P01,NA,17191,survey-likert,12,2.1.0,173957,0,response,prior,3,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P01,NA,5800,survey-likert,13,2.1.0,179758,0,response,posterior,3,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P01,NA,NA,html-keyboard-response,14,2.1.0,181762,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P01,NA,25427,survey-likert,15,2.1.0,207190,0,response,prior,4,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P01,NA,12583,survey-likert,16,2.1.0,219774,0,response,posterior,4,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P01,NA,NA,html-keyboard-response,17,2.1.0,221782,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P01,NA,12039,survey-likert,18,2.1.0,233822,0,response,prior,5,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P01,NA,3839,survey-likert,19,2.1.0,237661,0,response,posterior,5,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P01,NA,NA,html-keyboard-response,20,2.1.0,239666,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P01,NA,29235,survey-likert,21,2.1.0,268902,0,response,prior,6,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P01,NA,6671,survey-likert,22,2.1.0,275574,0,response,posterior,6,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P01,NA,NA,html-keyboard-response,23,2.1.0,277888,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P01,NA,22285,survey-likert,24,2.1.0,300173,0,response,prior,7,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P01,NA,7479,survey-likert,25,2.1.0,307653,0,response,posterior,7,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P01,NA,NA,html-keyboard-response,26,2.1.0,309406,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P01,NA,16221,survey-multi-choice,27,2.1.0,325630,0,memory_check,NA,NA,NA,NA,NA,NA,NA,"{""memory_check"": ""That the two tasks are equal in effort and value""}",[0],NA,2,TRUE,1,NA
+P01,NA,21519,survey-likert,28,2.1.0,347149,0,response,prior,8,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P01,NA,11887,survey-likert,29,2.1.0,359037,0,response,posterior,8,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P01,NA,NA,html-keyboard-response,30,2.1.0,360539,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P01,NA,18274,survey-likert,31,2.1.0,378814,0,response,prior,9,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P01,NA,3247,survey-likert,32,2.1.0,382062,0,response,posterior,9,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P01,NA,NA,html-keyboard-response,33,2.1.0,383822,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P01,NA,20287,survey-likert,34,2.1.0,404110,0,response,prior,10,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P01,NA,4911,survey-likert,35,2.1.0,409022,0,response,posterior,10,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P01,NA,NA,html-keyboard-response,36,2.1.0,411024,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P01,NA,12622,survey-likert,37,2.1.0,423646,0,response,prior,11,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P01,NA,9143,survey-likert,38,2.1.0,432790,0,response,posterior,11,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P01,NA,NA,html-keyboard-response,39,2.1.0,434792,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P01,NA,21389,survey-likert,40,2.1.0,456182,0,response,prior,12,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P01,NA,4423,survey-likert,41,2.1.0,460606,0,response,posterior,12,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P01,NA,NA,html-keyboard-response,42,2.1.0,462359,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P01,NA,4214,survey-likert,43,2.1.0,466573,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 6}",[0],NA,3,TRUE,NA,NA
+P01,NA,17671,survey-likert,44,2.1.0,484246,0,response,prior,13,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P01,NA,5983,survey-likert,45,2.1.0,490230,0,response,posterior,13,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P01,NA,NA,html-keyboard-response,46,2.1.0,492245,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P01,NA,13175,survey-likert,47,2.1.0,505422,0,response,prior,14,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P01,NA,5992,survey-likert,48,2.1.0,511414,0,response,posterior,14,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P01,NA,NA,html-keyboard-response,49,2.1.0,512922,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P01,NA,12891,survey-likert,50,2.1.0,525814,0,response,prior,15,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P01,NA,3063,survey-likert,51,2.1.0,528878,0,response,posterior,15,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P01,NA,68119,survey-html-form,52,2.0.0,596998,0,exit_survey,NA,NA,NA,NA,NA,NA,NA,"{""gender"": ""female"", ""age"": ""29"", ""understood"": ""yes"", ""comments"": ""Interesting perspective for a survey. It got me thinking about the patterns in the relationship and how that influences what I think about the hierarchy""}",NA,NA,NA,TRUE,1,0
+P02,"[{""page_index"": 0, ""viewing_time"": 2082}]",2082,instructions,0,2.1.0,2092,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P02,"[{""page_index"": 0, ""viewing_time"": 542644}, {""page_index"": 1, ""viewing_time"": 9208}, {""page_index"": 2, ""viewing_time"": 17309}]",569161,instructions,1,2.1.0,571275,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P02,NA,19569,survey-likert,2,2.1.0,590853,0,response,prior,0,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P02,NA,7429,survey-likert,3,2.1.0,598284,0,response,posterior,0,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P02,NA,NA,html-keyboard-response,4,2.1.0,600042,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P02,NA,305481,survey-likert,5,2.1.0,905537,0,response,prior,1,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P02,NA,3693,survey-likert,6,2.1.0,909235,0,response,posterior,1,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P02,NA,NA,html-keyboard-response,7,2.1.0,910997,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P02,NA,11443,survey-likert,8,2.1.0,922441,0,response,prior,2,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P02,NA,7414,survey-likert,9,2.1.0,929858,0,response,posterior,2,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P02,NA,NA,html-keyboard-response,10,2.1.0,931364,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P02,NA,3108,survey-likert,11,2.1.0,934476,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 0}",[0],NA,1,TRUE,NA,NA
+P02,NA,11505,survey-likert,12,2.1.0,945983,0,response,prior,3,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P02,NA,3413,survey-likert,13,2.1.0,949399,0,response,posterior,3,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P02,NA,NA,html-keyboard-response,14,2.1.0,951161,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P02,NA,9925,survey-likert,15,2.1.0,961088,0,response,prior,4,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P02,NA,3185,survey-likert,16,2.1.0,964277,0,response,posterior,4,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P02,NA,NA,html-keyboard-response,17,2.1.0,965779,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P02,NA,10538,survey-likert,18,2.1.0,976319,0,response,prior,5,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P02,NA,2092,survey-likert,19,2.1.0,978413,0,response,posterior,5,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P02,NA,NA,html-keyboard-response,20,2.1.0,980728,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P02,NA,8337,survey-likert,21,2.1.0,989067,0,response,prior,6,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P02,NA,3761,survey-likert,22,2.1.0,992829,0,response,posterior,6,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P02,NA,NA,html-keyboard-response,23,2.1.0,994846,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P02,NA,14264,survey-likert,24,2.1.0,1009112,0,response,prior,7,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P02,NA,2033,survey-likert,25,2.1.0,1011147,0,response,posterior,7,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P02,NA,NA,html-keyboard-response,26,2.1.0,1012662,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P02,NA,27080,survey-multi-choice,27,2.1.0,1039747,0,memory_check,NA,NA,NA,NA,NA,NA,NA,"{""memory_check"": ""That the two tasks are equal in effort and value""}",[0],NA,2,TRUE,1,NA
+P02,NA,15022,survey-likert,28,2.1.0,1054771,0,response,prior,8,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P02,NA,2248,survey-likert,29,2.1.0,1057021,0,response,posterior,8,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P02,NA,NA,html-keyboard-response,30,2.1.0,1058783,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P02,NA,8832,survey-likert,31,2.1.0,1067618,0,response,prior,9,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P02,NA,3372,survey-likert,32,2.1.0,1070992,0,response,posterior,9,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P02,NA,NA,html-keyboard-response,33,2.1.0,1072508,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P02,NA,8338,survey-likert,34,2.1.0,1080847,0,response,prior,10,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P02,NA,1953,survey-likert,35,2.1.0,1082801,0,response,posterior,10,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P02,NA,NA,html-keyboard-response,36,2.1.0,1084317,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P02,NA,62761,survey-likert,37,2.1.0,1147081,0,response,prior,11,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P02,NA,3491,survey-likert,38,2.1.0,1150574,0,response,posterior,11,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P02,NA,NA,html-keyboard-response,39,2.1.0,1152884,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P02,NA,6768,survey-likert,40,2.1.0,1159659,0,response,prior,12,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P02,NA,1814,survey-likert,41,2.1.0,1161474,0,response,posterior,12,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P02,NA,NA,html-keyboard-response,42,2.1.0,1163487,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P02,NA,2409,survey-likert,43,2.1.0,1165898,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 6}",[0],NA,3,TRUE,NA,NA
+P02,NA,5709,survey-likert,44,2.1.0,1171609,0,response,prior,13,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P02,NA,1778,survey-likert,45,2.1.0,1173389,0,response,posterior,13,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P02,NA,NA,html-keyboard-response,46,2.1.0,1175391,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P02,NA,6353,survey-likert,47,2.1.0,1181746,0,response,prior,14,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P02,NA,1929,survey-likert,48,2.1.0,1183677,0,response,posterior,14,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P02,NA,NA,html-keyboard-response,49,2.1.0,1185429,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P02,NA,4584,survey-likert,50,2.1.0,1190015,0,response,prior,15,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P02,NA,4529,survey-likert,51,2.1.0,1194546,0,response,posterior,15,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P02,NA,7677,survey-html-form,52,2.0.0,1202226,0,exit_survey,NA,NA,NA,NA,NA,NA,NA,"{""gender"": ""female"", ""age"": ""25"", ""understood"": ""yes"", ""comments"": """"}",NA,NA,NA,TRUE,1,0
+P03,"[{""page_index"": 0, ""viewing_time"": 33818}]",33819,instructions,0,2.1.0,33826,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P03,"[{""page_index"": 0, ""viewing_time"": 16583}, {""page_index"": 1, ""viewing_time"": 46503}, {""page_index"": 2, ""viewing_time"": 40492}]",103578,instructions,1,2.1.0,137406,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P03,NA,54444,survey-likert,2,2.1.0,191853,0,response,prior,0,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P03,NA,23493,survey-likert,3,2.1.0,215350,0,response,posterior,0,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P03,NA,NA,html-keyboard-response,4,2.1.0,216863,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P03,NA,28529,survey-likert,5,2.1.0,245396,0,response,prior,1,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P03,NA,11188,survey-likert,6,2.1.0,256587,0,response,posterior,1,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P03,NA,NA,html-keyboard-response,7,2.1.0,258897,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P03,NA,32855,survey-likert,8,2.1.0,291755,0,response,prior,2,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P03,NA,14322,survey-likert,9,2.1.0,306080,0,response,posterior,2,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P03,NA,NA,html-keyboard-response,10,2.1.0,307588,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P03,NA,10054,survey-likert,11,2.1.0,317645,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 0}",[0],NA,1,TRUE,NA,NA
+P03,NA,78090,survey-likert,12,2.1.0,395738,0,response,prior,3,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P03,NA,14159,survey-likert,13,2.1.0,409900,0,response,posterior,3,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P03,NA,NA,html-keyboard-response,14,2.1.0,411403,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P03,NA,24067,survey-likert,15,2.1.0,435472,0,response,prior,4,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P03,NA,9997,survey-likert,16,2.1.0,445474,0,response,posterior,4,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P03,NA,NA,html-keyboard-response,17,2.1.0,446989,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P03,NA,35940,survey-likert,18,2.1.0,482932,0,response,prior,5,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P03,NA,17850,survey-likert,19,2.1.0,500786,0,response,posterior,5,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P03,NA,NA,html-keyboard-response,20,2.1.0,503091,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P03,NA,30322,survey-likert,21,2.1.0,533416,0,response,prior,6,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P03,NA,13633,survey-likert,22,2.1.0,547052,0,response,posterior,6,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P03,NA,NA,html-keyboard-response,23,2.1.0,548568,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P03,NA,21295,survey-likert,24,2.1.0,569865,0,response,prior,7,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P03,NA,6886,survey-likert,25,2.1.0,576755,0,response,posterior,7,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P03,NA,NA,html-keyboard-response,26,2.1.0,579071,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P03,NA,17518,survey-multi-choice,27,2.1.0,596592,0,memory_check,NA,NA,NA,NA,NA,NA,NA,"{""memory_check"": ""That the two tasks are equal in effort and value""}",[0],NA,2,TRUE,1,NA
+P03,NA,35328,survey-likert,28,2.1.0,631923,0,response,prior,8,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P03,NA,8996,survey-likert,29,2.1.0,640921,0,response,posterior,8,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P03,NA,NA,html-keyboard-response,30,2.1.0,642931,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P03,NA,21646,survey-likert,31,2.1.0,664580,0,response,prior,9,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P03,NA,5120,survey-likert,32,2.1.0,669703,0,response,posterior,9,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P03,NA,NA,html-keyboard-response,33,2.1.0,671715,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P03,NA,20622,survey-likert,34,2.1.0,692340,0,response,prior,10,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P03,NA,5168,survey-likert,35,2.1.0,697512,0,response,posterior,10,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P03,NA,NA,html-keyboard-response,36,2.1.0,699529,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P03,NA,33060,survey-likert,37,2.1.0,732591,0,response,prior,11,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P03,NA,13279,survey-likert,38,2.1.0,745872,0,response,posterior,11,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P03,NA,NA,html-keyboard-response,39,2.1.0,748191,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P03,NA,22139,survey-likert,40,2.1.0,770332,0,response,prior,12,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P03,NA,5657,survey-likert,41,2.1.0,775992,0,response,posterior,12,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P03,NA,NA,html-keyboard-response,42,2.1.0,777505,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P03,NA,5476,survey-likert,43,2.1.0,782983,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 6}",[0],NA,3,TRUE,NA,NA
+P03,NA,31178,survey-likert,44,2.1.0,814162,0,response,prior,13,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P03,NA,4567,survey-likert,45,2.1.0,818731,0,response,posterior,13,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P03,NA,NA,html-keyboard-response,46,2.1.0,820742,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P03,NA,35705,survey-likert,47,2.1.0,856450,0,response,prior,14,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P03,NA,3784,survey-likert,48,2.1.0,860237,0,response,posterior,14,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P03,NA,NA,html-keyboard-response,49,2.1.0,862250,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P03,NA,15931,survey-likert,50,2.1.0,878184,0,response,prior,15,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P03,NA,3635,survey-likert,51,2.1.0,881822,0,response,posterior,15,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P03,NA,14145,survey-html-form,52,2.0.0,895970,0,exit_survey,NA,NA,NA,NA,NA,NA,NA,"{""gender"": ""female"", ""age"": ""28"", ""understood"": ""yes"", ""comments"": """"}",NA,NA,NA,TRUE,1,0
+P04,"[{""page_index"": 0, ""viewing_time"": 6243}]",6243,instructions,0,2.1.0,6252,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P04,"[{""page_index"": 0, ""viewing_time"": 3056}, {""page_index"": 1, ""viewing_time"": 2228}, {""page_index"": 2, ""viewing_time"": 10914}]",16199,instructions,1,2.1.0,22452,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P04,NA,18726,survey-likert,2,2.1.0,41180,0,response,prior,0,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P04,NA,32576,survey-likert,3,2.1.0,73758,0,response,posterior,0,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P04,NA,NA,html-keyboard-response,4,2.1.0,75517,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P04,NA,10767,survey-likert,5,2.1.0,86285,0,response,prior,1,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P04,NA,5785,survey-likert,6,2.1.0,92072,0,response,posterior,1,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P04,NA,NA,html-keyboard-response,7,2.1.0,93589,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P04,NA,8183,survey-likert,8,2.1.0,101774,0,response,prior,2,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P04,NA,3430,survey-likert,9,2.1.0,105206,0,response,posterior,2,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P04,NA,NA,html-keyboard-response,10,2.1.0,107517,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P04,NA,18574,survey-likert,11,2.1.0,126092,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 0}",[0],NA,1,TRUE,NA,NA
+P04,NA,28661,survey-likert,12,2.1.0,154755,0,response,prior,3,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P04,NA,5845,survey-likert,13,2.1.0,160602,0,response,posterior,3,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P04,NA,NA,html-keyboard-response,14,2.1.0,162366,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P04,NA,6642,survey-likert,15,2.1.0,169009,0,response,prior,4,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P04,NA,3838,survey-likert,16,2.1.0,172848,0,response,posterior,4,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P04,NA,NA,html-keyboard-response,17,2.1.0,175163,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P04,NA,36829,survey-likert,18,2.1.0,211993,0,response,prior,5,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P04,NA,1964,survey-likert,19,2.1.0,213959,0,response,posterior,5,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P04,NA,NA,html-keyboard-response,20,2.1.0,215460,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P04,NA,3010,survey-likert,21,2.1.0,218471,0,response,prior,6,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P04,NA,1339,survey-likert,22,2.1.0,219812,0,response,posterior,6,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P04,NA,NA,html-keyboard-response,23,2.1.0,221318,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P04,NA,4100,survey-likert,24,2.1.0,225419,0,response,prior,7,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P04,NA,2053,survey-likert,25,2.1.0,227473,0,response,posterior,7,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 6}",[0],NA,NA,NA,NA,NA
+P04,NA,NA,html-keyboard-response,26,2.1.0,229226,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P04,NA,12743,survey-multi-choice,27,2.1.0,241971,0,memory_check,NA,NA,NA,NA,NA,NA,NA,"{""memory_check"": ""That the two tasks are equal in effort and value""}",[0],NA,2,TRUE,1,NA
+P04,NA,36834,survey-likert,28,2.1.0,278806,0,response,prior,8,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P04,NA,4808,survey-likert,29,2.1.0,283615,0,response,posterior,8,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P04,NA,NA,html-keyboard-response,30,2.1.0,285626,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P04,NA,15512,survey-likert,31,2.1.0,301139,0,response,prior,9,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P04,NA,2189,survey-likert,32,2.1.0,303330,0,response,posterior,9,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P04,NA,NA,html-keyboard-response,33,2.1.0,305333,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P04,NA,25154,survey-likert,34,2.1.0,330488,0,response,prior,10,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P04,NA,1598,survey-likert,35,2.1.0,332087,0,response,posterior,10,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P04,NA,NA,html-keyboard-response,36,2.1.0,333593,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P04,NA,13005,survey-likert,37,2.1.0,346598,0,response,prior,11,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P04,NA,1927,survey-likert,38,2.1.0,348527,0,response,posterior,11,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P04,NA,NA,html-keyboard-response,39,2.1.0,350537,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P04,NA,23419,survey-likert,40,2.1.0,373957,0,response,prior,12,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P04,NA,1654,survey-likert,41,2.1.0,375612,0,response,posterior,12,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P04,NA,NA,html-keyboard-response,42,2.1.0,377915,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P04,NA,4123,survey-likert,43,2.1.0,382040,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 6}",[0],NA,3,TRUE,NA,NA
+P04,NA,5913,survey-likert,44,2.1.0,387955,0,response,prior,13,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P04,NA,3001,survey-likert,45,2.1.0,390957,0,response,posterior,13,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P04,NA,NA,html-keyboard-response,46,2.1.0,392975,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P04,NA,5308,survey-likert,47,2.1.0,398285,0,response,prior,14,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P04,NA,1849,survey-likert,48,2.1.0,400135,0,response,posterior,14,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P04,NA,NA,html-keyboard-response,49,2.1.0,401647,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P04,NA,6705,survey-likert,50,2.1.0,408354,0,response,prior,15,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P04,NA,1706,survey-likert,51,2.1.0,410061,0,response,posterior,15,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P04,NA,10499,survey-html-form,52,2.0.0,420562,0,exit_survey,NA,NA,NA,NA,NA,NA,NA,"{""gender"": ""male"", ""age"": ""23"", ""understood"": ""yes"", ""comments"": ""no""}",NA,NA,NA,TRUE,1,0
+P05,"[{""page_index"": 0, ""viewing_time"": 13640}]",13641,instructions,0,2.1.0,13673,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P05,"[{""page_index"": 0, ""viewing_time"": 175065}, {""page_index"": 1, ""viewing_time"": 16543}, {""page_index"": 2, ""viewing_time"": 32761}]",224368,instructions,1,2.1.0,238049,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P05,NA,163604,survey-likert,2,2.1.0,401666,0,response,prior,0,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P05,NA,13102,survey-likert,3,2.1.0,414771,0,response,posterior,0,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P05,NA,NA,html-keyboard-response,4,2.1.0,416791,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P05,NA,23768,survey-likert,5,2.1.0,440567,0,response,prior,1,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P05,NA,8801,survey-likert,6,2.1.0,449385,0,response,posterior,1,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P05,NA,NA,html-keyboard-response,7,2.1.0,451148,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P05,NA,21883,survey-likert,8,2.1.0,473035,0,response,prior,2,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P05,NA,6743,survey-likert,9,2.1.0,479785,0,response,posterior,2,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P05,NA,NA,html-keyboard-response,10,2.1.0,481549,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P05,NA,8710,survey-likert,11,2.1.0,490264,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 0}",[0],NA,1,TRUE,NA,NA
+P05,NA,26267,survey-likert,12,2.1.0,516539,0,response,prior,3,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P05,NA,9338,survey-likert,13,2.1.0,525881,0,response,posterior,3,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P05,NA,NA,html-keyboard-response,14,2.1.0,528198,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P05,NA,15799,survey-likert,15,2.1.0,544000,0,response,prior,4,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P05,NA,5404,survey-likert,16,2.1.0,549411,0,response,posterior,4,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P05,NA,NA,html-keyboard-response,17,2.1.0,551424,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P05,NA,33016,survey-likert,18,2.1.0,584442,0,response,prior,5,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P05,NA,5997,survey-likert,19,2.1.0,590441,0,response,posterior,5,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P05,NA,NA,html-keyboard-response,20,2.1.0,592459,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P05,NA,20249,survey-likert,21,2.1.0,612712,0,response,prior,6,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P05,NA,7642,survey-likert,22,2.1.0,620356,0,response,posterior,6,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P05,NA,NA,html-keyboard-response,23,2.1.0,622670,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P05,NA,15322,survey-likert,24,2.1.0,637997,0,response,prior,7,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P05,NA,4510,survey-likert,25,2.1.0,642518,0,response,posterior,7,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P05,NA,NA,html-keyboard-response,26,2.1.0,644039,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P05,NA,43378,survey-multi-choice,27,2.1.0,687422,0,memory_check,NA,NA,NA,NA,NA,NA,NA,"{""memory_check"": ""That they had been working together for a long time""}",[0],NA,2,FALSE,0,NA
+P05,NA,275156,survey-likert,28,2.1.0,962581,0,response,prior,8,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P05,NA,9546,survey-likert,29,2.1.0,972129,0,response,posterior,8,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P05,NA,NA,html-keyboard-response,30,2.1.0,973637,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P05,NA,46718,survey-likert,31,2.1.0,1020359,0,response,prior,9,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P05,NA,6340,survey-likert,32,2.1.0,1026705,0,response,posterior,9,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P05,NA,NA,html-keyboard-response,33,2.1.0,1029013,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P05,NA,21343,survey-likert,34,2.1.0,1050361,0,response,prior,10,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P05,NA,5238,survey-likert,35,2.1.0,1055606,0,response,posterior,10,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P05,NA,NA,html-keyboard-response,36,2.1.0,1057626,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P05,NA,34512,survey-likert,37,2.1.0,1092142,0,response,prior,11,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P05,NA,6100,survey-likert,38,2.1.0,1098252,0,response,posterior,11,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P05,NA,NA,html-keyboard-response,39,2.1.0,1100013,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P05,NA,26370,survey-likert,40,2.1.0,1126388,0,response,prior,12,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P05,NA,11948,survey-likert,41,2.1.0,1138341,0,response,posterior,12,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P05,NA,NA,html-keyboard-response,42,2.1.0,1140656,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P05,NA,5882,survey-likert,43,2.1.0,1146542,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 6}",[0],NA,3,TRUE,NA,NA
+P05,NA,85754,survey-likert,44,2.1.0,1232300,0,response,prior,13,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P05,NA,7612,survey-likert,45,2.1.0,1239918,0,response,posterior,13,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P05,NA,NA,html-keyboard-response,46,2.1.0,1242224,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P05,NA,28233,survey-likert,47,2.1.0,1270462,0,response,prior,14,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P05,NA,9666,survey-likert,48,2.1.0,1280130,0,response,posterior,14,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P05,NA,NA,html-keyboard-response,49,2.1.0,1282135,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P05,NA,32260,survey-likert,50,2.1.0,1314399,0,response,prior,15,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P05,NA,5496,survey-likert,51,2.1.0,1319901,0,response,posterior,15,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P05,NA,53416,survey-html-form,52,2.0.0,1373331,0,exit_survey,NA,NA,NA,NA,NA,NA,NA,"{""gender"": ""male"", ""age"": ""30"", ""understood"": ""yes"", ""comments"": """"}",NA,NA,NA,FALSE,0,0
+P06,"[{""page_index"": 0, ""viewing_time"": 24301}]",24301,instructions,0,2.1.0,24321,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P06,"[{""page_index"": 0, ""viewing_time"": 25259}, {""page_index"": 1, ""viewing_time"": 38742}, {""page_index"": 2, ""viewing_time"": 41555}]",105555,instructions,1,2.1.0,129878,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P06,NA,39924,survey-likert,2,2.1.0,169807,0,response,prior,0,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P06,NA,31191,survey-likert,3,2.1.0,201000,0,response,posterior,0,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P06,NA,NA,html-keyboard-response,4,2.1.0,203010,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P06,NA,25750,survey-likert,5,2.1.0,228764,0,response,prior,1,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P06,NA,14807,survey-likert,6,2.1.0,243575,0,response,posterior,1,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P06,NA,NA,html-keyboard-response,7,2.1.0,245882,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P06,NA,19406,survey-likert,8,2.1.0,265290,0,response,prior,2,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P06,NA,7982,survey-likert,9,2.1.0,273275,0,response,posterior,2,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P06,NA,NA,html-keyboard-response,10,2.1.0,275585,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P06,NA,6002,survey-likert,11,2.1.0,281591,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 0}",[0],NA,1,TRUE,NA,NA
+P06,NA,24037,survey-likert,12,2.1.0,305630,0,response,prior,3,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P06,NA,10091,survey-likert,13,2.1.0,315723,0,response,posterior,3,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P06,NA,NA,html-keyboard-response,14,2.1.0,317733,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P06,NA,19130,survey-likert,15,2.1.0,336867,0,response,prior,4,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P06,NA,5725,survey-likert,16,2.1.0,342595,0,response,posterior,4,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P06,NA,NA,html-keyboard-response,17,2.1.0,344600,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P06,NA,27375,survey-likert,18,2.1.0,371978,0,response,prior,5,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P06,NA,10233,survey-likert,19,2.1.0,382213,0,response,posterior,5,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P06,NA,NA,html-keyboard-response,20,2.1.0,383725,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P06,NA,19600,survey-likert,21,2.1.0,403328,0,response,prior,6,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P06,NA,13938,survey-likert,22,2.1.0,417269,0,response,posterior,6,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P06,NA,NA,html-keyboard-response,23,2.1.0,418771,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P06,NA,13912,survey-likert,24,2.1.0,432687,0,response,prior,7,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P06,NA,6545,survey-likert,25,2.1.0,439235,0,response,posterior,7,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P06,NA,NA,html-keyboard-response,26,2.1.0,440991,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P06,NA,31690,survey-multi-choice,27,2.1.0,472685,0,memory_check,NA,NA,NA,NA,NA,NA,NA,"{""memory_check"": ""That the two tasks are equal in effort and value""}",[0],NA,2,TRUE,1,NA
+P06,NA,25346,survey-likert,28,2.1.0,498033,0,response,prior,8,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P06,NA,20520,survey-likert,29,2.1.0,518555,0,response,posterior,8,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P06,NA,NA,html-keyboard-response,30,2.1.0,520866,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P06,NA,18029,survey-likert,31,2.1.0,538899,0,response,prior,9,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 6}",[0],NA,NA,NA,NA,NA
+P06,NA,5512,survey-likert,32,2.1.0,544413,0,response,posterior,9,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 6}",[0],NA,NA,NA,NA,NA
+P06,NA,NA,html-keyboard-response,33,2.1.0,545928,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P06,NA,24389,survey-likert,34,2.1.0,570321,0,response,prior,10,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P06,NA,4549,survey-likert,35,2.1.0,574872,0,response,posterior,10,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P06,NA,NA,html-keyboard-response,36,2.1.0,576631,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P06,NA,16573,survey-likert,37,2.1.0,593207,0,response,prior,11,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P06,NA,22732,survey-likert,38,2.1.0,615942,0,response,posterior,11,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P06,NA,NA,html-keyboard-response,39,2.1.0,617444,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P06,NA,13322,survey-likert,40,2.1.0,630769,0,response,prior,12,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P06,NA,7472,survey-likert,41,2.1.0,638242,0,response,posterior,12,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P06,NA,NA,html-keyboard-response,42,2.1.0,639755,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P06,NA,3897,survey-likert,43,2.1.0,643656,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 6}",[0],NA,3,TRUE,NA,NA
+P06,NA,16787,survey-likert,44,2.1.0,660445,0,response,prior,13,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P06,NA,10005,survey-likert,45,2.1.0,670452,0,response,posterior,13,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P06,NA,NA,html-keyboard-response,46,2.1.0,672208,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P06,NA,12154,survey-likert,47,2.1.0,684365,0,response,prior,14,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P06,NA,3834,survey-likert,48,2.1.0,688201,0,response,posterior,14,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P06,NA,NA,html-keyboard-response,49,2.1.0,689960,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P06,NA,16452,survey-likert,50,2.1.0,706415,0,response,prior,15,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P06,NA,11048,survey-likert,51,2.1.0,717465,0,response,posterior,15,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P06,NA,10792,survey-html-form,52,2.0.0,728261,0,exit_survey,NA,NA,NA,NA,NA,NA,NA,"{""gender"": ""female"", ""age"": ""24"", ""understood"": ""yes"", ""comments"": """"}",NA,NA,NA,TRUE,1,0
+P07,"[{""page_index"": 0, ""viewing_time"": 2405}]",2406,instructions,0,2.1.0,2418,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P07,"[{""page_index"": 0, ""viewing_time"": 6593}, {""page_index"": 1, ""viewing_time"": 107886}, {""page_index"": 2, ""viewing_time"": 91268}]",205746,instructions,1,2.1.0,208183,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P07,NA,32254,survey-likert,2,2.1.0,240443,0,response,prior,0,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P07,NA,18292,survey-likert,3,2.1.0,258739,0,response,posterior,0,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P07,NA,NA,html-keyboard-response,4,2.1.0,260258,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P07,NA,19140,survey-likert,5,2.1.0,279402,0,response,prior,1,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P07,NA,25423,survey-likert,6,2.1.0,304829,0,response,posterior,1,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P07,NA,NA,html-keyboard-response,7,2.1.0,306839,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P07,NA,32679,survey-likert,8,2.1.0,339521,0,response,prior,2,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P07,NA,4815,survey-likert,9,2.1.0,344339,0,response,posterior,2,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P07,NA,NA,html-keyboard-response,10,2.1.0,346092,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P07,NA,4656,survey-likert,11,2.1.0,350750,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 0}",[0],NA,1,TRUE,NA,NA
+P07,NA,51402,survey-likert,12,2.1.0,402155,0,response,prior,3,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P07,NA,22973,survey-likert,13,2.1.0,425132,0,response,posterior,3,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P07,NA,NA,html-keyboard-response,14,2.1.0,426896,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P07,NA,21534,survey-likert,15,2.1.0,448433,0,response,prior,4,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P07,NA,8089,survey-likert,16,2.1.0,456525,0,response,posterior,4,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P07,NA,NA,html-keyboard-response,17,2.1.0,458540,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P07,NA,20409,survey-likert,18,2.1.0,478951,0,response,prior,5,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P07,NA,18756,survey-likert,19,2.1.0,497710,0,response,posterior,5,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P07,NA,NA,html-keyboard-response,20,2.1.0,500018,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P07,NA,24506,survey-likert,21,2.1.0,524527,0,response,prior,6,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P07,NA,19552,survey-likert,22,2.1.0,544082,0,response,posterior,6,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P07,NA,NA,html-keyboard-response,23,2.1.0,545841,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P07,NA,11103,survey-likert,24,2.1.0,556946,0,response,prior,7,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P07,NA,4311,survey-likert,25,2.1.0,561261,0,response,posterior,7,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P07,NA,NA,html-keyboard-response,26,2.1.0,563276,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P07,NA,13823,survey-multi-choice,27,2.1.0,577104,0,memory_check,NA,NA,NA,NA,NA,NA,NA,"{""memory_check"": ""That the two tasks are equal in effort and value""}",[0],NA,2,TRUE,1,NA
+P07,NA,30387,survey-likert,28,2.1.0,607497,0,response,prior,8,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P07,NA,6507,survey-likert,29,2.1.0,614009,0,response,posterior,8,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P07,NA,NA,html-keyboard-response,30,2.1.0,616019,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P07,NA,47781,survey-likert,31,2.1.0,663803,0,response,prior,9,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P07,NA,48790,survey-likert,32,2.1.0,712598,0,response,posterior,9,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P07,NA,NA,html-keyboard-response,33,2.1.0,714903,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P07,NA,16352,survey-likert,34,2.1.0,731257,0,response,prior,10,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P07,NA,3743,survey-likert,35,2.1.0,735003,0,response,posterior,10,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P07,NA,NA,html-keyboard-response,36,2.1.0,737009,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P07,NA,9110,survey-likert,37,2.1.0,746122,0,response,prior,11,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P07,NA,4697,survey-likert,38,2.1.0,750823,0,response,posterior,11,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P07,NA,NA,html-keyboard-response,39,2.1.0,752587,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P07,NA,14500,survey-likert,40,2.1.0,767090,0,response,prior,12,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P07,NA,25928,survey-likert,41,2.1.0,793022,0,response,posterior,12,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P07,NA,NA,html-keyboard-response,42,2.1.0,795336,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P07,NA,9151,survey-likert,43,2.1.0,804490,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 6}",[0],NA,3,TRUE,NA,NA
+P07,NA,9909,survey-likert,44,2.1.0,814402,0,response,prior,13,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P07,NA,4399,survey-likert,45,2.1.0,818803,0,response,posterior,13,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P07,NA,NA,html-keyboard-response,46,2.1.0,820815,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P07,NA,9267,survey-likert,47,2.1.0,830084,0,response,prior,14,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P07,NA,4216,survey-likert,48,2.1.0,834302,0,response,posterior,14,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P07,NA,NA,html-keyboard-response,49,2.1.0,836305,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P07,NA,13081,survey-likert,50,2.1.0,849389,0,response,prior,15,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P07,NA,10518,survey-likert,51,2.1.0,859911,0,response,posterior,15,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P07,NA,54462,survey-html-form,52,2.0.0,914380,0,exit_survey,NA,NA,NA,NA,NA,NA,NA,"{""gender"": ""male"", ""age"": ""47"", ""understood"": ""yes"", ""comments"": ""Nothing really to add but didn't want to say thank you to the researchers for the study I did early on kind of assume that everything was equal but when I realized that some of the scenarios were not necessarily alternating tasks then I realized that it wasn't completely equal but mostly equal only when they alternated tasks that I think it was completely equal.""}",NA,NA,NA,TRUE,1,0
+P08,"[{""page_index"": 0, ""viewing_time"": 79785}]",79786,instructions,0,2.1.0,79911,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P08,"[{""page_index"": 0, ""viewing_time"": 58478}, {""page_index"": 1, ""viewing_time"": 275978}, {""page_index"": 2, ""viewing_time"": 52194}]",386649,instructions,1,2.1.0,466567,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P08,NA,52516,survey-likert,2,2.1.0,519089,0,response,prior,0,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P08,NA,26967,survey-likert,3,2.1.0,546059,0,response,posterior,0,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P08,NA,NA,html-keyboard-response,4,2.1.0,547828,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P08,NA,20155,survey-likert,5,2.1.0,567984,0,response,prior,1,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P08,NA,12934,survey-likert,6,2.1.0,580922,0,response,posterior,1,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P08,NA,NA,html-keyboard-response,7,2.1.0,582428,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P08,NA,24281,survey-likert,8,2.1.0,606712,0,response,prior,2,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P08,NA,17963,survey-likert,9,2.1.0,624678,0,response,posterior,2,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P08,NA,NA,html-keyboard-response,10,2.1.0,626180,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P08,NA,23472,survey-likert,11,2.1.0,649656,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 0}",[0],NA,1,TRUE,NA,NA
+P08,NA,14699,survey-likert,12,2.1.0,664358,0,response,prior,3,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P08,NA,12436,survey-likert,13,2.1.0,676797,0,response,posterior,3,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P08,NA,NA,html-keyboard-response,14,2.1.0,679105,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P08,NA,17540,survey-likert,15,2.1.0,696648,0,response,prior,4,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P08,NA,13948,survey-likert,16,2.1.0,710598,0,response,posterior,4,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P08,NA,NA,html-keyboard-response,17,2.1.0,712601,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P08,NA,13868,survey-likert,18,2.1.0,726471,0,response,prior,5,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P08,NA,13130,survey-likert,19,2.1.0,739604,0,response,posterior,5,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P08,NA,NA,html-keyboard-response,20,2.1.0,741619,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P08,NA,12552,survey-likert,21,2.1.0,754174,0,response,prior,6,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P08,NA,12628,survey-likert,22,2.1.0,766808,0,response,posterior,6,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P08,NA,NA,html-keyboard-response,23,2.1.0,769116,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P08,NA,14159,survey-likert,24,2.1.0,783278,0,response,prior,7,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P08,NA,27189,survey-likert,25,2.1.0,810471,0,response,posterior,7,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P08,NA,NA,html-keyboard-response,26,2.1.0,811986,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P08,NA,87955,survey-multi-choice,27,2.1.0,899945,0,memory_check,NA,NA,NA,NA,NA,NA,NA,"{""memory_check"": ""That the two tasks are equal in effort and value""}",[0],NA,2,TRUE,1,NA
+P08,NA,13336,survey-likert,28,2.1.0,913287,0,response,prior,8,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P08,NA,11665,survey-likert,29,2.1.0,924956,0,response,posterior,8,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P08,NA,NA,html-keyboard-response,30,2.1.0,926712,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P08,NA,12816,survey-likert,31,2.1.0,939534,0,response,prior,9,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P08,NA,21942,survey-likert,32,2.1.0,961478,0,response,posterior,9,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P08,NA,NA,html-keyboard-response,33,2.1.0,963497,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P08,NA,17245,survey-likert,34,2.1.0,980744,0,response,prior,10,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P08,NA,17337,survey-likert,35,2.1.0,998084,0,response,posterior,10,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P08,NA,NA,html-keyboard-response,36,2.1.0,999848,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P08,NA,11182,survey-likert,37,2.1.0,1011033,0,response,prior,11,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P08,NA,62287,survey-likert,38,2.1.0,1073325,0,response,posterior,11,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P08,NA,NA,html-keyboard-response,39,2.1.0,1075081,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P08,NA,29244,survey-likert,40,2.1.0,1104327,0,response,prior,12,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P08,NA,12310,survey-likert,41,2.1.0,1116640,0,response,posterior,12,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P08,NA,NA,html-keyboard-response,42,2.1.0,1118651,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P08,NA,44450,survey-likert,43,2.1.0,1163105,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 6}",[0],NA,3,TRUE,NA,NA
+P08,NA,13170,survey-likert,44,2.1.0,1176279,0,response,prior,13,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P08,NA,13306,survey-likert,45,2.1.0,1189588,0,response,posterior,13,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P08,NA,NA,html-keyboard-response,46,2.1.0,1191592,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P08,NA,15699,survey-likert,47,2.1.0,1207293,0,response,prior,14,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P08,NA,13248,survey-likert,48,2.1.0,1220544,0,response,posterior,14,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P08,NA,NA,html-keyboard-response,49,2.1.0,1222050,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P08,NA,15647,survey-likert,50,2.1.0,1237700,0,response,prior,15,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P08,NA,13492,survey-likert,51,2.1.0,1251196,0,response,posterior,15,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P08,NA,21081,survey-html-form,52,2.0.0,1272285,0,exit_survey,NA,NA,NA,NA,NA,NA,NA,"{""gender"": ""female"", ""age"": ""30"", ""understood"": ""yes"", ""comments"": """"}",NA,NA,NA,TRUE,1,0
+P09,"[{""page_index"": 0, ""viewing_time"": 84850}]",84850,instructions,0,2.1.0,84885,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P09,"[{""page_index"": 0, ""viewing_time"": 20628}, {""page_index"": 1, ""viewing_time"": 45521}, {""page_index"": 2, ""viewing_time"": 69024}]",135172,instructions,1,2.1.0,220066,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P09,NA,89017,survey-likert,2,2.1.0,309091,0,response,prior,0,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P09,NA,66399,survey-likert,3,2.1.0,375496,0,response,posterior,0,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P09,NA,NA,html-keyboard-response,4,2.1.0,377515,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P09,NA,27746,survey-likert,5,2.1.0,405265,0,response,prior,1,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P09,NA,34754,survey-likert,6,2.1.0,440025,0,response,posterior,1,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P09,NA,NA,html-keyboard-response,7,2.1.0,442345,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P09,NA,22268,survey-likert,8,2.1.0,464619,0,response,prior,2,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P09,NA,13977,survey-likert,9,2.1.0,478603,0,response,posterior,2,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P09,NA,NA,html-keyboard-response,10,2.1.0,480358,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P09,NA,19993,survey-likert,11,2.1.0,500354,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 0}",[0],NA,1,TRUE,NA,NA
+P09,NA,51594,survey-likert,12,2.1.0,551953,0,response,prior,3,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P09,NA,29258,survey-likert,13,2.1.0,581216,0,response,posterior,3,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P09,NA,NA,html-keyboard-response,14,2.1.0,582727,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P09,NA,25917,survey-likert,15,2.1.0,608648,0,response,prior,4,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P09,NA,30740,survey-likert,16,2.1.0,639393,0,response,posterior,4,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P09,NA,NA,html-keyboard-response,17,2.1.0,641150,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P09,NA,27335,survey-likert,18,2.1.0,668488,0,response,prior,5,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P09,NA,27986,survey-likert,19,2.1.0,696480,0,response,posterior,5,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P09,NA,NA,html-keyboard-response,20,2.1.0,698238,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P09,NA,30206,survey-likert,21,2.1.0,728449,0,response,prior,6,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P09,NA,24378,survey-likert,22,2.1.0,752833,0,response,posterior,6,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P09,NA,NA,html-keyboard-response,23,2.1.0,754341,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P09,NA,35508,survey-likert,24,2.1.0,789852,0,response,prior,7,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P09,NA,14032,survey-likert,25,2.1.0,803889,0,response,posterior,7,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P09,NA,NA,html-keyboard-response,26,2.1.0,805393,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P09,NA,35187,survey-multi-choice,27,2.1.0,840585,0,memory_check,NA,NA,NA,NA,NA,NA,NA,"{""memory_check"": ""That the two tasks are equal in effort and value""}",[0],NA,2,TRUE,1,NA
+P09,NA,32211,survey-likert,28,2.1.0,872800,0,response,prior,8,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P09,NA,18468,survey-likert,29,2.1.0,891273,0,response,posterior,8,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P09,NA,NA,html-keyboard-response,30,2.1.0,892784,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P09,NA,25975,survey-likert,31,2.1.0,918762,0,response,prior,9,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P09,NA,15995,survey-likert,32,2.1.0,934761,0,response,posterior,9,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P09,NA,NA,html-keyboard-response,33,2.1.0,936767,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P09,NA,49455,survey-likert,34,2.1.0,986225,0,response,prior,10,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P09,NA,16891,survey-likert,35,2.1.0,1003121,0,response,posterior,10,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P09,NA,NA,html-keyboard-response,36,2.1.0,1004884,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P09,NA,23603,survey-likert,37,2.1.0,1028490,0,response,prior,11,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P09,NA,11938,survey-likert,38,2.1.0,1040434,0,response,posterior,11,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P09,NA,NA,html-keyboard-response,39,2.1.0,1041946,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P09,NA,33684,survey-likert,40,2.1.0,1075634,0,response,prior,12,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P09,NA,9075,survey-likert,41,2.1.0,1084714,0,response,posterior,12,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P09,NA,NA,html-keyboard-response,42,2.1.0,1086728,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P09,NA,6735,survey-likert,43,2.1.0,1093467,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 6}",[0],NA,3,TRUE,NA,NA
+P09,NA,20250,survey-likert,44,2.1.0,1113721,0,response,prior,13,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P09,NA,19724,survey-likert,45,2.1.0,1133449,0,response,posterior,13,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P09,NA,NA,html-keyboard-response,46,2.1.0,1135206,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P09,NA,20576,survey-likert,47,2.1.0,1155785,0,response,prior,14,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P09,NA,13499,survey-likert,48,2.1.0,1169289,0,response,posterior,14,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P09,NA,NA,html-keyboard-response,49,2.1.0,1171603,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P09,NA,18626,survey-likert,50,2.1.0,1190233,0,response,prior,15,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P09,NA,24276,survey-likert,51,2.1.0,1214514,0,response,posterior,15,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P09,NA,42140,survey-html-form,52,2.0.0,1256660,0,exit_survey,NA,NA,NA,NA,NA,NA,NA,"{""gender"": ""male"", ""age"": ""49"", ""understood"": ""yes"", ""comments"": ""ENJOYED THE STUDY. THANK YOU.""}",NA,NA,NA,TRUE,1,0
+P10,"[{""page_index"": 0, ""viewing_time"": 29427}]",29427,instructions,0,2.1.0,29432,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P10,"[{""page_index"": 0, ""viewing_time"": 11934}, {""page_index"": 1, ""viewing_time"": 18176}, {""page_index"": 2, ""viewing_time"": 21025}]",51135,instructions,1,2.1.0,80568,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P10,NA,24695,survey-likert,2,2.1.0,105264,0,response,prior,0,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P10,NA,21382,survey-likert,3,2.1.0,126647,0,response,posterior,0,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P10,NA,NA,html-keyboard-response,4,2.1.0,128412,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P10,NA,15162,survey-likert,5,2.1.0,143576,0,response,prior,1,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P10,NA,5623,survey-likert,6,2.1.0,149199,0,response,posterior,1,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P10,NA,NA,html-keyboard-response,7,2.1.0,151510,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P10,NA,27992,survey-likert,8,2.1.0,179503,0,response,prior,2,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P10,NA,9871,survey-likert,9,2.1.0,189376,0,response,posterior,2,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P10,NA,NA,html-keyboard-response,10,2.1.0,191377,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P10,NA,5293,survey-likert,11,2.1.0,196672,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 0}",[0],NA,1,TRUE,NA,NA
+P10,NA,16095,survey-likert,12,2.1.0,212767,0,response,prior,3,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P10,NA,4495,survey-likert,13,2.1.0,217263,0,response,posterior,3,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P10,NA,NA,html-keyboard-response,14,2.1.0,219567,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P10,NA,17480,survey-likert,15,2.1.0,237047,0,response,prior,4,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P10,NA,4015,survey-likert,16,2.1.0,241064,0,response,posterior,4,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P10,NA,NA,html-keyboard-response,17,2.1.0,242829,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P10,NA,14010,survey-likert,18,2.1.0,256840,0,response,prior,5,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P10,NA,6695,survey-likert,19,2.1.0,263536,0,response,posterior,5,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P10,NA,NA,html-keyboard-response,20,2.1.0,265047,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P10,NA,16256,survey-likert,21,2.1.0,281304,0,response,prior,6,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P10,NA,7719,survey-likert,22,2.1.0,289023,0,response,posterior,6,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P10,NA,NA,html-keyboard-response,23,2.1.0,291035,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P10,NA,19659,survey-likert,24,2.1.0,310696,0,response,prior,7,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P10,NA,5991,survey-likert,25,2.1.0,316688,0,response,posterior,7,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P10,NA,NA,html-keyboard-response,26,2.1.0,318999,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P10,NA,21431,survey-multi-choice,27,2.1.0,340432,0,memory_check,NA,NA,NA,NA,NA,NA,NA,"{""memory_check"": ""That the two tasks are equal in effort and value""}",[0],NA,2,TRUE,1,NA
+P10,NA,15911,survey-likert,28,2.1.0,356343,0,response,prior,8,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P10,NA,4807,survey-likert,29,2.1.0,361151,0,response,posterior,8,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P10,NA,NA,html-keyboard-response,30,2.1.0,362910,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P10,NA,13937,survey-likert,31,2.1.0,376848,0,response,prior,9,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P10,NA,5207,survey-likert,32,2.1.0,382056,0,response,posterior,9,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P10,NA,NA,html-keyboard-response,33,2.1.0,384361,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P10,NA,20237,survey-likert,34,2.1.0,404600,0,response,prior,10,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P10,NA,3455,survey-likert,35,2.1.0,408056,0,response,posterior,10,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P10,NA,NA,html-keyboard-response,36,2.1.0,409557,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P10,NA,39826,survey-likert,37,2.1.0,449384,0,response,prior,11,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P10,NA,4567,survey-likert,38,2.1.0,453952,0,response,posterior,11,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P10,NA,NA,html-keyboard-response,39,2.1.0,456254,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P10,NA,24688,survey-likert,40,2.1.0,480944,0,response,prior,12,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P10,NA,6175,survey-likert,41,2.1.0,487120,0,response,posterior,12,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P10,NA,NA,html-keyboard-response,42,2.1.0,489125,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P10,NA,7674,survey-likert,43,2.1.0,496800,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 6}",[0],NA,3,TRUE,NA,NA
+P10,NA,14351,survey-likert,44,2.1.0,511152,0,response,prior,13,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P10,NA,9623,survey-likert,45,2.1.0,520776,0,response,posterior,13,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P10,NA,NA,html-keyboard-response,46,2.1.0,522537,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P10,NA,15822,survey-likert,47,2.1.0,538360,0,response,prior,14,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P10,NA,5551,survey-likert,48,2.1.0,543912,0,response,posterior,14,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P10,NA,NA,html-keyboard-response,49,2.1.0,545678,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P10,NA,41249,survey-likert,50,2.1.0,586928,0,response,prior,15,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P10,NA,3775,survey-likert,51,2.1.0,590704,0,response,posterior,15,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P10,NA,13511,survey-html-form,52,2.0.0,604216,0,exit_survey,NA,NA,NA,NA,NA,NA,NA,"{""gender"": ""male"", ""age"": ""40"", ""understood"": ""yes"", ""comments"": """"}",NA,NA,NA,TRUE,1,0
+P11,"[{""page_index"": 0, ""viewing_time"": 12233}]",12233,instructions,0,2.1.0,12242,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P11,"[{""page_index"": 0, ""viewing_time"": 17568}, {""page_index"": 1, ""viewing_time"": 17177}, {""page_index"": 2, ""viewing_time"": 27614}]",62359,instructions,1,2.1.0,74603,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P11,NA,27441,survey-likert,2,2.1.0,102048,0,response,prior,0,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P11,NA,10984,survey-likert,3,2.1.0,113034,0,response,posterior,0,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P11,NA,NA,html-keyboard-response,4,2.1.0,114787,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P11,NA,24216,survey-likert,5,2.1.0,139005,0,response,prior,1,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P11,NA,10242,survey-likert,6,2.1.0,149249,0,response,posterior,1,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P11,NA,NA,html-keyboard-response,7,2.1.0,151552,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P11,NA,18883,survey-likert,8,2.1.0,170437,0,response,prior,2,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P11,NA,12283,survey-likert,9,2.1.0,182723,0,response,posterior,2,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P11,NA,NA,html-keyboard-response,10,2.1.0,184224,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P11,NA,5931,survey-likert,11,2.1.0,190157,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 0}",[0],NA,1,TRUE,NA,NA
+P11,NA,16069,survey-likert,12,2.1.0,206228,0,response,prior,3,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P11,NA,5486,survey-likert,13,2.1.0,211715,0,response,posterior,3,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P11,NA,NA,html-keyboard-response,14,2.1.0,214018,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P11,NA,20121,survey-likert,15,2.1.0,234141,0,response,prior,4,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P11,NA,23210,survey-likert,16,2.1.0,257353,0,response,posterior,4,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P11,NA,NA,html-keyboard-response,17,2.1.0,258856,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P11,NA,27476,survey-likert,18,2.1.0,286334,0,response,prior,5,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P11,NA,12950,survey-likert,19,2.1.0,299286,0,response,posterior,5,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P11,NA,NA,html-keyboard-response,20,2.1.0,301039,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P11,NA,24768,survey-likert,21,2.1.0,325809,0,response,prior,6,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P11,NA,10565,survey-likert,22,2.1.0,336376,0,response,posterior,6,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P11,NA,NA,html-keyboard-response,23,2.1.0,338129,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P11,NA,18838,survey-likert,24,2.1.0,356969,0,response,prior,7,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P11,NA,3411,survey-likert,25,2.1.0,360382,0,response,posterior,7,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P11,NA,NA,html-keyboard-response,26,2.1.0,362685,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P11,NA,15057,survey-multi-choice,27,2.1.0,377744,0,memory_check,NA,NA,NA,NA,NA,NA,NA,"{""memory_check"": ""That the two tasks are equal in effort and value""}",[0],NA,2,TRUE,1,NA
+P11,NA,15725,survey-likert,28,2.1.0,393471,0,response,prior,8,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P11,NA,16197,survey-likert,29,2.1.0,409670,0,response,posterior,8,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P11,NA,NA,html-keyboard-response,30,2.1.0,411172,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P11,NA,16288,survey-likert,31,2.1.0,427462,0,response,prior,9,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P11,NA,5426,survey-likert,32,2.1.0,432890,0,response,posterior,9,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P11,NA,NA,html-keyboard-response,33,2.1.0,435192,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P11,NA,28355,survey-likert,34,2.1.0,463549,0,response,prior,10,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P11,NA,9924,survey-likert,35,2.1.0,473474,0,response,posterior,10,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P11,NA,NA,html-keyboard-response,36,2.1.0,475228,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P11,NA,16235,survey-likert,37,2.1.0,491464,0,response,prior,11,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P11,NA,4522,survey-likert,38,2.1.0,495987,0,response,posterior,11,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P11,NA,NA,html-keyboard-response,39,2.1.0,497739,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P11,NA,18272,survey-likert,40,2.1.0,516012,0,response,prior,12,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P11,NA,8309,survey-likert,41,2.1.0,524323,0,response,posterior,12,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P11,NA,NA,html-keyboard-response,42,2.1.0,526076,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P11,NA,5415,survey-likert,43,2.1.0,531493,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 6}",[0],NA,3,TRUE,NA,NA
+P11,NA,21012,survey-likert,44,2.1.0,552507,0,response,prior,13,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P11,NA,8932,survey-likert,45,2.1.0,561440,0,response,posterior,13,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P11,NA,NA,html-keyboard-response,46,2.1.0,563743,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P11,NA,18560,survey-likert,47,2.1.0,582305,0,response,prior,14,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P11,NA,5293,survey-likert,48,2.1.0,587600,0,response,posterior,14,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P11,NA,NA,html-keyboard-response,49,2.1.0,589354,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P11,NA,20631,survey-likert,50,2.1.0,609986,0,response,prior,15,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P11,NA,5919,survey-likert,51,2.1.0,615906,0,response,posterior,15,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P11,NA,10684,survey-html-form,52,2.0.0,626593,0,exit_survey,NA,NA,NA,NA,NA,NA,NA,"{""gender"": ""female"", ""age"": ""48"", ""understood"": ""yes"", ""comments"": """"}",NA,NA,NA,TRUE,1,0
+P12,"[{""page_index"": 0, ""viewing_time"": 4738}]",4738,instructions,0,2.1.0,4743,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P12,"[{""page_index"": 0, ""viewing_time"": 61331}, {""page_index"": 1, ""viewing_time"": 14401}, {""page_index"": 2, ""viewing_time"": 12438}]",88170,instructions,1,2.1.0,92916,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P12,NA,93523,survey-likert,2,2.1.0,186442,0,response,prior,0,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,115966,survey-likert,3,2.1.0,302411,0,response,posterior,0,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,NA,html-keyboard-response,4,2.1.0,304713,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P12,NA,799039,survey-likert,5,2.1.0,1103754,0,response,prior,1,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,14185,survey-likert,6,2.1.0,1117941,0,response,posterior,1,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,NA,html-keyboard-response,7,2.1.0,1119536,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P12,NA,7888,survey-likert,8,2.1.0,1127425,0,response,prior,2,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,15643,survey-likert,9,2.1.0,1143070,0,response,posterior,2,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,NA,html-keyboard-response,10,2.1.0,1144824,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P12,NA,6554,survey-likert,11,2.1.0,1151379,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 0}",[0],NA,1,TRUE,NA,NA
+P12,NA,39425,survey-likert,12,2.1.0,1190805,0,response,prior,3,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,3034,survey-likert,13,2.1.0,1193842,0,response,posterior,3,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,NA,html-keyboard-response,14,2.1.0,1196143,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P12,NA,5742,survey-likert,15,2.1.0,1201887,0,response,prior,4,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,3093,survey-likert,16,2.1.0,1204981,0,response,posterior,4,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,NA,html-keyboard-response,17,2.1.0,1207447,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P12,NA,4602,survey-likert,18,2.1.0,1212051,0,response,prior,5,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,2602,survey-likert,19,2.1.0,1214654,0,response,posterior,5,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,NA,html-keyboard-response,20,2.1.0,1216467,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P12,NA,14856,survey-likert,21,2.1.0,1231323,0,response,prior,6,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,2608,survey-likert,22,2.1.0,1233932,0,response,posterior,6,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,NA,html-keyboard-response,23,2.1.0,1235439,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P12,NA,4900,survey-likert,24,2.1.0,1240340,0,response,prior,7,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,2055,survey-likert,25,2.1.0,1242397,0,response,posterior,7,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,NA,html-keyboard-response,26,2.1.0,1244530,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P12,NA,13708,survey-multi-choice,27,2.1.0,1258240,0,memory_check,NA,NA,NA,NA,NA,NA,NA,"{""memory_check"": ""That the two tasks are equal in effort and value""}",[0],NA,2,TRUE,1,NA
+P12,NA,37967,survey-likert,28,2.1.0,1296209,0,response,prior,8,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,2191,survey-likert,29,2.1.0,1298401,0,response,posterior,8,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,NA,html-keyboard-response,30,2.1.0,1300157,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P12,NA,3236,survey-likert,31,2.1.0,1303396,0,response,prior,9,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,2030,survey-likert,32,2.1.0,1305427,0,response,posterior,9,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,NA,html-keyboard-response,33,2.1.0,1307774,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P12,NA,8237,survey-likert,34,2.1.0,1316013,0,response,prior,10,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,2336,survey-likert,35,2.1.0,1318350,0,response,posterior,10,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,NA,html-keyboard-response,36,2.1.0,1319854,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P12,NA,3880,survey-likert,37,2.1.0,1323734,0,response,prior,11,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,12660,survey-likert,38,2.1.0,1336396,0,response,posterior,11,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,NA,html-keyboard-response,39,2.1.0,1337906,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P12,NA,6742,survey-likert,40,2.1.0,1344650,0,response,prior,12,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,2022,survey-likert,41,2.1.0,1346673,0,response,posterior,12,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,NA,html-keyboard-response,42,2.1.0,1348980,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P12,NA,2868,survey-likert,43,2.1.0,1351851,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 6}",[0],NA,3,TRUE,NA,NA
+P12,NA,3338,survey-likert,44,2.1.0,1355191,0,response,prior,13,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,1759,survey-likert,45,2.1.0,1356950,0,response,posterior,13,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,NA,html-keyboard-response,46,2.1.0,1359265,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P12,NA,19860,survey-likert,47,2.1.0,1379126,0,response,prior,14,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,38051,survey-likert,48,2.1.0,1417178,0,response,posterior,14,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,NA,html-keyboard-response,49,2.1.0,1419050,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P12,NA,3934,survey-likert,50,2.1.0,1422984,0,response,prior,15,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,1891,survey-likert,51,2.1.0,1424877,0,response,posterior,15,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P12,NA,11990,survey-html-form,52,2.0.0,1436870,0,exit_survey,NA,NA,NA,NA,NA,NA,NA,"{""gender"": ""male"", ""age"": ""39"", ""understood"": ""yes"", ""comments"": """"}",NA,NA,NA,TRUE,1,0
+P13,"[{""page_index"": 0, ""viewing_time"": 11213}]",11213,instructions,0,2.1.0,11226,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P13,"[{""page_index"": 0, ""viewing_time"": 6606}, {""page_index"": 1, ""viewing_time"": 11348}, {""page_index"": 2, ""viewing_time"": 12095}]",30049,instructions,1,2.1.0,41276,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P13,NA,17158,survey-likert,2,2.1.0,58436,0,response,prior,0,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P13,NA,6324,survey-likert,3,2.1.0,64762,0,response,posterior,0,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P13,NA,NA,html-keyboard-response,4,2.1.0,67081,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P13,NA,337180,survey-likert,5,2.1.0,404265,0,response,prior,1,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P13,NA,12270,survey-likert,6,2.1.0,416536,0,response,posterior,1,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P13,NA,NA,html-keyboard-response,7,2.1.0,418552,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P13,NA,7851,survey-likert,8,2.1.0,426406,0,response,prior,2,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P13,NA,6915,survey-likert,9,2.1.0,433323,0,response,posterior,2,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P13,NA,NA,html-keyboard-response,10,2.1.0,435092,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P13,NA,11207,survey-likert,11,2.1.0,446302,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 0}",[0],NA,1,TRUE,NA,NA
+P13,NA,5553,survey-likert,12,2.1.0,451857,0,response,prior,3,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P13,NA,4021,survey-likert,13,2.1.0,455880,0,response,posterior,3,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P13,NA,NA,html-keyboard-response,14,2.1.0,458191,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P13,NA,10364,survey-likert,15,2.1.0,468558,0,response,prior,4,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P13,NA,5100,survey-likert,16,2.1.0,473660,0,response,posterior,4,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P13,NA,NA,html-keyboard-response,17,2.1.0,475682,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P13,NA,7265,survey-likert,18,2.1.0,482950,0,response,prior,5,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P13,NA,2381,survey-likert,19,2.1.0,485332,0,response,posterior,5,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P13,NA,NA,html-keyboard-response,20,2.1.0,487642,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P13,NA,63208,survey-likert,21,2.1.0,550853,0,response,prior,6,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P13,NA,3683,survey-likert,22,2.1.0,554537,0,response,posterior,6,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P13,NA,NA,html-keyboard-response,23,2.1.0,556541,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P13,NA,23284,survey-likert,24,2.1.0,579826,0,response,prior,7,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P13,NA,4951,survey-likert,25,2.1.0,584778,0,response,posterior,7,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P13,NA,NA,html-keyboard-response,26,2.1.0,586780,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P13,NA,78183,survey-multi-choice,27,2.1.0,664967,0,memory_check,NA,NA,NA,NA,NA,NA,NA,"{""memory_check"": ""That the two tasks are equal in effort and value""}",[0],NA,2,TRUE,1,NA
+P13,NA,59174,survey-likert,28,2.1.0,724142,0,response,prior,8,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P13,NA,4868,survey-likert,29,2.1.0,729011,0,response,posterior,8,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P13,NA,NA,html-keyboard-response,30,2.1.0,731030,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P13,NA,5933,survey-likert,31,2.1.0,736966,0,response,prior,9,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P13,NA,5917,survey-likert,32,2.1.0,742885,0,response,posterior,9,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P13,NA,NA,html-keyboard-response,33,2.1.0,745202,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P13,NA,7032,survey-likert,34,2.1.0,752236,0,response,prior,10,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P13,NA,2235,survey-likert,35,2.1.0,754472,0,response,posterior,10,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P13,NA,NA,html-keyboard-response,36,2.1.0,756570,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P13,NA,7438,survey-likert,37,2.1.0,764011,0,response,prior,11,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P13,NA,9898,survey-likert,38,2.1.0,773910,0,response,posterior,11,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P13,NA,NA,html-keyboard-response,39,2.1.0,775414,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P13,NA,4033,survey-likert,40,2.1.0,779448,0,response,prior,12,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P13,NA,2703,survey-likert,41,2.1.0,782152,0,response,posterior,12,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P13,NA,NA,html-keyboard-response,42,2.1.0,783660,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P13,NA,259309,survey-likert,43,2.1.0,1042972,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 6}",[0],NA,3,TRUE,NA,NA
+P13,NA,5228,survey-likert,44,2.1.0,1048202,0,response,prior,13,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P13,NA,3310,survey-likert,45,2.1.0,1051513,0,response,posterior,13,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P13,NA,NA,html-keyboard-response,46,2.1.0,1053818,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P13,NA,10282,survey-likert,47,2.1.0,1064102,0,response,prior,14,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P13,NA,3298,survey-likert,48,2.1.0,1067401,0,response,posterior,14,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P13,NA,NA,html-keyboard-response,49,2.1.0,1069153,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P13,NA,7561,survey-likert,50,2.1.0,1076715,0,response,prior,15,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P13,NA,3979,survey-likert,51,2.1.0,1080696,0,response,posterior,15,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P13,NA,5576,survey-html-form,52,2.0.0,1086274,0,exit_survey,NA,NA,NA,NA,NA,NA,NA,"{""gender"": ""female"", ""age"": ""30"", ""understood"": ""yes"", ""comments"": """"}",NA,NA,NA,TRUE,1,0
+P14,"[{""page_index"": 0, ""viewing_time"": 25214}]",25214,instructions,0,2.1.0,25218,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P14,"[{""page_index"": 0, ""viewing_time"": 18354}, {""page_index"": 1, ""viewing_time"": 419429}, {""page_index"": 2, ""viewing_time"": 95020}]",532803,instructions,1,2.1.0,558023,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P14,NA,20636,survey-likert,2,2.1.0,578660,0,response,prior,0,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P14,NA,19461,survey-likert,3,2.1.0,598122,0,response,posterior,0,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P14,NA,NA,html-keyboard-response,4,2.1.0,599633,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P14,NA,27114,survey-likert,5,2.1.0,626748,0,response,prior,1,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P14,NA,9860,survey-likert,6,2.1.0,636609,0,response,posterior,1,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P14,NA,NA,html-keyboard-response,7,2.1.0,638915,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P14,NA,21144,survey-likert,8,2.1.0,660059,0,response,prior,2,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P14,NA,5204,survey-likert,9,2.1.0,665265,0,response,posterior,2,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P14,NA,NA,html-keyboard-response,10,2.1.0,666775,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P14,NA,11299,survey-likert,11,2.1.0,678075,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 0}",[0],NA,1,TRUE,NA,NA
+P14,NA,18072,survey-likert,12,2.1.0,696148,0,response,prior,3,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P14,NA,6687,survey-likert,13,2.1.0,702836,0,response,posterior,3,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P14,NA,NA,html-keyboard-response,14,2.1.0,704589,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P14,NA,20463,survey-likert,15,2.1.0,725053,0,response,prior,4,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P14,NA,6035,survey-likert,16,2.1.0,731089,0,response,posterior,4,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P14,NA,NA,html-keyboard-response,17,2.1.0,733403,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P14,NA,11444,survey-likert,18,2.1.0,744848,0,response,prior,5,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P14,NA,3147,survey-likert,19,2.1.0,747996,0,response,posterior,5,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P14,NA,NA,html-keyboard-response,20,2.1.0,749509,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P14,NA,12045,survey-likert,21,2.1.0,761554,0,response,prior,6,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P14,NA,4465,survey-likert,22,2.1.0,766021,0,response,posterior,6,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P14,NA,NA,html-keyboard-response,23,2.1.0,767537,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P14,NA,15070,survey-likert,24,2.1.0,782607,0,response,prior,7,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P14,NA,4246,survey-likert,25,2.1.0,786854,0,response,posterior,7,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P14,NA,NA,html-keyboard-response,26,2.1.0,788860,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P14,NA,88483,survey-multi-choice,27,2.1.0,877344,0,memory_check,NA,NA,NA,NA,NA,NA,NA,"{""memory_check"": ""That the two tasks are equal in effort and value""}",[0],NA,2,TRUE,1,NA
+P14,NA,32818,survey-likert,28,2.1.0,910163,0,response,prior,8,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P14,NA,6128,survey-likert,29,2.1.0,916292,0,response,posterior,8,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P14,NA,NA,html-keyboard-response,30,2.1.0,918305,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P14,NA,12847,survey-likert,31,2.1.0,931153,0,response,prior,9,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P14,NA,12100,survey-likert,32,2.1.0,943254,0,response,posterior,9,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P14,NA,NA,html-keyboard-response,33,2.1.0,945007,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P14,NA,15743,survey-likert,34,2.1.0,960751,0,response,prior,10,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P14,NA,6719,survey-likert,35,2.1.0,967470,0,response,posterior,10,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P14,NA,NA,html-keyboard-response,36,2.1.0,969229,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P14,NA,24110,survey-likert,37,2.1.0,993340,0,response,prior,11,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P14,NA,4931,survey-likert,38,2.1.0,998272,0,response,posterior,11,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P14,NA,NA,html-keyboard-response,39,2.1.0,1000286,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P14,NA,8560,survey-likert,40,2.1.0,1008847,0,response,prior,12,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P14,NA,4742,survey-likert,41,2.1.0,1013590,0,response,posterior,12,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P14,NA,NA,html-keyboard-response,42,2.1.0,1015604,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P14,NA,5923,survey-likert,43,2.1.0,1021528,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 6}",[0],NA,3,TRUE,NA,NA
+P14,NA,20034,survey-likert,44,2.1.0,1041563,0,response,prior,13,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P14,NA,6895,survey-likert,45,2.1.0,1048459,0,response,posterior,13,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P14,NA,NA,html-keyboard-response,46,2.1.0,1049981,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P14,NA,10847,survey-likert,47,2.1.0,1060829,0,response,prior,14,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P14,NA,4900,survey-likert,48,2.1.0,1065730,0,response,posterior,14,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P14,NA,NA,html-keyboard-response,49,2.1.0,1067482,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P14,NA,9615,survey-likert,50,2.1.0,1077097,0,response,prior,15,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P14,NA,5107,survey-likert,51,2.1.0,1082205,0,response,posterior,15,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P14,NA,17482,survey-html-form,52,2.0.0,1099688,0,exit_survey,NA,NA,NA,NA,NA,NA,NA,"{""gender"": ""male"", ""age"": ""29"", ""understood"": ""yes"", ""comments"": ""nothing, thanks""}",NA,NA,NA,TRUE,1,0
+P15,"[{""page_index"": 0, ""viewing_time"": 8841}]",8841,instructions,0,2.1.0,8846,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P15,"[{""page_index"": 0, ""viewing_time"": 13958}, {""page_index"": 1, ""viewing_time"": 14242}, {""page_index"": 2, ""viewing_time"": 22891}]",51091,instructions,1,2.1.0,59939,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P15,NA,34058,survey-likert,2,2.1.0,93998,0,response,prior,0,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P15,NA,17091,survey-likert,3,2.1.0,111091,0,response,posterior,0,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P15,NA,NA,html-keyboard-response,4,2.1.0,112842,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P15,NA,21804,survey-likert,5,2.1.0,134648,0,response,prior,1,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P15,NA,19300,survey-likert,6,2.1.0,153949,0,response,posterior,1,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P15,NA,NA,html-keyboard-response,7,2.1.0,155954,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P15,NA,24283,survey-likert,8,2.1.0,180241,0,response,prior,2,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P15,NA,7884,survey-likert,9,2.1.0,188127,0,response,posterior,2,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P15,NA,NA,html-keyboard-response,10,2.1.0,190143,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P15,NA,6225,survey-likert,11,2.1.0,196371,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 0}",[0],NA,1,TRUE,NA,NA
+P15,NA,18318,survey-likert,12,2.1.0,214690,0,response,prior,3,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P15,NA,4715,survey-likert,13,2.1.0,219406,0,response,posterior,3,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P15,NA,NA,html-keyboard-response,14,2.1.0,220914,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P15,NA,24146,survey-likert,15,2.1.0,245062,0,response,prior,4,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P15,NA,10342,survey-likert,16,2.1.0,255405,0,response,posterior,4,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P15,NA,NA,html-keyboard-response,17,2.1.0,257708,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P15,NA,21803,survey-likert,18,2.1.0,279514,0,response,prior,5,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P15,NA,8251,survey-likert,19,2.1.0,287766,0,response,posterior,5,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P15,NA,NA,html-keyboard-response,20,2.1.0,290067,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P15,NA,12770,survey-likert,21,2.1.0,302839,0,response,prior,6,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P15,NA,3311,survey-likert,22,2.1.0,306152,0,response,posterior,6,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P15,NA,NA,html-keyboard-response,23,2.1.0,308167,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P15,NA,17166,survey-likert,24,2.1.0,325335,0,response,prior,7,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P15,NA,12983,survey-likert,25,2.1.0,338319,0,response,posterior,7,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P15,NA,NA,html-keyboard-response,26,2.1.0,340622,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P15,NA,23086,survey-multi-choice,27,2.1.0,363711,0,memory_check,NA,NA,NA,NA,NA,NA,NA,"{""memory_check"": ""That the two tasks are equal in effort and value""}",[0],NA,2,TRUE,1,NA
+P15,NA,22179,survey-likert,28,2.1.0,385891,0,response,prior,8,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P15,NA,9250,survey-likert,29,2.1.0,395142,0,response,posterior,8,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P15,NA,NA,html-keyboard-response,30,2.1.0,396658,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P15,NA,16649,survey-likert,31,2.1.0,413308,0,response,prior,9,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P15,NA,7614,survey-likert,32,2.1.0,420923,0,response,posterior,9,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P15,NA,NA,html-keyboard-response,33,2.1.0,422924,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P15,NA,14363,survey-likert,34,2.1.0,437288,0,response,prior,10,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P15,NA,2962,survey-likert,35,2.1.0,440250,0,response,posterior,10,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P15,NA,NA,html-keyboard-response,36,2.1.0,441752,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P15,NA,20734,survey-likert,37,2.1.0,462488,0,response,prior,11,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P15,NA,8139,survey-likert,38,2.1.0,470628,0,response,posterior,11,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P15,NA,NA,html-keyboard-response,39,2.1.0,472936,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P15,NA,17444,survey-likert,40,2.1.0,490382,0,response,prior,12,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P15,NA,3161,survey-likert,41,2.1.0,493544,0,response,posterior,12,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P15,NA,NA,html-keyboard-response,42,2.1.0,495309,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P15,NA,4940,survey-likert,43,2.1.0,500251,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 6}",[0],NA,3,TRUE,NA,NA
+P15,NA,19785,survey-likert,44,2.1.0,520037,0,response,prior,13,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P15,NA,3784,survey-likert,45,2.1.0,523821,0,response,posterior,13,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P15,NA,NA,html-keyboard-response,46,2.1.0,525573,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P15,NA,12446,survey-likert,47,2.1.0,538021,0,response,prior,14,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P15,NA,4108,survey-likert,48,2.1.0,542131,0,response,posterior,14,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P15,NA,NA,html-keyboard-response,49,2.1.0,543886,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P15,NA,14792,survey-likert,50,2.1.0,558680,0,response,prior,15,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P15,NA,8454,survey-likert,51,2.1.0,567135,0,response,posterior,15,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P15,NA,12319,survey-html-form,52,2.0.0,579455,0,exit_survey,NA,NA,NA,NA,NA,NA,NA,"{""gender"": ""female"", ""age"": ""31"", ""understood"": ""yes"", ""comments"": """"}",NA,NA,NA,TRUE,1,0
+P16,"[{""page_index"": 0, ""viewing_time"": 47899}]",47900,instructions,0,2.1.0,47910,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P16,"[{""page_index"": 0, ""viewing_time"": 23716}, {""page_index"": 1, ""viewing_time"": 10443}, {""page_index"": 2, ""viewing_time"": 63544}]",97703,instructions,1,2.1.0,145615,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P16,NA,31859,survey-likert,2,2.1.0,177480,0,response,prior,0,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P16,NA,20851,survey-likert,3,2.1.0,198336,0,response,posterior,0,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P16,NA,NA,html-keyboard-response,4,2.1.0,199841,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P16,NA,25146,survey-likert,5,2.1.0,224991,0,response,prior,1,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P16,NA,23058,survey-likert,6,2.1.0,248053,0,response,posterior,1,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P16,NA,NA,html-keyboard-response,7,2.1.0,249806,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P16,NA,14049,survey-likert,8,2.1.0,263861,0,response,prior,2,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P16,NA,26739,survey-likert,9,2.1.0,290604,0,response,posterior,2,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P16,NA,NA,html-keyboard-response,10,2.1.0,292908,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P16,NA,50247,survey-likert,11,2.1.0,343159,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 0}",[0],NA,1,TRUE,NA,NA
+P16,NA,28564,survey-likert,12,2.1.0,371727,0,response,prior,3,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P16,NA,20051,survey-likert,13,2.1.0,391782,0,response,posterior,3,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P16,NA,NA,html-keyboard-response,14,2.1.0,393286,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P16,NA,12472,survey-likert,15,2.1.0,405761,0,response,prior,4,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P16,NA,14878,survey-likert,16,2.1.0,420643,0,response,posterior,4,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P16,NA,NA,html-keyboard-response,17,2.1.0,422650,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P16,NA,19999,survey-likert,18,2.1.0,442653,0,response,prior,5,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P16,NA,15927,survey-likert,19,2.1.0,458586,0,response,posterior,5,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P16,NA,NA,html-keyboard-response,20,2.1.0,460091,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P16,NA,31523,survey-likert,21,2.1.0,491618,0,response,prior,6,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P16,NA,27472,survey-likert,22,2.1.0,519093,0,response,posterior,6,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P16,NA,NA,html-keyboard-response,23,2.1.0,521397,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P16,NA,24753,survey-likert,24,2.1.0,546153,0,response,prior,7,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P16,NA,18131,survey-likert,25,2.1.0,564288,0,response,posterior,7,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P16,NA,NA,html-keyboard-response,26,2.1.0,566591,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P16,NA,78782,survey-multi-choice,27,2.1.0,645378,0,memory_check,NA,NA,NA,NA,NA,NA,NA,"{""memory_check"": ""That the two tasks are equal in effort and value""}",[0],NA,2,TRUE,1,NA
+P16,NA,12387,survey-likert,28,2.1.0,657768,0,response,prior,8,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P16,NA,10829,survey-likert,29,2.1.0,668600,0,response,posterior,8,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P16,NA,NA,html-keyboard-response,30,2.1.0,670903,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P16,NA,15279,survey-likert,31,2.1.0,686185,0,response,prior,9,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P16,NA,17959,survey-likert,32,2.1.0,704147,0,response,posterior,9,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P16,NA,NA,html-keyboard-response,33,2.1.0,705903,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P16,NA,10848,survey-likert,34,2.1.0,716755,0,response,prior,10,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P16,NA,50828,survey-likert,35,2.1.0,767587,0,response,posterior,10,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P16,NA,NA,html-keyboard-response,36,2.1.0,769591,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P16,NA,15491,survey-likert,37,2.1.0,785087,0,response,prior,11,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P16,NA,81079,survey-likert,38,2.1.0,866171,0,response,posterior,11,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P16,NA,NA,html-keyboard-response,39,2.1.0,867675,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P16,NA,13875,survey-likert,40,2.1.0,881554,0,response,prior,12,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P16,NA,35791,survey-likert,41,2.1.0,917349,0,response,posterior,12,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P16,NA,NA,html-keyboard-response,42,2.1.0,919652,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P16,NA,47530,survey-likert,43,2.1.0,967186,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 6}",[0],NA,3,TRUE,NA,NA
+P16,NA,25042,survey-likert,44,2.1.0,992232,0,response,prior,13,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P16,NA,16567,survey-likert,45,2.1.0,1008803,0,response,posterior,13,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P16,NA,NA,html-keyboard-response,46,2.1.0,1010557,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P16,NA,19018,survey-likert,47,2.1.0,1029580,0,response,prior,14,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P16,NA,65461,survey-likert,48,2.1.0,1095045,0,response,posterior,14,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P16,NA,NA,html-keyboard-response,49,2.1.0,1097049,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P16,NA,14298,survey-likert,50,2.1.0,1111350,0,response,prior,15,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P16,NA,85511,survey-likert,51,2.1.0,1196864,0,response,posterior,15,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P16,NA,63419,survey-html-form,52,2.0.0,1260289,0,exit_survey,NA,NA,NA,NA,NA,NA,NA,"{""gender"": ""male"", ""age"": ""44"", ""understood"": ""yes"", ""comments"": """"}",NA,NA,NA,TRUE,1,0
+P17,"[{""page_index"": 0, ""viewing_time"": 37044}]",37044,instructions,0,2.1.0,37048,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P17,"[{""page_index"": 0, ""viewing_time"": 21178}, {""page_index"": 1, ""viewing_time"": 25372}, {""page_index"": 2, ""viewing_time"": 65764}]",112314,instructions,1,2.1.0,149362,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P17,NA,45144,survey-likert,2,2.1.0,194508,0,response,prior,0,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P17,NA,29294,survey-likert,3,2.1.0,223803,0,response,posterior,0,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P17,NA,NA,html-keyboard-response,4,2.1.0,225554,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P17,NA,84086,survey-likert,5,2.1.0,309641,0,response,prior,1,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 6}",[0],NA,NA,NA,NA,NA
+P17,NA,20576,survey-likert,6,2.1.0,330217,0,response,posterior,1,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P17,NA,NA,html-keyboard-response,7,2.1.0,332227,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P17,NA,31036,survey-likert,8,2.1.0,363264,0,response,prior,2,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P17,NA,26949,survey-likert,9,2.1.0,390214,0,response,posterior,2,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P17,NA,NA,html-keyboard-response,10,2.1.0,391715,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P17,NA,12734,survey-likert,11,2.1.0,404450,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 0}",[0],NA,1,TRUE,NA,NA
+P17,NA,30789,survey-likert,12,2.1.0,435240,0,response,prior,3,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P17,NA,7842,survey-likert,13,2.1.0,443082,0,response,posterior,3,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P17,NA,NA,html-keyboard-response,14,2.1.0,445098,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P17,NA,44434,survey-likert,15,2.1.0,489533,0,response,prior,4,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 6}",[0],NA,NA,NA,NA,NA
+P17,NA,12632,survey-likert,16,2.1.0,502166,0,response,posterior,4,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P17,NA,NA,html-keyboard-response,17,2.1.0,503676,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P17,NA,31250,survey-likert,18,2.1.0,534927,0,response,prior,5,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P17,NA,8246,survey-likert,19,2.1.0,543174,0,response,posterior,5,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P17,NA,NA,html-keyboard-response,20,2.1.0,544927,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P17,NA,67052,survey-likert,21,2.1.0,611980,0,response,prior,6,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P17,NA,13833,survey-likert,22,2.1.0,625814,0,response,posterior,6,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P17,NA,NA,html-keyboard-response,23,2.1.0,628128,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P17,NA,26847,survey-likert,24,2.1.0,654976,0,response,prior,7,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P17,NA,9094,survey-likert,25,2.1.0,664070,0,response,posterior,7,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P17,NA,NA,html-keyboard-response,26,2.1.0,665579,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P17,NA,33988,survey-multi-choice,27,2.1.0,699568,0,memory_check,NA,NA,NA,NA,NA,NA,NA,"{""memory_check"": ""That the two tasks are equal in effort and value""}",[0],NA,2,TRUE,1,NA
+P17,NA,70551,survey-likert,28,2.1.0,770120,0,response,prior,8,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P17,NA,11964,survey-likert,29,2.1.0,782084,0,response,posterior,8,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P17,NA,NA,html-keyboard-response,30,2.1.0,784385,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P17,NA,29622,survey-likert,31,2.1.0,814008,0,response,prior,9,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P17,NA,6480,survey-likert,32,2.1.0,820489,0,response,posterior,9,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P17,NA,NA,html-keyboard-response,33,2.1.0,822495,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P17,NA,29790,survey-likert,34,2.1.0,852287,0,response,prior,10,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P17,NA,4618,survey-likert,35,2.1.0,856906,0,response,posterior,10,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P17,NA,NA,html-keyboard-response,36,2.1.0,858407,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P17,NA,24398,survey-likert,37,2.1.0,882806,0,response,prior,11,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P17,NA,8267,survey-likert,38,2.1.0,891073,0,response,posterior,11,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P17,NA,NA,html-keyboard-response,39,2.1.0,892825,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P17,NA,46581,survey-likert,40,2.1.0,939408,0,response,prior,12,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P17,NA,6533,survey-likert,41,2.1.0,945942,0,response,posterior,12,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P17,NA,NA,html-keyboard-response,42,2.1.0,947956,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P17,NA,9012,survey-likert,43,2.1.0,956968,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 6}",[0],NA,3,TRUE,NA,NA
+P17,NA,53553,survey-likert,44,2.1.0,1010522,0,response,prior,13,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P17,NA,10823,survey-likert,45,2.1.0,1021346,0,response,posterior,13,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P17,NA,NA,html-keyboard-response,46,2.1.0,1022850,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P17,NA,18137,survey-likert,47,2.1.0,1040988,0,response,prior,14,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P17,NA,8521,survey-likert,48,2.1.0,1049510,0,response,posterior,14,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P17,NA,NA,html-keyboard-response,49,2.1.0,1051014,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P17,NA,27066,survey-likert,50,2.1.0,1078081,0,response,prior,15,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P17,NA,5249,survey-likert,51,2.1.0,1083331,0,response,posterior,15,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P17,NA,14216,survey-html-form,52,2.0.0,1097548,0,exit_survey,NA,NA,NA,NA,NA,NA,NA,"{""gender"": ""female"", ""age"": ""26"", ""understood"": ""yes"", ""comments"": """"}",NA,NA,NA,TRUE,1,0
+P18,"[{""page_index"": 0, ""viewing_time"": 2064}]",2064,instructions,0,2.1.0,2066,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P18,"[{""page_index"": 0, ""viewing_time"": 1228}, {""page_index"": 1, ""viewing_time"": 928}, {""page_index"": 2, ""viewing_time"": 954}]",3110,instructions,1,2.1.0,5177,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P18,NA,7209,survey-likert,2,2.1.0,12388,0,response,prior,0,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P18,NA,10137,survey-likert,3,2.1.0,22527,0,response,posterior,0,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P18,NA,NA,html-keyboard-response,4,2.1.0,24838,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P18,NA,3253,survey-likert,5,2.1.0,28093,0,response,prior,1,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P18,NA,3507,survey-likert,6,2.1.0,31602,0,response,posterior,1,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P18,NA,NA,html-keyboard-response,7,2.1.0,33910,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P18,NA,4174,survey-likert,8,2.1.0,38086,0,response,prior,2,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P18,NA,9933,survey-likert,9,2.1.0,48021,0,response,posterior,2,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P18,NA,NA,html-keyboard-response,10,2.1.0,49780,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P18,NA,6660,survey-likert,11,2.1.0,56441,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 0}",[0],NA,1,TRUE,NA,NA
+P18,NA,5719,survey-likert,12,2.1.0,62163,0,response,prior,3,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P18,NA,3281,survey-likert,13,2.1.0,65447,0,response,posterior,3,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P18,NA,NA,html-keyboard-response,14,2.1.0,67752,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P18,NA,2651,survey-likert,15,2.1.0,70405,0,response,prior,4,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P18,NA,3157,survey-likert,16,2.1.0,73563,0,response,posterior,4,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P18,NA,NA,html-keyboard-response,17,2.1.0,75581,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P18,NA,2137,survey-likert,18,2.1.0,77720,0,response,prior,5,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P18,NA,2881,survey-likert,19,2.1.0,80603,0,response,posterior,5,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P18,NA,NA,html-keyboard-response,20,2.1.0,82607,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P18,NA,1687,survey-likert,21,2.1.0,84296,0,response,prior,6,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P18,NA,2494,survey-likert,22,2.1.0,86791,0,response,posterior,6,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P18,NA,NA,html-keyboard-response,23,2.1.0,88547,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P18,NA,53777,survey-likert,24,2.1.0,142326,0,response,prior,7,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P18,NA,4164,survey-likert,25,2.1.0,146492,0,response,posterior,7,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P18,NA,NA,html-keyboard-response,26,2.1.0,148003,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P18,NA,233301,survey-multi-choice,27,2.1.0,381307,0,memory_check,NA,NA,NA,NA,NA,NA,NA,"{""memory_check"": ""That the two tasks are equal in effort and value""}",[0],NA,2,TRUE,1,NA
+P18,NA,5458,survey-likert,28,2.1.0,386767,0,response,prior,8,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P18,NA,3429,survey-likert,29,2.1.0,390198,0,response,posterior,8,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P18,NA,NA,html-keyboard-response,30,2.1.0,391953,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P18,NA,2774,survey-likert,31,2.1.0,394728,0,response,prior,9,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P18,NA,1326,survey-likert,32,2.1.0,396056,0,response,posterior,9,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P18,NA,NA,html-keyboard-response,33,2.1.0,397815,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P18,NA,7887,survey-likert,34,2.1.0,405703,0,response,prior,10,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P18,NA,4872,survey-likert,35,2.1.0,410577,0,response,posterior,10,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P18,NA,NA,html-keyboard-response,36,2.1.0,412585,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P18,NA,1857,survey-likert,37,2.1.0,414443,0,response,prior,11,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P18,NA,1793,survey-likert,38,2.1.0,416238,0,response,posterior,11,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P18,NA,NA,html-keyboard-response,39,2.1.0,418545,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P18,NA,1415,survey-likert,40,2.1.0,419961,0,response,prior,12,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P18,NA,2336,survey-likert,41,2.1.0,422299,0,response,posterior,12,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P18,NA,NA,html-keyboard-response,42,2.1.0,423808,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P18,NA,2215,survey-likert,43,2.1.0,426025,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 6}",[0],NA,3,TRUE,NA,NA
+P18,NA,1599,survey-likert,44,2.1.0,427626,0,response,prior,13,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P18,NA,996,survey-likert,45,2.1.0,428624,0,response,posterior,13,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P18,NA,NA,html-keyboard-response,46,2.1.0,430635,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P18,NA,3747,survey-likert,47,2.1.0,434383,0,response,prior,14,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P18,NA,1168,survey-likert,48,2.1.0,435554,0,response,posterior,14,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P18,NA,NA,html-keyboard-response,49,2.1.0,437568,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P18,NA,982,survey-likert,50,2.1.0,438552,0,response,prior,15,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P18,NA,1111,survey-likert,51,2.1.0,439665,0,response,posterior,15,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P18,NA,357391,survey-html-form,52,2.0.0,797059,0,exit_survey,NA,NA,NA,NA,NA,NA,NA,"{""gender"": ""female"", ""age"": ""22"", ""understood"": ""yes"", ""comments"": """"}",NA,NA,NA,TRUE,1,0
+P19,"[{""page_index"": 0, ""viewing_time"": 43040}]",43040,instructions,0,2.1.0,43047,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P19,"[{""page_index"": 0, ""viewing_time"": 32260}, {""page_index"": 1, ""viewing_time"": 43119}, {""page_index"": 2, ""viewing_time"": 40565}]",115944,instructions,1,2.1.0,158995,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P19,NA,55887,survey-likert,2,2.1.0,214887,0,response,prior,0,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P19,NA,48309,survey-likert,3,2.1.0,263201,0,response,posterior,0,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P19,NA,NA,html-keyboard-response,4,2.1.0,264957,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P19,NA,99850,survey-likert,5,2.1.0,364811,0,response,prior,1,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P19,NA,22669,survey-likert,6,2.1.0,387486,0,response,posterior,1,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P19,NA,NA,html-keyboard-response,7,2.1.0,389242,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P19,NA,65774,survey-likert,8,2.1.0,455020,0,response,prior,2,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P19,NA,22512,survey-likert,9,2.1.0,477536,0,response,posterior,2,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P19,NA,NA,html-keyboard-response,10,2.1.0,479540,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P19,NA,7926,survey-likert,11,2.1.0,487468,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 0}",[0],NA,1,TRUE,NA,NA
+P19,NA,20529,survey-likert,12,2.1.0,508002,0,response,prior,3,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P19,NA,4746,survey-likert,13,2.1.0,512752,0,response,posterior,3,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P19,NA,NA,html-keyboard-response,14,2.1.0,514507,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P19,NA,26076,survey-likert,15,2.1.0,540586,0,response,prior,4,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P19,NA,12362,survey-likert,16,2.1.0,552953,0,response,posterior,4,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P19,NA,NA,html-keyboard-response,17,2.1.0,554708,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P19,NA,21475,survey-likert,18,2.1.0,576186,0,response,prior,5,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P19,NA,10811,survey-likert,19,2.1.0,587000,0,response,posterior,5,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P19,NA,NA,html-keyboard-response,20,2.1.0,588504,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P19,NA,26112,survey-likert,21,2.1.0,614618,0,response,prior,6,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P19,NA,7649,survey-likert,22,2.1.0,622270,0,response,posterior,6,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P19,NA,NA,html-keyboard-response,23,2.1.0,624274,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P19,NA,73374,survey-likert,24,2.1.0,697644,0,response,prior,7,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P19,NA,7068,survey-likert,25,2.1.0,704713,0,response,posterior,7,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P19,NA,NA,html-keyboard-response,26,2.1.0,706467,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P19,NA,24158,survey-multi-choice,27,2.1.0,730628,0,memory_check,NA,NA,NA,NA,NA,NA,NA,"{""memory_check"": ""That the two tasks are equal in effort and value""}",[0],NA,2,TRUE,1,NA
+P19,NA,34811,survey-likert,28,2.1.0,765443,0,response,prior,8,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P19,NA,16015,survey-likert,29,2.1.0,781461,0,response,posterior,8,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P19,NA,NA,html-keyboard-response,30,2.1.0,782965,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P19,NA,17391,survey-likert,31,2.1.0,800358,0,response,prior,9,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P19,NA,5648,survey-likert,32,2.1.0,806008,0,response,posterior,9,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P19,NA,NA,html-keyboard-response,33,2.1.0,808311,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P19,NA,39100,survey-likert,34,2.1.0,847414,0,response,prior,10,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P19,NA,6111,survey-likert,35,2.1.0,853529,0,response,posterior,10,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P19,NA,NA,html-keyboard-response,36,2.1.0,855034,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P19,NA,21458,survey-likert,37,2.1.0,876495,0,response,prior,11,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P19,NA,6577,survey-likert,38,2.1.0,883076,0,response,posterior,11,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P19,NA,NA,html-keyboard-response,39,2.1.0,885378,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P19,NA,24646,survey-likert,40,2.1.0,910027,0,response,prior,12,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 6}",[0],NA,NA,NA,NA,NA
+P19,NA,11382,survey-likert,41,2.1.0,921411,0,response,posterior,12,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 6}",[0],NA,NA,NA,NA,NA
+P19,NA,NA,html-keyboard-response,42,2.1.0,923416,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P19,NA,8811,survey-likert,43,2.1.0,932230,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 6}",[0],NA,3,TRUE,NA,NA
+P19,NA,16943,survey-likert,44,2.1.0,949177,0,response,prior,13,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P19,NA,9984,survey-likert,45,2.1.0,959163,0,response,posterior,13,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P19,NA,NA,html-keyboard-response,46,2.1.0,961468,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P19,NA,39227,survey-likert,47,2.1.0,1000699,0,response,prior,14,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P19,NA,5192,survey-likert,48,2.1.0,1005896,0,response,posterior,14,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P19,NA,NA,html-keyboard-response,49,2.1.0,1008200,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P19,NA,16293,survey-likert,50,2.1.0,1024497,0,response,prior,15,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P19,NA,5796,survey-likert,51,2.1.0,1030298,0,response,posterior,15,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P19,NA,10467,survey-html-form,52,2.0.0,1040770,0,exit_survey,NA,NA,NA,NA,NA,NA,NA,"{""gender"": ""female"", ""age"": ""30"", ""understood"": ""yes"", ""comments"": """"}",NA,NA,NA,TRUE,1,0
+P20,"[{""page_index"": 0, ""viewing_time"": 2161}]",2161,instructions,0,2.1.0,2165,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P20,"[{""page_index"": 0, ""viewing_time"": 4717}, {""page_index"": 1, ""viewing_time"": 5136}, {""page_index"": 2, ""viewing_time"": 80664}]",90517,instructions,1,2.1.0,92685,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+P20,NA,47101,survey-likert,2,2.1.0,139789,0,response,prior,0,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P20,NA,8582,survey-likert,3,2.1.0,148373,0,response,posterior,0,meetup,friends,division_of_labor,uncertain,male_male,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P20,NA,NA,html-keyboard-response,4,2.1.0,150388,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P20,NA,8903,survey-likert,5,2.1.0,159293,0,response,prior,1,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P20,NA,4639,survey-likert,6,2.1.0,163934,0,response,posterior,1,paying for outings,friends,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P20,NA,NA,html-keyboard-response,7,2.1.0,166287,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P20,NA,27099,survey-likert,8,2.1.0,193390,0,response,prior,2,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P20,NA,3463,survey-likert,9,2.1.0,196854,0,response,posterior,2,patient exams,work,both_alternate,uncertain,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P20,NA,NA,html-keyboard-response,10,2.1.0,198363,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P20,NA,3570,survey-likert,11,2.1.0,201934,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 0}",[0],NA,1,TRUE,NA,NA
+P20,NA,9685,survey-likert,12,2.1.0,211621,0,response,prior,3,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P20,NA,2735,survey-likert,13,2.1.0,214358,0,response,posterior,3,cafe closing,work,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P20,NA,NA,html-keyboard-response,14,2.1.0,216671,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P20,NA,5238,survey-likert,15,2.1.0,221910,0,response,prior,4,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P20,NA,3029,survey-likert,16,2.1.0,224941,0,response,posterior,4,restaurant preference,friends,both_alternate,agree,male_male,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P20,NA,NA,html-keyboard-response,17,2.1.0,226697,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P20,NA,42715,survey-likert,18,2.1.0,269413,0,response,prior,5,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P20,NA,2463,survey-likert,19,2.1.0,271878,0,response,posterior,5,mansion renovation,cohabitation,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P20,NA,NA,html-keyboard-response,20,2.1.0,273879,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P20,NA,8557,survey-likert,21,2.1.0,282437,0,response,prior,6,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P20,NA,1871,survey-likert,22,2.1.0,284309,0,response,posterior,6,gift giving,friends,both_alternate,agree,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P20,NA,NA,html-keyboard-response,23,2.1.0,285816,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P20,NA,12693,survey-likert,24,2.1.0,298510,0,response,prior,7,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P20,NA,8542,survey-likert,25,2.1.0,307054,0,response,posterior,7,neighborly favors,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P20,NA,NA,html-keyboard-response,26,2.1.0,309293,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P20,NA,111599,survey-multi-choice,27,2.1.0,420895,0,memory_check,NA,NA,NA,NA,NA,NA,NA,"{""memory_check"": ""That the two tasks are equal in effort and value""}",[0],NA,2,TRUE,1,NA
+P20,NA,12622,survey-likert,28,2.1.0,433519,0,response,prior,8,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P20,NA,2607,survey-likert,29,2.1.0,436127,0,response,posterior,8,ranting,friends,division_of_labor,uncertain,female_female,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P20,NA,NA,html-keyboard-response,30,2.1.0,437890,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P20,NA,7674,survey-likert,31,2.1.0,445566,0,response,prior,9,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P20,NA,3303,survey-likert,32,2.1.0,448871,0,response,posterior,9,burger prep,work,division_of_labor,agree,female_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P20,NA,NA,html-keyboard-response,33,2.1.0,450386,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P20,NA,77515,survey-likert,34,2.1.0,527903,0,response,prior,10,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P20,NA,5446,survey-likert,35,2.1.0,533351,0,response,posterior,10,finances,work,both_alternate,uncertain,female_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P20,NA,NA,html-keyboard-response,36,2.1.0,535364,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P20,NA,7905,survey-likert,37,2.1.0,543271,0,response,prior,11,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P20,NA,2935,survey-likert,38,2.1.0,546207,0,response,posterior,11,cargo monitoring,work,division_of_labor,agree,male_female,"{""Q0"": 1}",[0],NA,NA,NA,NA,NA
+P20,NA,NA,html-keyboard-response,39,2.1.0,547961,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P20,NA,11285,survey-likert,40,2.1.0,559247,0,response,prior,12,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P20,NA,3335,survey-likert,41,2.1.0,562583,0,response,posterior,12,household chores,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 2}",[0],NA,NA,NA,NA,NA
+P20,NA,NA,html-keyboard-response,42,2.1.0,564098,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P20,NA,3180,survey-likert,43,2.1.0,567280,0,attention_check,NA,NA,NA,NA,NA,NA,NA,"{""Q0"": 6}",[0],NA,3,TRUE,NA,NA
+P20,NA,4102,survey-likert,44,2.1.0,571383,0,response,prior,13,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P20,NA,1991,survey-likert,45,2.1.0,573376,0,response,posterior,13,carpool,friends,both_alternate,agree,male_female,"{""Q0"": 0}",[0],NA,NA,NA,NA,NA
+P20,NA,NA,html-keyboard-response,46,2.1.0,574889,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P20,NA,10765,survey-likert,47,2.1.0,585656,0,response,prior,14,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P20,NA,2159,survey-likert,48,2.1.0,587816,0,response,posterior,14,traveling,cohabitation,division_of_labor,uncertain,male_female,"{""Q0"": 4}",[0],NA,NA,NA,NA,NA
+P20,NA,NA,html-keyboard-response,49,2.1.0,589329,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,<div style='display:flex; justify-content:center; align-items:center; height:80vh;'><p style='font-size:20px;'>Next scenario</p></div>,NA,NA,NA,NA
+P20,NA,4334,survey-likert,50,2.1.0,593665,0,response,prior,15,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 5}",[0],NA,NA,NA,NA,NA
+P20,NA,3981,survey-likert,51,2.1.0,597648,0,response,posterior,15,lawn work and laundry,cohabitation,division_of_labor,agree,male_male,"{""Q0"": 3}",[0],NA,NA,NA,NA,NA
+P20,NA,168999,survey-html-form,52,2.0.0,766653,0,exit_survey,NA,NA,NA,NA,NA,NA,NA,"{""gender"": ""male"", ""age"": ""22"", ""understood"": ""yes"", ""comments"": """"}",NA,NA,NA,TRUE,1,0
