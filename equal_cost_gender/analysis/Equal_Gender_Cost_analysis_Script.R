@@ -161,3 +161,46 @@ for (name in names(plots)) {
 }
 
 list.files(fig_dir)
+
+#Gender Pairing Plot - Mean belief update by work condition and gender pairing
+
+gender_summary <- belief_update %>%
+  mutate(gender_pairing = if_else(gender_condition == "male_female", "Different", "Same"),
+         gender_pairing = factor(gender_pairing, levels = c("Same", "Different"))) %>%
+  group_by(work_condition, gender_pairing) %>%
+  summarise(mean = mean(update),
+            se = sd(update) / sqrt(n()),
+            n = n(),
+            .groups = "drop")  %>%
+  mutate(ci_low = mean - 1.96 * se,
+         ci_high = mean + 1.96 * se)
+
+gender_summary
+            
+
+gender_pairing_plot <- ggplot(gender_summary,
+                              aes(x = work_condition, y = mean,
+                                  color = gender_pairing, group = gender_pairing)) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "grey40") +
+  geom_line(linewidth = 1.2) +
+  geom_errorbar(aes(ymin = ci_low, ymax = ci_high), width = 0.08, linewidth = 0.8) +
+  geom_point(size = 3) +
+  scale_x_discrete(labels = condition_labels) +
+  scale_color_manual(values = c("Same" = "#1b9e77", "Different" = "#d95f02")) +
+  labs(x = "Division of Labor Condition",
+       y = "Mean Belief Update\n(posterior \u2212 prior hierarchy rating)",
+       title = "Belief Update by Coordination Pattern and Gender Pairing",
+       subtitle = "Raw means \u00b1 95% CI; same-gender vs. different-gender pairs",
+       color = "Gender Pairing") +
+  theme_minimal(base_size = 13) +
+  theme(plot.title = element_text(face = "bold"),
+        panel.grid.minor = element_blank(),
+        legend.position = "bottom")
+
+gender_pairing_plot
+  
+#Saving the plot
+
+ggsave(file.path(fig_dir, "gender_pairing_plot.png"),
+       gender_pairing_plot, width = 7, height = 6, dpi = 300, bg = "white")
+list.files(fig_dir)
