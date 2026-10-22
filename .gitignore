@@ -13,3 +13,5 @@ CLAUDE.md
 .RData
 .Rhistory
 .Rproj.user/
+.httr-oauth
+.quarto

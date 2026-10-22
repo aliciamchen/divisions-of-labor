@@ -1,0 +1,21 @@
+anon_id,work_condition,efficiency_condition,hierarchy_rating,explanation,scenario_label,category
+P01,both_alternate,low,0,"They both take turns doing each task, and there doesn't seem to be any kind of power divide. They also both agree on the equality of the tasks.",gift giving,friends
+P02,both_alternate,low,0,They not only divided up the responsibilities but shared them both. equals.,traveling,cohabitation
+P04,both_alternate,low,0,"Richard and Hans consider the two tasks equally valuable and that they take about the same effort. They trade off the tasks, so each of them get a turn and no one is stuck doing just one thing. This shows a lot of mutual respect between the two of them.",patient exams,work
+P06,both_alternate,low,0,Both individuals carry the same responsibities over time,traveling,cohabitation
+P07,both_alternate,low,0,Both tasks take an equal amount of effort and the decision was mutual.,meetup,friends
+P09,both_alternate,low,0,They are taking turns doing what seem to be chores of equal importance.,traveling,cohabitation
+P11,both_alternate,low,0,"They know how cumbersome the tasks are and dividing it equally might cause some delays or forgetfullness or mistakes. So alternating it is the best interest, that way shows they are both equal in this situation.",traveling,cohabitation
+P12,both_alternate,low,0,"Both have agreed that the tasks are equal value and effort, even though alternating isn't the best way to make use of their time they both collectively agreed to do it this way making the relationship every equal here.",gift giving,friends
+P13,both_alternate,low,0,They both alternate the tasks to do an equal amount of work and do not care about the little time and effor they would save.,meetup,friends
+P15,both_alternate,low,0,"They split the same tasks equally, and neither one of them complete a task of higher value or harder difficulty,",patient exams,work
+P16,both_alternate,low,0,They are both just doing their jobs naturally.,patient exams,work
+P18,both_alternate,low,0,they equally split the tasks and agree they are of equal value so it sounds balanced.,traveling,cohabitation
+P19,both_alternate,low,0,"They agreed, so it doesn't matter. If they agree they have an equal relationship.",gift giving,friends
+P08,both_alternate,low,1,Because they both agree that the tasks are equal,traveling,cohabitation
+P10,both_alternate,low,1,They share the work equally so the relationship seems mostly equal,patient exams,work
+P17,both_alternate,low,1,"Despite the fact cleaning the cages superficially appears to be more physically demanding, walking the dogs also is wont with considerable work. There are risks associated with walking the dogs that if not well taken care of may cause detriment to the dogs or the one walking the dogs.",meetup,friends
+P05,both_alternate,low,2,"While it may appear completely equal on the surface, since Burnie probably has a physical advantage, having him do more of the work actually comes closer to true equality. That's why I chose somewhat equal relationship.",meetup,friends
+P20,both_alternate,low,4,walking the dogs is something could be entertaining unlike cleaning the cages,meetup,friends
+P03,both_alternate,low,5,Making an actual product feels like it requires much more effort than simply setting up the booth.,gift giving,friends
+P14,both_alternate,low,5,"Taking a verbal assesment requieres a lot less effort than testing for the patients vitals in my opinion, so that is why I think it's hierarchical.",patient exams,work

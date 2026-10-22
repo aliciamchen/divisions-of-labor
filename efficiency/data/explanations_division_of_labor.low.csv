@@ -1,0 +1,21 @@
+anon_id,work_condition,efficiency_condition,hierarchy_rating,explanation,scenario_label,category
+P01,division_of_labor,low,0,Both friends agree that both tasks are equal in effort and value. It's clear that there's no hierarchy dynamic.,ranting,friends
+P02,division_of_labor,low,0,"The two people are dividing up the responsibilities, so therefore, equals.",ranting,friends
+P07,division_of_labor,low,0,Both people split tasks of equal effort and the decision is mutual.,cargo monitoring,work
+P12,division_of_labor,low,0,"They both share responsibilities equally, and the tasks have the same importance.",cargo monitoring,work
+P13,division_of_labor,low,0,They both do agree to equally do the tasks and save time doing so.,mansion renovation,cohabitation
+P16,division_of_labor,low,0,Good communication.,mansion renovation,cohabitation
+P19,division_of_labor,low,0,"Since they agree that the tasks are equal in effor and value, it doesn't matter how they divide them or how much time they save.",mansion renovation,cohabitation
+P20,division_of_labor,low,0,both of them are sharing responsibility equally,cafe closing,work
+P04,division_of_labor,low,1,"Since Hasan and Ruthe only save a marginal amount of time by dividing the tasks, that means they are roughly about as good at each job as the other, with only minor efficiency differences between them.",cafe closing,work
+P06,division_of_labor,low,1,"Even though they share task ,counting money is more high trust task which demand allot of time than other task.",cafe closing,work
+P10,division_of_labor,low,1,They share equal tasks and neither person appears to have authority over the other,cargo monitoring,work
+P17,division_of_labor,low,1,"Since they save some time by doing the tasks the way they do, this may imply that Joe maps out the route faster as compared to Kelly, or Kelly leads  the morning stretches more efficiently than Joe or both. The best way to minimize on time consumption and increase in performance is by doing the tasks in the manner they have done.",ranting,friends
+P03,division_of_labor,low,2,This one is tougher to rate because I'm not sure how close they are in terms of effort.,cargo monitoring,work
+P11,division_of_labor,low,2,"I believe it is a mostly hierarchical relationship because one of the task is easier than the other. One is mental and the other is physical. Assuming Joe doesnt join in the warm up stretches, I believe he pushed off the higher task to Kelly and that makes this relationship hierarchical but then again, since they equal agreed meaning there must have been some voting, then it is an equal relationship.",ranting,friends
+P14,division_of_labor,low,2,I think that checking for stale baked goods takes more effort and time than counting money.,cafe closing,work
+P15,division_of_labor,low,2,"They mutually divided the 2 tasks, however, in my opinion, counting money takes more skill than throwing away stale food.. so it is not entirely equal.",cafe closing,work
+P18,division_of_labor,low,2,it seems that counting the money would be more important to if hasan always does it there may be some hierarchy,cafe closing,work
+P05,division_of_labor,low,4,The effort required to install flooring and carpeting is greater than the effort involved in decorating the finished room. The fact that Sam agreed the labor involved in both tasks is equal actually demonstrates that the relationship between Sam and Micheal is not equal.,mansion renovation,cohabitation
+P09,division_of_labor,low,5,Hasan seems to have the better job.,cafe closing,work
+P08,division_of_labor,low,6,Each of them does a specific task,cafe closing,work

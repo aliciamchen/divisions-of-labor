@@ -1,0 +1,21 @@
+anon_id,work_condition,efficiency_condition,hierarchy_rating,explanation,scenario_label,category
+P01,division_of_labor,high,0,"Mark and Wendy seem to both be content with their roles. They also both agree that their two tasks are equal, so there's no hierarchy dynamic.",household chores,cohabitation
+P02,division_of_labor,high,0,there are two tasks that need to be done. they agree they are equally important and then divide the responsibilities.,household chores,cohabitation
+P03,division_of_labor,high,0,I think taking out the trash and physically loading the dishwasher are extremely similar in terms of effort.,household chores,cohabitation
+P04,division_of_labor,high,0,"Mark is clearly more efficient at taking out the trash and Wendy is clearly more efficient at running the dishwasher. Since they think these two jobs require the same amount of effort, they are both contributing the same amount of work and efficiency to the household.",household chores,cohabitation
+P06,division_of_labor,high,0,The tasks here is perfectly balanced in perceiving effort and mutual agreement,household chores,cohabitation
+P11,division_of_labor,high,0,It is the same effort and value since one is dropping the kids and the other is picking them later in the day .,carpool,friends
+P12,division_of_labor,high,0,Both of these favors are completely equal who drops the children to school and who picks them up doesn't matter. They are both saving a great deal of time and effort with the current arrangement.,carpool,friends
+P13,division_of_labor,high,0,They save a great amount of time dividing them so it is better for the both of them because time is super valuable.,lawn work and laundry,cohabitation
+P14,division_of_labor,high,0,Both tasks require are very important and demand time and effort. That is why I think it's an equal relationship.,lawn work and laundry,cohabitation
+P15,division_of_labor,high,0,They are both contributing a driving task of equal value and neither one requires more time or intelligence or power.,carpool,friends
+P17,division_of_labor,high,0,"By the fact that they save a great deal of time by dividing the tasks , it can be deduced that either Robert performs slowly when submitting reimbursement forms as compared to paying utility bills or Tom performs slowly when paying the utility bills as compared to submitting the reports or both. As such , it is propitious to divide the tasks in a cost effective manner in terms of time divested.",finances,work
+P18,division_of_labor,high,0,they value both tasks equally and it makes sense to each focus on one.,lawn work and laundry,cohabitation
+P19,division_of_labor,high,0,"They both drive the children some place, as long as they have agreed to it, it's a fair exchange.",carpool,friends
+P20,division_of_labor,high,1,both of them seem to be sharing the work equally,lawn work and laundry,cohabitation
+P05,division_of_labor,high,2,"The effort involved in driving the children to school and picking them up from soccer practice likely does not match up perfectly. However, from a common-sense perspective, the tasks appear reasonably comparable; dividing the work this way seems justified by the fact that it saves more effort than simply taking turns. That said, it is probable that the person with the relative advantage (whether Rachel or Maddie) would end up taking on the easier task.",carpool,friends
+P10,division_of_labor,high,2,They divide tasks for efficiency not because one person is in charge.,household chores,cohabitation
+P07,division_of_labor,high,3,Both people are completing an equal amount of tasks and it is a mutual agreement.,finances,work
+P09,division_of_labor,high,4,I think they are married and Leon is the man of the house and they follow traditional gender roles.,lawn work and laundry,cohabitation
+P16,division_of_labor,high,4,Well they are roommates and divided up the chores. I just can't imagine the two chores being equal.,household chores,cohabitation
+P08,division_of_labor,high,6,They both do different tasks hence the feeling is not the same,lawn work and laundry,cohabitation

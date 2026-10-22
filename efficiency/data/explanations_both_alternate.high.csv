@@ -1,0 +1,21 @@
+anon_id,work_condition,efficiency_condition,hierarchy_rating,explanation,scenario_label,category
+P01,both_alternate,high,0,"Both friends do both tasks, and they also both agree that the favors are equal in effort and value. There's no kind of hierarchy.",neighborly favors,cohabitation
+P02,both_alternate,high,0,"these are kind of silly... again, they both agree that both responsibilities are equally as important AND they trade off doing both. Again, equal.",restaurant preference,friends
+P05,both_alternate,high,0,"In this case, unlike when tasks are being divided up, there won't be instances where someone higher up in the hierarchy snaps up the easier work.",neighborly favors,cohabitation
+P06,both_alternate,high,0,They are alternating both tasks rather than dividing them,restaurant preference,friends
+P07,both_alternate,high,0,Both tasks take an equal amount of effort and the decision was mutual.,restaurant preference,friends
+P10,both_alternate,high,0,"They share responsibilities equally, so the relationship seems completely equal.",neighborly favors,cohabitation
+P11,both_alternate,high,0,"In this case , no one is above each other< they are both doing the same work despite the fact that it is done on different days and different intervals. so therefore their relationship is completely equal.",paying for outings,friends
+P13,both_alternate,high,0,They are both in agreement that both task are equal and instead of saving time and effort they spit the task equally.,burger prep,work
+P15,both_alternate,high,0,"they split the same tasks evenly, meaning they do equal tasks.",burger prep,work
+P16,both_alternate,high,0,If they alternate than they have equal responsibility.,restaurant preference,friends
+P17,both_alternate,high,0,"Since the actions are done in an alternating manner, anytime Steve does watches out for the kids, Luke will drive them to school. The converse is also true. This implies that the effort and value gained is equally distributed among the two parties involved.",neighborly favors,cohabitation
+P18,both_alternate,high,0,they agree the tasks are of equal value and share the duties,burger prep,work
+P19,both_alternate,high,0,"They agreed, so it should be fine. It's not optimal but I don't think they (or we) are priorizing optimization.",paying for outings,friends
+P20,both_alternate,high,0,they do the tasks alternatively,burger prep,work
+P12,both_alternate,high,1,"Both agree that each tasks are the exact same value and effort, they have made a joint decision to alternate even though it might not be the best way to save time and effort.",paying for outings,friends
+P09,both_alternate,high,3,They are alternating doing both tasks.,paying for outings,friends
+P14,both_alternate,high,3,They both participate equally on both tasks which sounds fair.,restaurant preference,friends
+P04,both_alternate,high,4,"Since they would save a great deal of time and effort if they divided the tasks, that means either James or Bill is significantly worse at one of the tasks than the other. That likely means one of them feels entitled to a turn at one of the tasks, even though they aren't good at it.",burger prep,work
+P08,both_alternate,high,4,James is doing a more difficult job than bill,burger prep,work
+P03,both_alternate,high,5,Pulling the weeds surely takes more effort than watering the plants.,paying for outings,friends
