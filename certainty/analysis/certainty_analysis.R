@@ -3,11 +3,12 @@ library(lme4)
 library(lmerTest)
 library(emmeans)
 
-#Loading data, selecting roes that are relevant to the scenarios and analysis, and turning numeric values into srings so R can read them
+#Loading data, selecting roes that are relevant to the scenarios and analysis, and extracting numeric rating.
 
 df <- read_csv("certainty/data/certainty_data_anonymized.csv")
 
-df <- df %>% mutate(subject_id = anon_id)ratings <- df %>%
+df <- df %>% mutate(subject_id = anon_id)
+ratings <- df %>%
   filter(response_type == "response") %>%
   mutate(rating = as.numeric(str_extract(response, "\\d+(?=\\})"))) %>%
   select(subject_id, scenario_label, category, work_condition,
@@ -37,7 +38,8 @@ belief_update <- ratings %>%
 head(belief_update)
 nrow(belief_update)
 
-belief_update %>% #!
+#Below shows which scenario x certainty condition each scenario appeared in. Here was a check to see that scenario is confunded with condition. 
+belief_update %>% #
   count(scenario_label, work_condition, certainty_condition)
 
 participant_means <- belief_update %>%
@@ -161,3 +163,50 @@ for (name in names(plots)) {
 }
 
 list.files(fig_dir)
+
+#Main Stats
+
+belief_update <- belief_update %>%
+  mutate(work_condition = factor(work_condition),
+         certainty_condition = factor(certainty_condition),
+         subject_id = factor(subject_id),
+         scenario_label = factor(scenario_label))
+
+m_update <- lmer(update ~ work_condition*certainty_condition +
+                   (1 | subject_id) + (1 | scenario_label),
+                 data = belief_update)
+
+summary(m_update)
+anova(m_update)
+
+
+cell_means <- emmeans(m_update, ~ work_condition * certainty_condition)
+test(cell_means, adjust = "holm")
+
+pairs(emmeans(m_update, ~certainty_condition | work_condition), adjust = "holm")
+
+#Other exploratory analysis: What direction do participants shift to?
+
+participants_direction <- belief_update %>%
+  group_by(subject_id, work_condition, certainty_condition) %>%
+  summarise(mean_update = mean(update), .groups = "drop") %>%
+  mutate(direction = case_when(
+    mean_update <= -0.5 ~ "toward equal",
+    mean_update >= 0.5 ~ "toward hierarchical", 
+    TRUE              ~ "no change"
+  ))
+
+participants_direction %>%
+  count(work_condition, certainty_condition, direction) %>%
+  print(n = Inf)
+
+sign_tests <- participants_direction %>%
+  filter(mean_update !=0) %>%
+  group_by(work_condition, certainty_condition) %>%
+  summarise(n_movers = n(),
+            n_toward_equal = sum(mean_update < 0),
+            p = binom.test(n_toward_equal, n_movers, p = 0.5)$p.value,
+            .groups = "drop") %>%
+  mutate(p_holm = p.adjust(p, method = "holm"))
+
+sign_tests
