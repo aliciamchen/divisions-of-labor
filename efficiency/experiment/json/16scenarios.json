@@ -146,7 +146,7 @@
   {
     "scenario_label": "neighborly favors",
     "category": "cohabitation",
-    "vignette": "Consider {name1} and {name2}, who are neighbors who regularly do favors for one another. Two things happen regularly: watching each other's kids when the other person has to pick up a shift and hosting the other family over for dinner. They agree that these two favors are equal in effort and value.",
+    "vignette": "Consider {name1} and {name2}, who are neighbors who regularly do favors for one another. Two things happen regularly: watching each other's kids and driving each other's kids to school. They agree that these two favors are equal in effort and value.",
     "name1_m": "Steven",
     "name2_m": "Luke",
     "name1_f": "Ruby",

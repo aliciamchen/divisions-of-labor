@@ -128,7 +128,7 @@ body {
   text-align: left;
 }
 
-/* ---- Hierarchy rating scale (combined trial page) ---- */
+/*  Hierarchy rating scale */
 
 .likert-group {
   display: flex;
@@ -175,38 +175,32 @@ body {
   line-height: 1.3;
 }
 
-/* ---- Preference question (combined trial page) ---- */
+/*  Explanation textbox */
 
-.preference-group {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
+.explanation-textbox {
+  display: block;
+  width: 100%;
   max-width: 700px;
   margin: 16px auto 32px auto;
-  text-align: left;
-}
-
-.preference-option {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.preference-option input[type="radio"] {
-  width: 18px;
-  height: 18px;
-  cursor: pointer;
-  accent-color: #4a7fd4;
-  flex-shrink: 0;
-}
-
-.preference-option label {
-  font-size: 20px;
+  padding: 12px 14px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
   color: #2c3e50;
-  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  box-sizing: border-box;
 }
 
-/* ---- Responsive: stack the scale on narrow screens ---- */
+.explanation-textbox:focus {
+  outline: none;
+  border-color: #4a7fd4;
+  box-shadow: 0 0 0 2px rgba(74, 127, 212, 0.15);
+}
+
+/*  Responsive */
 
 @media (max-width: 700px) {
   .likert-group {

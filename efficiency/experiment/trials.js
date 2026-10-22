@@ -19,21 +19,21 @@ export function makeTimeline(
       `
       <div class="instructions-container">
         <h2>Instructions</h2>
-        <p>In this study, we are interested in how people evaluate relationships by observing everyday behavior, and how information about efficiency shapes those judgments.</p>
+        <p>In this study, we are interested in how people evaluate relationships by observing everyday behavior.</p>
       </div>
       `,
       `
       <div class="instructions-container">
         <h2>Instructions</h2>
         <p>You will read 16 short scenarios. Each scenario describes two characters who regularly interact around two recurring tasks, along with information about how much time or effort could be saved by dividing those tasks rather than taking turns doing each one.</p>
-        <p>Please read all of the scenarios carefully.</p>
       </div>
       `,
       `
       <div class="instructions-container">
         <h2>Instructions</h2>
         <p>For each scenario, you will rate how hierarchical or equal you think the two people would describe their relationship, using a 7-point scale ranging from a <strong>"Completely equal relationship"</strong> to an <strong>"Extremely hierarchical relationship"</strong>.</p>
-        <p>You will also be asked whether you expect the pair to keep their current arrangement going forward, or for it to change.</p>
+        <p>For a few of the scenarios, you will also be asked to briefly explain how you arrived at your response.</p>
+        <p>Please read all of the scenarios carefully.</p>
         <p>This is the end of the instructions. Press next to begin the survey.</p>
       </div>
       `,
@@ -64,10 +64,10 @@ export function makeTimeline(
     const isHigh = efficiencyCondition !== "low";
     return isHigh
       ? "a great deal of time and effort"
-      : "just a little bit of time and effort";
+      : "only a little bit of time and effort";
   }
 
-  // Efficiency statement
+  // efficiency statement
   function efficiencyStatement(workCondition, efficiencyCondition, name1, name2, scenarioLabel) {
     const magnitude = magnitudeForScenario(scenarioLabel, efficiencyCondition);
 
@@ -87,12 +87,37 @@ export function makeTimeline(
     return efficiencyCondition === "low";
   }
 
-  // preference options
-  function preferenceOptions() {
-    return [
-      "I expect them to keep this arrangement",
-      "I expect this arrangement to change",
-    ];
+  // Spread 4 explanation trials across the study (one per quarter) one per condition combo.
+  const totalStimuli = stimuli.length;
+  const numBlocks = 4;
+  const blockSize = Math.ceil(totalStimuli / numBlocks);
+
+  const explanationStimulusIndices = new Set();
+  const combosAssigned = new Set();
+
+  for (let block = 0; block < numBlocks; block++) {
+    const start = block * blockSize;
+    const end = Math.min(start + blockSize, totalStimuli);
+    for (let i = start; i < end; i++) {
+      const comboKey = `${stimuli[i].work_condition}_${stimuli[i].efficiency_condition}`;
+      if (!combosAssigned.has(comboKey)) {
+        combosAssigned.add(comboKey);
+        explanationStimulusIndices.add(i);
+        break;
+      }
+    }
+  }
+
+  // fall back for the text box
+  if (combosAssigned.size < 4) {
+    for (let i = 0; i < totalStimuli; i++) {
+      if (combosAssigned.size >= 4) break;
+      const comboKey = `${stimuli[i].work_condition}_${stimuli[i].efficiency_condition}`;
+      if (!combosAssigned.has(comboKey)) {
+        combosAssigned.add(comboKey);
+        explanationStimulusIndices.add(i);
+      }
+    }
   }
 
   stimuli.forEach((stimulus, stimulusIndex) => {
@@ -127,8 +152,9 @@ export function makeTimeline(
       stimulus.work_condition,
       stimulus.efficiency_condition,
     );
+    const showExplanation = explanationStimulusIndices.has(stimulusIndex);
 
-    // AaTTENTION CHECKS
+    // attention checks
     if (stimulusIndex === 3) {
       trials.push({
         type: jsPsychSurveyLikert,
@@ -173,7 +199,7 @@ export function makeTimeline(
       });
     }
 
-    // Combined trial: hierarchy rating AND preference question on the same page.
+    // hierarchy rating, with an explanation box (only on select trials).
     const likertRadios = likertLabels
       .map(
         (label, i) => `
@@ -185,16 +211,14 @@ export function makeTimeline(
       )
       .join("");
 
-    const preferenceRadios = preferenceOptions()
-      .map(
-        (label, i) => `
-          <div class="preference-option">
-            <input type="radio" name="preference" id="preference_${i}" value="${label}" required>
-            <label for="preference_${i}">${label}</label>
-          </div>
-        `,
-      )
-      .join("");
+    const explanationBlock = showExplanation
+      ? `
+        <div id="explanation-wrapper" class="explanation-wrapper" style="display:none;">
+          <p class="trial-text">How did you get to your response?</p>
+          <textarea name="explanation" class="explanation-textbox" rows="4" required></textarea>
+        </div>
+      `
+      : "";
 
     trials.push({
       type: jsPsychSurveyHtmlForm,
@@ -214,9 +238,7 @@ export function makeTimeline(
         <div class="trial-content">
           <p class="trial-text">How hierarchical do you think ${name1} and ${name2}'s relationship is?</p>
           <div class="likert-group">${likertRadios}</div>
-
-          <p class="trial-text">Based on everything you've read about ${name1} and ${name2}, do you expect them to keep this arrangement, or do you expect it to change?</p>
-          <div class="preference-group">${preferenceRadios}</div>
+          ${explanationBlock}
         </div>
       `,
       button_label: "Continue",
@@ -230,15 +252,30 @@ export function makeTimeline(
         efficiency_condition: stimulus.efficiency_condition,
         matches_default: matchesDefault,
         gender_condition: stimulus.gender_condition,
+        has_explanation_prompt: showExplanation,
+      },
+      on_load: function () {
+        if (!showExplanation) return;
+        const wrapper = document.getElementById("explanation-wrapper");
+        const radios = document.querySelectorAll(
+          'input[name="hierarchy_rating"]',
+        );
+        radios.forEach((radio) => {
+          radio.addEventListener("change", function () {
+            wrapper.style.display = "block";
+          });
+        });
       },
       on_finish: function (data) {
         // survey-html-form collects named inputs into data.response
         data.hierarchy_rating = Number(data.response.hierarchy_rating);
-        data.preference = data.response.preference;
+        if (showExplanation) {
+          data.explanation = data.response.explanation;
+        }
       },
     });
 
-    // Transition between scenarios
+    // transition between scenarios
     if (stimulusIndex < stimuli.length - 1) {
       trials.push({
         type: jsPsychHtmlKeyboardResponse,
@@ -283,7 +320,7 @@ export function makeTimeline(
     type: jsPsychPipe,
     action: "save",
     // TODO: replace with the jsPsychPipe experiment ID for this new experiment
-    experiment_id: "REPLACE_WITH_NEW_JSPSYCH_PIPE_ID",
+    experiment_id: "FGOVUMgFyVqk",
     filename: `${subjectId}.json`,
     data_string: () => jsPsych.data.get().json(),
   };
@@ -292,7 +329,7 @@ export function makeTimeline(
     type: jsPsychHtmlKeyboardResponse,
     stimulus: `
       <p>Thanks for participating in the experiment!</p>
-      <p><a href="https://app.prolific.com/submissions/complete?cc=REPLACE_WITH_PROLIFIC_CODE">Click here to return to Prolific and complete the study</a>.</p>
+      <p><a href="https://app.prolific.com/submissions/complete?cc=C50YWDEV">Click here to return to Prolific and complete the study</a>.</p>
       <p>It is now safe to close the window. Your pay will be delivered within a few days.</p>
     `,
     choices: "NO_KEYS",
