@@ -1,3 +1,9 @@
+#Certainty
+
+#Participants (n=20) read 16 short scenarios about two people who regularly divide two recurring tasks. In each scenario the pair continuously either alternate between tasks or devide them specializing each in one task. Participants made first hierarchy judgments after receiving information about how the characters coordinated the tasks.  Then, participants received information about whether one character “continues to agree that the tasks are equal in effort and value” (agree) or “has started to wonder whether the tasks are really as equal in effort and value” (uncertainty). 
+#Note: Condition_assignment was fixed at 0, o all participants viewed the same scenario to condition. (thus scenario is cofunded with condition)
+
+
 library(tidyverse)
 library(lme4)
 library(lmerTest)
@@ -38,7 +44,7 @@ belief_update <- ratings %>%
 head(belief_update)
 nrow(belief_update)
 
-#Below shows which scenario x certainty condition each scenario appeared in. Here was a check to see that scenario is confunded with condition. 
+#Below shows which work x certainty condition each scenario appeared in. Here was a check to see that scenario is confunded with condition. 
 belief_update %>% #
   count(scenario_label, work_condition, certainty_condition)
 
@@ -148,6 +154,7 @@ individual_ratings_plot <- ggplot(trial_lines, aes(x = stage_num)) +
 
 individual_ratings_plot
 
+#Saving graphs
 
 fig_dir <- "certainty/figures"
 dir.create(fig_dir, showWarnings = FALSE)
@@ -179,10 +186,11 @@ m_update <- lmer(update ~ work_condition*certainty_condition +
 summary(m_update)
 anova(m_update)
 
-
+#Estimated average update (posterior - prior) for each of the 4 conditions
 cell_means <- emmeans(m_update, ~ work_condition * certainty_condition)
 test(cell_means, adjust = "holm")
 
+#Comparing agree vs. uncertain, separately for Alternating and for Division of Labor
 pairs(emmeans(m_update, ~certainty_condition | work_condition), adjust = "holm")
 
 #Other exploratory analysis: What direction do participants shift to?
